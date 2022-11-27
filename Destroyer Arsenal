@@ -8,8 +8,7 @@ CoreGui:SetCore("SendNotification", {
 game:GetService("StarterGui"):SetCore("SendNotification",{ 	
 Title = "Made By",  	
 Text = "Game Destroyer",
-	Icon = "rbxthumb://type=Asset&id=9863339777&w=150&h=150",
-	Duration = 5
+	Duration = 8,
 })
 
 --Script/Tabs--
@@ -339,20 +338,6 @@ game.Players.PlayerAdded:Connect(function(v)
     coroutine.wrap(lineesp)()
 end)
 end)
-Section:NewButton("FullBright 2", function()
-local Light = game:GetService("Lighting")
-
-function dofullbright()
-Light.Ambient = Color3.new(1, 1, 1)
-Light.ColorShift_Bottom = Color3.new(1, 1, 1)
-Light.ColorShift_Top = Color3.new(1, 1, 1)
-end
-
-dofullbright()
-
-Light.LightingChanged:Connect(dofullbright)
-end)
-
 Section:NewButton("Full Bright", "LightMode", function()
 local Light = game:GetService("Lighting")
 
