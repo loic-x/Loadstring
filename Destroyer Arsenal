@@ -248,7 +248,7 @@ end)
 -------------------------------------------------------------------
 local Visual = Window:NewTab("Visual")
 local Section = Visual:NewSection("Esp")
-Visual:NewButton("ESP", "Uh box in people head", function()
+Section:NewButton("ESP", "Uh box in people head", function()
     --Made by Andrheyplayz_officalyt
 local gui = Instance.new("BillboardGui");
 gui.Name = "";
@@ -272,7 +272,7 @@ for _, v in pairs(game:GetService("Players"):GetPlayers()) do
 end
 end)
 
-Visual:NewButton("Tracer", "Line i guess", function()
+Section:NewButton("Tracer", "Line i guess", function()
 local lplr = game.Players.LocalPlayer
 local camera = game:GetService("Workspace").CurrentCamera
 local CurrentCamera = workspace.CurrentCamera
@@ -339,7 +339,7 @@ game.Players.PlayerAdded:Connect(function(v)
     coroutine.wrap(lineesp)()
 end)
 end)
-tab2:Button("FullBright 2", function()
+Section:NewButton("FullBright 2", function()
 local Light = game:GetService("Lighting")
 
 function dofullbright()
@@ -353,7 +353,7 @@ dofullbright()
 Light.LightingChanged:Connect(dofullbright)
 end)
 
-Visual:NewButton("Full Bright", "LightMode", function()
+Section:NewButton("Full Bright", "LightMode", function()
 local Light = game:GetService("Lighting")
 
 function dofullbright()
@@ -371,7 +371,7 @@ end)
 
 local Player = Window:NewTab("Player")
 local Section = Player:NewSection("Make yourself overpower")
-Player:NewButton("Fast Speed", "Speedy", function()
+Section:NewButton("Fast Speed", "Speedy", function()
 net = true -- if false = do nothing
 notify = false -- set this to false if u don't want to see notiflication
 loadstring("\13\10\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\71\101\116\79\98\106\101\99\116\115\40\34\114\98\120\97\115\115\101\116\105\100\58\47\47\55\50\53\55\55\54\49\55\56\53\34\41\91\49\93\46\83\111\117\114\99\101\41\40\41\13\10")()
@@ -381,7 +381,7 @@ Title = "âœ…!";
 Text = "Net Bypass Activated.";
 })
 end)
-Player:NewButton("Jump Power", "Jump High", function()
+Section:NewButton("Jump Power", "Jump High", function()
 local jp = 100 -- ur jump power
 -- and make toggle urself its easy
 
