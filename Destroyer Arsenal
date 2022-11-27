@@ -1,0 +1,468 @@
+wait(1)
+local CoreGui = game:GetService("StarterGui")
+CoreGui:SetCore("SendNotification", {
+    Title = "Arsenal",
+    Text = "Has Been Loaded",
+    Duration = 5, 
+})
+game:GetService("StarterGui"):SetCore("SendNotification",{ 	
+Title = "Made By",  	
+Text = "Game Destroyer",
+	Icon = "rbxthumb://type=Asset&id=9863339777&w=150&h=150",
+	Duration = 5
+})
+
+--Script/Tabs--
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+local Window = Library.CreateLib("Destroyer | Arsenal | V1")
+local Tab = Window:NewTab("Main")
+local Section = Tab:NewSection("Combat")
+
+Section:NewButton("Invisible HitBox", "Dont See the hitbox", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/KpQhjvRQ",true))()
+end)
+
+Section:NewButton("Expand Hitbox", "Bigger Hitbox", function()
+    function getplrsname() for i,v in pairs(game:GetChildren()) do if v.ClassName == "Players" then return v.Name end end end local players = getplrsname() local plr = game[players].LocalPlayer coroutine.resume(coroutine.create(function() while wait(1) do coroutine.resume(coroutine.create(function() for _,v in pairs(game[players]:GetPlayers()) do if v.Name ~= plr.Name and v.Character then v.Character.RightUpperLeg.CanCollide = false v.Character.RightUpperLeg.Transparency = 75 v.Character.RightUpperLeg.Size = Vector3.new(21,21,21) v.Character.LeftUpperLeg.CanCollide = false v.Character.LeftUpperLeg.Transparency = 75 v.Character.LeftUpperLeg.Size = Vector3.new(21,21,21) v.Character.HeadHB.CanCollide = false v.Character.HeadHB.Transparency = 75 v.Character.HeadHB.Size = Vector3.new(21,21,21) v.Character.HumanoidRootPart.CanCollide = false v.Character.HumanoidRootPart.Transparency = 75 v.Character.HumanoidRootPart.Size = Vector3.new(21,21,21) end end end)) end end))
+end)
+
+Section:NewButton("anti-headshot", "Shoots the head only", function()
+    --[[
+            Obfuscated with uwubrew
+            uwubrew created by tostring
+            UwU
+
+
+            ███▄,                              ,╓╖╓,
+             ╙█████░▒▄'                      ▄███▒▓▓╣╣╢╗
+                ▀▀█████▄,:                  ▐█████████▓▓▓▄
+                    ` █▓░  █╖               ████████▓▄▓▀██
+                      '██▄▄█▓▒╗,             ███████▀▀▀██▀
+                        ▀█████▓▒╢╖            ▀██▄▄░░░░sT
+                          ██████▓╬╢╖          └███░░░░░─
+                           ▀█████▓╣╣▒╣         ███▄µ▒░░
+                             ▀████▓▓▓▓╫┐       ,██▀▀
+                               ████▓▓█▓▌@▓▒▓▒▄@▓█▓µ▌\  ┌╖
+                                ▐███████▓▓▓▓▓▒▄▌╢╢╣▀▒ ,░░░▒▒∩,,
+                                 ▀███████▓█▓▓╩▒▀█▄▒▒▒▄▒░░░|░▒░░]▒
+                                    ▀████████▓▓▓▒▀███Ñ▓▒░▒░░░░░▒▒▒
+                                     ░`▀██████▓▓▓@▒███▒▒▒▒▀▒¢g▄╢▒░
+                                        ▐█████▓▓▓▓╣▓▒██▌▒▒▒▒▒▒▐███▄
+                                       ░ ██████▓▓▓▓▌Ñ▓▓▀██▄▒╢¼████æ▄
+                                         ▀███████▓███▓▓▓▓█░░░░▀▀▀▀██▄
+                                        ╒█████████▓██▓▓▓▓█▒▒▒▒▒▒▒▒▒░░▄
+                                       ,▓█╣▓██▓▓███████▓▓█▒▒▒╢╢▒▒▒▒▒▒░
+                                      ▄▓█▓▄▓███▓█████████████▄▒╢▓╣▓▓╜
+                                     ▐████▓▓██▓▓▓▓▒▒╢╣╣▒▒▒▀█▀█-└▀▀`
+]]
+local Q=string.byte;local D=string.char;local I=string.sub;local e=table.concat;local e=table.insert;local a=math.ldexp;local G=getfenv or function()return _ENV end;local P=setmetatable;local H=select;local F=unpack or table.unpack;local S=tonumber;local function R(F)local l,n,C="","",{}local c=256;local o={}for e=0,c-1 do o[e]=D(e)end;local e=1;local function t()local l=S(I(F,e,e),36)e=e+1;local n=S(I(F,e,e+l-1),36)e=e+l;return n end;l=D(t())C[1]=l;while e<#F do local e=t()if o[e]then n=o[e]else n=l..I(l,1,1)end;o[c]=l..I(n,1,1)C[#C+1],l,c=n,n,c+1 end;return table.concat(C)end;local t=R('22R22C27522D23727522C21H21M1W21P23D21321H21K21D21L23F27B27D23D1W21227B21M21923821L21H21C21D23821I27T1W21N21327P21P21M21F22D23R22I27523828D28E28F28D24726U24625E24626428I28K28M28O28L28N28J28L25S23C28G28Y28Z29028F23C28O25D24625J29428K29825J23C22M29128F29825P28R28Q28U29J28P28T29M29I29N28L25H29I25I29I25S23729E29Y23829V29P2A229K29Q24629U29K2972A829826V2AB29826U29825F29D29Z28E29I25W2AL2A329O2A42AO28S29V23C2322AJ28G29I25G2AR29L2AS2AQ2B32AP2B52B22B629629I2A928P2BB28V2AI2AW28F21G2A02B428L2BD24625H28H2B429525E2BG2B02A52BV2BU2BX2AA29K25S2BA2AN2BK28M2BF2BG28F2372BY28P2C12C02B02BM2A724629525F28X29Z2CA2B72CN2B12CP2A52AM29K2CS28P2CU2CO2CR2C62C729F2CT2CM2CQ2CE29T2AE2982BS29Y2C32B82A52CC2CB29I29S29K2DH28P2DJ29R213102CZ2D02D12DC2D32BW2BZ2CH24626W2D728J2BR29E28O25C24625C2DT2DG2E82DI2E92DK2E324625W2DP2DQ2AK2D22C42DU2DS2DV2952AC2E02462EP28P2CG2EO2912E72CD25Y2462692D62EA2DI2EG2EH2EI2CV2EX2B82BM2FB2C22EQ2732ED25G28Z2932EK2DB28L2EF2F62DA2FK2FQ2BC2FD2FA29I2601K2FT28L2CG2BL2F22CB2FX2DV2CO2972EZ2F129K260182BP2E52462602D82F52FO2F728L2AZ2FR2CX2F92G12G52B92GR2CF2A12GA2DZ2DW2AF2EQ2ES2FM29T2382FJ2EC2F32H62ET2G226424627123C29C2GJ2FP2F82GN2D42HJ2A52BM2HM2FT2952712G22H22C42DE2FZ2HS2A62GV2H92H729R2DG2142EB2HW2I12BN1929T2GI2HG2DR2HT2EM2IF2GO2HJ2FC2GR2G02EE2E725Z2BN2FY2HY2I72IL2DL2IP2I72IU2IU2IL2IZ2IB2IC2GK2BN21G2FL2HK2IG2J72GQ2FS2A82G42I02J82A52IZ2HX2IL2CW2HY2EZ26U21F2HZ2952GZ2JE29R2J12J22ID2462GM2JF2D32IJ2JB2K22EO2IQ2IL2EL28L2GG29K2JH2KA2JI2HX2JY2IH2B825S2JU2JV2BJ2DK2KL2KG2KO2J92GS2K22JA2KT2GF2472IO2IU2K12IE2KP2HV2IR2GY2472EZ26G2GP28Q2IO26Q29V2KJ2KK2KN2IM2HL2L82HO2LH2GT2IQ2HN2I52IV2H82I22EJ2HI2LT2L02KQ2KI2LE2CL2EQ2K62LI2M22GR2K72KR2KU2KZ2CP2KB2JS2L32I62MB2MA2MD2LR2LQ2462LX2LY2912H52KU29N2K42M42D52MR2LK2JZ2LL2C42MF2L32JQ2GX2MG2MC2N32MY2IT2LD2IC2HZ2MO2IQ2L22LN2II2M32MV2NG2KP2DD2G22N02EN2ER2LM29825K2N72GJ2AY2NF2M72K02NO2IK2NK2462JR2MQ2DW2H12N42HX2JK2CR29P23D2ED2E62LS2FM21G22D22G2791T21M1Y21N21R21D1721D2121Y2OQ22D22J27921F21D27P21H1Z21L2OY21H1W21H21I27I22D2282791021N21N21K22D22L2791L21J27D1Y2P421D21C22D22K2791J21D21N2P227P21922D21X2792132OY21O21P21C27X21M21021221N2102OQ1W2PY2PA27521F21H2P222D22B2Q12OQ1Y21P21J21D2QL2791421K21H2192OQ21322D22N2791O21N21J27H2QV2QX2OT21Y27921P2131B21321P21221O1X2121W1B21J21K2832RK2QS2242Q12RH2RJ2RL2RF2OY1X2102RY21J2RR1B2121X21M22D22M27921L21N21C21P21E21921F2S72R02292791U21N21I1T2PP2RB2751721R2PN21I21N21H21221C2R81W21E21N21221L2QT2751H21M2P627I2PP23J27921O1W1W21021323223F23F1Z2TP23E21921N1X1W1X21I21D23E21J2PV2TO2P421J21O22Z1Y22X1Q21A1N1O2311X1O21R15171T22D22S2TG2TI2TK2TM23F1W1Z21P2TI2OQ2TZ2U121P23F2842P41X21323F22T22U22V22O22R22Q22R23022O22T22P2V622P2302312V522T22D2SL2752132102P02S82PH2751327H21R172QC2PO2VM27927X21I1X2882OH275101Z21D21D21M2OP2OR2QQ2QS2OV2751621D21021K2QQ2PN21C1I2RH28422D23E27921Q22S1Z2312V721O22S21F2VI21N21D22V21322O21O21F2192US2Q222V21N21F21O1Z2Q22XH21I21M2SD21F21I21O1Y21M2XK21N21P2882QG22C1321D21K2PP2R22751Q1X21L2TX2121627B2OX22D22V27922M2YI2YJ2YK2YL2YM2YN2YO2YP2YM2W12W82WA2WC2OG2PS2QJ2OO2OY27D2872R02VT22C2R82QY2121J1X21P22D22A2791S27B21C2P82XZ1Q2YY2S9279162S72WE2QP2QR2T822C171W2WL2QC2PP2XZ2VV2UT2P92791N21O2P42PG2791M2SD2191I2T52ZS2VN22C1I27Q2QK2PR2751M21H21J21R2VQ310P22D22F2ZN2QX2YS22C2102R621K2PF2XZ27P1X2QS2QM2QH2SD2SC27X22D21W279112Q22122OJ2102TU2ZQ2WG311C2791721P21L1X2QW27D21N21M2YC2SE2V2310X2Q92861W311N2752WR21K2ZW21228621F2TA2TC2W028B2752U42YD21D2S02PM21K31152R0310U31251R122ZM2QH2OY21M21D2SZ21D2WT311D2751S2Y827B2XW21C162PD1W142SZ3123162YH2YQ313G313H313I313J313K2YR23G27927M27E27G27I27K313P27O27Q21M27S27U27W27Y280238282284312928723922E27921T279310827521H2TU28321O31392R12QN27P312X21C311V21K2PY2Z41216311L2ZS313122C313327V2XO2Q5313821N313A313C31032751Z21H3102310G2W32W5310X21E27H2Q222D22H2SB27H21D1B1Z31292P52P72QS2Q027521E2RH21D2RO2QQ21R27X2ZW2PK2T52ZC2ZE2ZG2P8310G310Z27H2PF310L22C310N310P310R21R2PZ311O2QX1P312Z27G2OX2WK211312N3123310G1027Q21P2PF2Z41721J2122WB21M2Z92ZB2SA2753176314V315T2OW2Q32Q52Q72Q92QB2QD2PY312F22C2WK2SC2ZW1I2S72PK21P311V2YW2ST2TT21M21C317B2ZT21F31192SD2QS2ZD2751N2PE2T522V22D279221314C318622C1J2YY2SQ310T2Q12192S8315U317M2WL2WN2R62ZW317Z28227Q2YE316E1O2XX2TH312A2ZT1021D2181W310A218315722C315931022XZ2SX2PE319B31053107311722C1E2PV21I21P312Z310X310I2ZL2W722C27G2OS2862V021M2ZS318Z2R5315M318K22Q2R32PD21R2382P42382TS1X314328621923D2UT2QE23D319P2TI27T2P221M2382S6313X312A23821E2QA21L23827G317Y2ZR21O23922D23B2PS1X21921328X1W21O27Y31BD2OQ27V21K23821C3129311128X31822382OX1W2382UT23E319B1V316022D22Y311O2822102382V231AV2RG2RI2RK31BS31BG23821N1Z312W21231BT21331AB2382ZY21N31AB317Y314331BE23831962WM2XW31BS2RD31B02Q43123316E2PT2PV2OY2122PY319V2U4315Y21R2SF27H21P2OS2PQ279312H1W2VP2QJ22D317L317N315421D317Q31A1311U2S83178318H2OY318031DT2R421F3180317L31BR2U0313X315Y31DR2R02XZ2QI2QK319L311G2ZR2QS315K2Y62OY1Z2T52VX2QO2OT2Z42W931742OJ2T42ZT1J27Q2QP2QE316K312U31BD317F2WC317H2QC2RL21927927523H27921Y220314C31F927622C31492752SS3149312P22C2SS310U2XZ2SS2PA310G21Y23A22C2SL318G22C22331FU22C318C314922A23I31FZ2SA318C318C2282362YH31G022C31G9318D31GC21Y2R22SL319L21Y318C2ZD316E2SS2QM2Z42SS2PR31DT2SS2PH2Y531FL2752SA319V2SS2R231EF31GY22C2OH317L27931H428C275315K315K2WI27531H831H52OV314X31H922C2OV318C2SS315K318P2SS28B2SS31HI22C31GX2SS311D21Z31FD22C2Q021S2792XZ31FZ31HO31GI22C314B31FH31I42ZD21U31I12QM21V31I12PR2RT31HB22C2PR2PR22531H52SA22631F627531GT31GG31IV22C22731I12PH31FB31FH31GZ31GD31I12R2318E31IU31FE27923831F931GX318C31FH2R231G131JE31FF22C31FK31GH31JM31J631FH31FT31FQ31F631FY2PA31JJ31G331J62PH31G731GD31GA27531K031K227931J031I831J6318G31FA31FZ31GK27531GN31IG22C31GR31IY31GU31K431HW31F931FT2SA31GX22A2OH31JF31GC22C31IQ31JA22C23922C2SA314931HO31J531H127531H331I131H731I131HE31I128B314X2SS2OV31HR275311D31HU31I631JW31FL2R22PA31GK31I931I031JH22C2ZD31I431LU2QM31IB31IM31KV31H531G0319L1231E5318A314D2ZU31723174317631242ZU2US21L21L31AV27B2TS312W22Z22D1F2792VV31CG31CW1Z31BE31AR31CB31AE28731CN21C31B02TV2102Q531AB317331433129310P2PO27Z28131CQ2PE31N12ZG27Z31AK2OQ31BT27C31CM31D9311131AV312X2U431CC31BG21231BV318P2SE2132U02T023E21F21F23F31E3314O2Z33104310627Q2PK2OT316E1I21H2ON1S314N2ZT1G312Z27P21N314R313O314G213314I3154317V22C31OT21R21E317R31DR319B2PC319H31E12OY31E3312W317S311V2R0318G31OI27W1S1M314K275122RH2TV27H311F31OD2PB2Y22WL2T5312331H41N2RK317327C1N2YY27Q310X31OL311022D233313F313L31Q831Q92YM31IU31IT31FH31J331M22SS31JJ31J431JL31JN27531FN31I131JT2793149310G31IM2SL31FV22C31JD31FZ31GJ31QW27531QU31IN31F62SL31L331H52SL31KJ31LV31L131KH31HX31IY319V2792Z428C310U2PH2PH2ZD23831RJ31KI22C315K23831B731RK31R331FZ2PH31R631KC2PH317L2SS31G631J731HM31L922C31LF31HC31I231JK31HT31F631QX31M2317M31F931QF31JG31H531QI31H531FJ31I131QN31QJ31QP31FL23431FZ31KB31KF22C31KE31SX31RV31H52PR2Z431QX31IO31RB31S231KN31IU31IW314931T431R32OH31GV31RQ27931862PH2Q031SJ31GE27531TK31K627531I431HO31FT31S031TH2Q02PH2TF31TL31K322C31TY31LO31RP31KB31FB2SA31HF31H231S731S631S831TG31GO31HG31SA31FH28B2OV31FR31LJ31M32SS2Q031LT31H52RB31LX31H531I031M031KS22C31US31K131IZ279316E31RA31I031RY27531I031IF31QJ31I431II31QJ314B31IL31H531IF31KX31H531II31QD31F631II31K12SS31II31J031QJ2RT31QF2SS31IQ31J931U32PH22231SH31RB31FY31QJ2R231SE2SS2OH31L031QJ315K31SY28B31FT31JR31S531T32RT2OV2OV2SA31UN22C31B731IU31LH31JL31QX31WI22C31ST31WR31S523531F62OV314931G22752OV1V31M231TM22C31X431K92OV31U031KC311D27831QJ2Q0313N31QJ2RB31F831QJ31I031VE2SS31I431G431WE314B2TF31KF2OH31IF31K131JG31VQ31T031FZ314B31RY31FB314B23C31I131IF23D31I131II2WV31VR22C23F31I131IQ2UL31LU31IT22T31I531U031YL31X922C22U31W0311D2YG31XF22C22O31I12RB22P31I131I031A731V922C27431JC31FC275');local o=bit and bit.bxor or function(e,l)local n,o=1,0 while e>0 and l>0 do local C,I=e%2,l%2 if C~=I then o=o+n end e,l,n=(e-C)/2,(l-I)/2,n*2 end if e<l then e=l end while e>0 do local l=e%2 if l>0 then o=o+n end e,n=(e-l)/2,n*2 end return o end local function n(l,e,n)if n then local e=(l/2^(e-1))%2^((n-1)-(e-1)+1);return e-e%1;else local e=2^(e-1);return(l%(e+e)>=e)and 1 or 0;end;end;local e=1;local function l()local n,l,I,C=Q(t,e,e+3);n=o(n,84)l=o(l,84)I=o(I,84)C=o(C,84)e=e+4;return(C*16777216)+(I*65536)+(l*256)+n;end;local function c()local l=o(Q(t,e,e),84);e=e+1;return l;end;local function C()local n,l=Q(t,e,e+2);n=o(n,84)l=o(l,84)e=e+2;return(l*256)+n;end;local function R()local o=l();local e=l();local I=1;local o=(n(e,1,20)*(2^32))+o;local l=n(e,21,31);local e=((-1)^n(e,32));if(l==0)then if(o==0)then return e*0;else l=1;I=0;end;elseif(l==2047)then return(o==0)and(e*(1/0))or(e*(0/0));end;return a(e,l-1023)*(I+(o/(2^52)));end;local a=l;local function S(l)local n;local C='';if(not l)then l=a();if(l==0)then return'';end;end;n=I(t,e,e+l-1);e=e+l;local l={}for e=1,#n do l[e]=D(o(Q(I(n,e,e)),84))end for l,e in next,l do C=C..e end return C;end;local e=l;local function D(...)return{...},H('#',...)end local function a()local t={};local I={};local e={};local F={t,I,nil,e};local e=l()local o={}for n=1,e do local l=c();local e;if(l==3)then e=(c()~=0);elseif(l==2)then e=R();elseif(l==1)then e=S();end;o[n]=e;end;for e=1,l()do I[e-1]=a();end;F[3]=c();for F=1,l()do local e=c();if(n(e,1,1)==0)then local I=n(e,2,3);local c=n(e,4,6);local e={C(),C(),nil,nil};if(I==0)then e[3]=C();e[4]=C();elseif(I==1)then e[3]=l();elseif(I==2)then e[3]=l()-(2^16)elseif(I==3)then e[3]=l()-(2^16)e[4]=C();end;if(n(c,1,1)==1)then e[2]=o[e[2]]end if(n(c,2,2)==1)then e[3]=o[e[3]]end if(n(c,3,3)==1)then e[4]=o[e[4]]end t[F]=e;end end;return F;end;local function Q(e,c,C)local l=e[1];local n=e[2];local e=e[3];return function(...)local o=l;local a=n;local I=e;local e=D local l=1;local e=-1;local G={};local S={...};local D=H('#',...)-1;local t={};local n={};for e=0,D do if(e>=I)then G[e-I]=S[e+1];else n[e]=S[e+1];end;end;local e=D-I+1 local e;local I;while true do e=o[l];I=e[1];if I<=21 then if I<=10 then if I<=4 then if I<=1 then if I==0 then n[e[2]]=n[e[3]][e[4]];else local I;n[e[2]]=e[3];l=l+1;e=o[l];n[e[2]]=e[3];l=l+1;e=o[l];n[e[2]]=e[3];l=l+1;e=o[l];n[e[2]]=e[3];l=l+1;e=o[l];n[e[2]]=e[3];l=l+1;e=o[l];n[e[2]]=e[3];l=l+1;e=o[l];n[e[2]]=e[3];l=l+1;e=o[l];n[e[2]]=c[e[3]];l=l+1;e=o[l];n[e[2]]=n[e[3]][e[4]];l=l+1;e=o[l];n[e[2]]=c[e[3]];l=l+1;e=o[l];n[e[2]]=e[3];l=l+1;e=o[l];I=e[2]n[I](F(n,I+1,e[3]))l=l+1;e=o[l];n[e[2]]=e[3];l=l+1;e=o[l];n[e[2]]=e[3];l=l+1;e=o[l];n[e[2]]=e[3];l=l+1;e=o[l];n[e[2]]=e[3];l=l+1;e=o[l];n[e[2]]=e[3];l=l+1;e=o[l];l=e[3];end;elseif I<=2 then local C;local I;n[e[2]]=c[e[3]];l=l+1;e=o[l];n[e[2]]=n[e[3]][e[4]];l=l+1;e=o[l];n[e[2]]=n[e[3]][e[4]];l=l+1;e=o[l];I=e[2];C=n[e[3]];n[I+1]=C;n[I]=C[e[4]];l=l+1;e=o[l];I=e[2]n[I](n[I+1])l=l+1;e=o[l];n[e[2]]=e[3];l=l+1;e=o[l];n[e[2]]=e[3];l=l+1;e=o[l];n[e[2]]=e[3];l=l+1;e=o[l];n[e[2]]=e[3];l=l+1;e=o[l];n[e[2]]=c[e[3]];elseif I>3 then n[e[2]]();else n[e[2]]=n[e[3]][e[4]];end;elseif I<=7 then if I<=5 then local e=e[2]n[e](n[e+1])elseif I==6 then local I;I=e[2]n[I](n[I+1])l=l+1;e=o[l];n[e[2]]=e[3];l=l+1;e=o[l];n[e[2]]=e[3];l=l+1;e=o[l];n[e[2]]=e[3];l=l+1;e=o[l];n[e[2]]=e[3];l=l+1;e=o[l];n[e[2]]=C[e[3]];l=l+1;e=o[l];n[e[2]]();l=l+1;e=o[l];n[e[2]]=e[3];l=l+1;e=o[l];n[e[2]]=e[3];l=l+1;e=o[l];n[e[2]]=e[3];else local e=e[2]n[e](n[e+1])end;elseif I<=8 then local e=e[2]n[e]=n[e](n[e+1])elseif I>9 then local l=e[2]n[l](F(n,l+1,e[3]))else n[e[2]]=C[e[3]];end;elseif I<=15 then if I<=12 then if I==11 then n[e[2]]=e[3];else local D=a[e[3]];local F;local I={};F=P({},{__index=function(l,e)local e=I[e];return e[1][e[2]];end,__newindex=function(n,e,l)local e=I[e]e[1][e[2]]=l;end;});for C=1,e[4]do l=l+1;local e=o[l];if e[1]==27 then I[C-1]={n,e[3]};else I[C-1]={c,e[3]};end;t[#t+1]=I;end;n[e[2]]=Q(D,F,C);end;elseif I<=13 then local e=e[2]n[e]=n[e]()elseif I==14 then n[e[2]]=e[3];l=l+1;e=o[l];n[e[2]]=e[3];l=l+1;e=o[l];n[e[2]]=e[3];l=l+1;e=o[l];n[e[2]]=e[3];l=l+1;e=o[l];n[e[2]]=C[e[3]];else local l=e[2]n[l]=n[l](F(n,l+1,e[3]))end;elseif I<=18 then if I<=16 then n[e[2]]();elseif I>17 then local l=e[2]n[l](F(n,l+1,e[3]))else if n[e[2]]then l=l+1;else l=e[3];end;end;elseif I<=19 then l=e[3];elseif I==20 then local c;local I;n[e[2]]=e[3];l=l+1;e=o[l];n[e[2]]=e[3];l=l+1;e=o[l];n[e[2]]=C[e[3]];l=l+1;e=o[l];I=e[2];c=n[e[3]];n[I+1]=c;n[I]=c[e[4]];l=l+1;e=o[l];n[e[2]]=e[3];l=l+1;e=o[l];I=e[2]n[I](F(n,I+1,e[3]))l=l+1;e=o[l];n[e[2]]=e[3];l=l+1;e=o[l];n[e[2]]=e[3];l=l+1;e=o[l];n[e[2]]=e[3];l=l+1;e=o[l];n[e[2]]=e[3];l=l+1;e=o[l];do return end;else if n[e[2]]then l=l+1;else l=e[3];end;end;elseif I<=32 then if I<=26 then if I<=23 then if I>22 then n[e[2]]=e[3];else if not n[e[2]]then l=l+1;else l=e[3];end;end;elseif I<=24 then local C;local I;I=e[2];C=n[e[3]];n[I+1]=C;n[I]=C[e[4]];l=l+1;e=o[l];n[e[2]]=e[3];l=l+1;e=o[l];I=e[2]n[I]=n[I](F(n,I+1,e[3]))l=l+1;e=o[l];n[e[2]]=n[e[3]][e[4]];l=l+1;e=o[l];I=e[2];C=n[e[3]];n[I+1]=C;n[I]=C[e[4]];l=l+1;e=o[l];I=e[2]n[I]=n[I](n[I+1])l=l+1;e=o[l];if n[e[2]]then l=l+1;else l=e[3];end;elseif I==25 then n[e[2]]=c[e[3]];else local C;local I;n[e[2]]=e[3];l=l+1;e=o[l];n[e[2]]=e[3];l=l+1;e=o[l];n[e[2]]=e[3];l=l+1;e=o[l];n[e[2]]=e[3];l=l+1;e=o[l];n[e[2]]=e[3];l=l+1;e=o[l];n[e[2]]=c[e[3]];l=l+1;e=o[l];n[e[2]]=n[e[3]][e[4]];l=l+1;e=o[l];n[e[2]]=n[e[3]][e[4]];l=l+1;e=o[l];I=e[2];C=n[e[3]];n[I+1]=C;n[I]=C[e[4]];l=l+1;e=o[l];I=e[2]n[I](n[I+1])l=l+1;e=o[l];n[e[2]]=e[3];l=l+1;e=o[l];n[e[2]]=e[3];l=l+1;e=o[l];n[e[2]]=e[3];l=l+1;e=o[l];n[e[2]]=e[3];l=l+1;e=o[l];n[e[2]]=c[e[3]];l=l+1;e=o[l];n[e[2]]=n[e[3]][e[4]];l=l+1;e=o[l];n[e[2]]=n[e[3]][e[4]];l=l+1;e=o[l];I=e[2];C=n[e[3]];n[I+1]=C;n[I]=C[e[4]];l=l+1;e=o[l];I=e[2]n[I](n[I+1])l=l+1;e=o[l];n[e[2]]=e[3];l=l+1;e=o[l];n[e[2]]=e[3];l=l+1;e=o[l];n[e[2]]=e[3];l=l+1;e=o[l];n[e[2]]=e[3];l=l+1;e=o[l];n[e[2]]=e[3];l=l+1;e=o[l];n[e[2]]=e[3];l=l+1;e=o[l];do return end;end;elseif I<=29 then if I<=27 then n[e[2]]=n[e[3]];elseif I==28 then n[e[2]]=e[3];l=l+1;e=o[l];n[e[2]]=e[3];l=l+1;e=o[l];n[e[2]]=e[3];l=l+1;e=o[l];n[e[2]]=e[3];l=l+1;e=o[l];n[e[2]]=e[3];else local l=e[2]n[l]=n[l](F(n,l+1,e[3]))end;elseif I<=30 then local D=a[e[3]];local F;local I={};F=P({},{__index=function(l,e)local e=I[e];return e[1][e[2]];end,__newindex=function(n,e,l)local e=I[e]e[1][e[2]]=l;end;});for C=1,e[4]do l=l+1;local e=o[l];if e[1]==27 then I[C-1]={n,e[3]};else I[C-1]={c,e[3]};end;t[#t+1]=I;end;n[e[2]]=Q(D,F,C);elseif I>31 then do return end;else local e=e[2]n[e]=n[e]()end;elseif I<=37 then if I<=34 then if I==33 then local I;I=e[2]n[I](n[I+1])l=l+1;e=o[l];n[e[2]]=e[3];l=l+1;e=o[l];n[e[2]]=e[3];l=l+1;e=o[l];n[e[2]]=e[3];l=l+1;e=o[l];n[e[2]]=e[3];l=l+1;e=o[l];n[e[2]]=e[3];l=l+1;e=o[l];n[e[2]]=e[3];l=l+1;e=o[l];n[e[2]]=e[3];l=l+1;e=o[l];l=e[3];else n[e[2]]=C[e[3]];end;elseif I<=35 then local l=e[2];local o=n[e[3]];n[l+1]=o;n[l]=o[e[4]];elseif I==36 then local c;local I;n[e[2]]=e[3];l=l+1;e=o[l];n[e[2]]=e[3];l=l+1;e=o[l];n[e[2]]=e[3];l=l+1;e=o[l];n[e[2]]=C[e[3]];l=l+1;e=o[l];I=e[2];c=n[e[3]];n[I+1]=c;n[I]=c[e[4]];l=l+1;e=o[l];n[e[2]]=e[3];l=l+1;e=o[l];I=e[2]n[I]=n[I](F(n,I+1,e[3]))l=l+1;e=o[l];n[e[2]]=n[e[3]][e[4]];l=l+1;e=o[l];n[e[2]]=C[e[3]];l=l+1;e=o[l];if n[e[2]]then l=l+1;else l=e[3];end;else local o=e[2];local l=n[e[3]];n[o+1]=l;n[o]=l[e[4]];end;elseif I<=40 then if I<=38 then l=e[3];elseif I>39 then do return end;else local e=e[2]n[e]=n[e](n[e+1])end;elseif I<=41 then n[e[2]]=c[e[3]];elseif I>42 then n[e[2]]=e[3];l=l+1;e=o[l];n[e[2]]=e[3];l=l+1;e=o[l];n[e[2]]=e[3];l=l+1;e=o[l];n[e[2]]=e[3];l=l+1;e=o[l];n[e[2]]=e[3];l=l+1;e=o[l];n[e[2]]=C[e[3]];else if not n[e[2]]then l=l+1;else l=e[3];end;end;l=l+1;end;end;end;return Q(a(),{},G())();
+end)
+
+Section:NewButton("AimBot[Detects Enemies]", "Flick The Enemy", function() 
+local Players = game:GetService("Players")
+local RunService = game:GetService("RunService")
+local UserInputService = game:GetService("UserInputService")
+local GuiService = game:GetService("GuiService")
+local LocalPlayer = Players.LocalPlayer
+local Mouse = LocalPlayer:GetMouse()
+local Camera = workspace.CurrentCamera
+local sc = Vector2.new(Camera.ViewportSize.X / 2, Camera.ViewportSize.Y / 2)
+
+local Down = true
+local Inset = GuiService:GetGuiInset()
+
+--// Options \\--
+getgenv().Options = {
+    Enabled = true,
+    TeamCheck = true,
+    Triggerbot = true,
+    Smoothness = true,
+    AimPart = "Head",
+    FOV = 150
+}
+
+--// Functions \\--
+local gc = function()
+	local nearest = math.huge
+	local nearplr
+	for i, v in pairs(game:GetService("Players"):GetPlayers()) do
+		if v ~= game:GetService("Players").LocalPlayer and v.Character and v.Character:FindFirstChild(Options.AimPart) then
+			if Options.TeamCheck then
+				if game:GetService("Players").LocalPlayer.Team ~= v.Team then
+                    local pos = Camera:WorldToScreenPoint(v.Character[Options.AimPart].Position)
+                    local diff = math.sqrt((pos.X - sc.X) ^ 2 + (pos.Y + Inset.Y - sc.Y) ^ 2)
+                    if diff < nearest and diff < Options.FOV then
+                        nearest = diff
+                        nearplr = v
+                    end
+                end
+			else
+				local pos = Camera:WorldToScreenPoint(v.Character[Options.AimPart].Position)
+				local diff = math.sqrt((pos.X - sc.X) ^ 2 + (pos.Y + Inset.Y - sc.Y) ^ 2)
+				if diff < nearest and diff < Options.FOV then
+					nearest = diff
+					nearplr = v
+                end
+			end
+		end
+	end
+	return nearplr
+end -- google chrome made this but i modified it for it to use teamcheck
+
+function Circle()
+    local circ = Drawing.new('Circle')
+    circ.Transparency = 1
+    circ.Thickness = 1.5
+    circ.Visible = true
+    circ.Color = Color3.fromRGB(255,255,255)
+	circ.Filled = false
+	circ.NumSides = 150
+    circ.Radius = Options.FOV
+    return circ
+end
+curc = Circle()
+--// Main \\--
+UserInputService.InputBegan:Connect(function( input )
+    if input.UserInputType == Enum.UserInputType.MouseButton2 then
+        Down = true
+	end
+end)
+UserInputService.InputEnded:Connect(function( input )
+    if input.UserInputType == Enum.UserInputType.MouseButton2 then
+        Down = false
+    end
+end)
+RunService.RenderStepped:Connect(function( ... )
+    if Options.Enabled then
+        if Down then
+            if gc() ~= nil and gc().Character:FindFirstChild(Options.AimPart) then
+                if Options.Smoothness then
+                    pcall(function( ... )
+                        local Info = TweenInfo.new(0.05,Enum.EasingStyle.Linear,Enum.EasingDirection.Out)
+                        game:GetService("TweenService"):Create(Camera,Info,{
+                            CFrame = CFrame.new(Camera.CFrame.p,gc().Character[Options.AimPart].CFrame.p)
+                        }):Play()
+                    end)
+                else
+                    pcall(function()
+                        Camera.CFrame = CFrame.new(Camera.CFrame.p,gc().Character[Options.AimPart].CFrame.p)
+                    end)
+                end
+            end
+        end
+        curc.Visible = false
+        curc.Position = Vector2.new(Mouse.X, Mouse.Y+Inset.Y)
+    else
+        -- do nothing except remove the fov
+        curc.Visible = false
+    end
+end)
+end)
+-----------------------------------------------------------------------------------
+local Gun = Window:NewTab("Gun")
+local Section = Gun:NewSection("Mod Gun")
+Section:NewButton("999 Ammo", "Inf Ammo", function()
+while wait() do
+        game:GetService("Players").LocalPlayer.PlayerGui.GUI.Client.Variables.ammocount.Value = 999
+        game:GetService("Players").LocalPlayer.PlayerGui.GUI.Client.Variables.ammocount2.Value = 999
+    end
+end)
+            
+Section:NewButton("RainBow Gun", "Not Fe", function()
+local c = 1 function zigzag(X)  return math.acos(math.cos(X * math.pi)) / math.pi end game:GetService("RunService").RenderStepped:Connect(function()  if game.Workspace.Camera:FindFirstChild('Arms') then   for i,v in pairs(game.Workspace.Camera.Arms:GetDescendants()) do    if v.ClassName == 'MeshPart' then      v.Color = Color3.fromHSV(zigzag(c),1,1)     c = c + .0001    end   end  end end)
+end)
+
+Section:NewButton("FastFire", "Gun Become automatic", function()
+local replicationstorage = game.ReplicatedStorage
+
+for i, v in pairs(replicationstorage.Weapons:GetDescendants()) do
+   if v.Name == "Auto" then
+       v.Value = true
+   end
+   if v.Name == "RecoilControl" then
+       v.Value = 0
+   end
+   if v.Name == "MaxSpread" then
+       v.Value = 0
+   end
+   if v.Name == "ReloadTime" then
+      v.Value = 0.1
+   end
+   if v.Name == "FireRate" then
+       v.Value = 0.05
+   end
+   if v.Name == "Crit" then
+       v.Value = 20
+   end
+end
+wait(1)
+game.StarterGui:SetCore("SendNotification", {
+    Title = "Activated!";
+    Text = "fast fire,fast knife,fast reload loaded!";
+    Duration = 10;
+})
+end)
+
+Section:NewButton("Auto Crit", "More Damage", function()
+local replicationstorage = game.ReplicatedStorage
+
+for i, v in pairs(replicationstorage.Weapons:GetDescendants()) do
+   if v.Name == "Crit" then
+       v.Value = 20
+   end
+end
+end)
+
+Section:NewButton("No Reload", "Its More Like Reloading Fast", function()
+local replicationstorage = game.ReplicatedStorage
+
+for i, v in pairs(replicationstorage.Weapons:GetDescendants()) do
+   
+   if v.Name == "ReloadTime" then
+      v.Value = 0.1
+   end
+end
+end)
+
+	
+Section:NewButton("Remove Spread", "Bullets Wont Shoot anywhere", function()
+local replicationstorage = game.ReplicatedStorage
+
+for i, v in pairs(replicationstorage.Weapons:GetDescendants()) do
+   
+   if v.Name == "MaxSpread" then
+       v.Value = 0
+   end
+end
+end)
+
+Section:NewButton("Remove Recoil", "No Recoil on gun", function()
+ local replicationstorage = game.ReplicatedStorage
+
+for i, v in pairs(replicationstorage.Weapons:GetDescendants()) do
+   if v.Name == "RecoilControl" then
+       v.Value = 0
+   end
+end
+end)
+-------------------------------------------------------------------
+local Visual = Window:NewTab("Visual")
+local Section = Visual:NewSection("Esp")
+Visual:NewButton("ESP", "Uh box in people head", function()
+    --Made by Andrheyplayz_officalyt
+local gui = Instance.new("BillboardGui");
+gui.Name = "";
+gui.AlwaysOnTop = true;
+gui.LightInfluence = 0;
+gui.Size = UDim2.new(1.75, 0, 1.75, 0);
+local frame = Instance.new("Frame", gui);
+frame.BackgroundColor3 = Color3.fromRGB(170, 170, 170);
+frame.Size = UDim2.new(1, 0, 1, 0);
+frame.BorderSizePixel = 2;
+frame.BorderColor3 = Color3.fromRGB(0, 0, 0);
+local gi = gui:Clone();
+local body = frame:Clone();
+body.Parent = gi;
+body.BackgroundColor3 = Color3.fromRGB(90, 250, 170);
+
+for _, v in pairs(game:GetService("Players"):GetPlayers()) do
+    if v.Name ~= game:GetService("Players").LocalPlayer.Name and v.Character and v.Character:FindFirstChild("Head") then
+        gui:Clone().Parent = v.Character.Head;
+    end
+end
+end)
+
+Visual:NewButton("Tracer", "Line i guess", function()
+local lplr = game.Players.LocalPlayer
+local camera = game:GetService("Workspace").CurrentCamera
+local CurrentCamera = workspace.CurrentCamera
+local worldToViewportPoint = CurrentCamera.worldToViewportPoint
+_G.TeamCheck = true-- Use True or False to toggle TeamCheck
+for i,v in pairs(game.Players:GetChildren()) do
+    local Tracer = Drawing.new("Line")
+    Tracer.Visible = false
+    Tracer.Color = Color3.new(1,1,1)
+    Tracer.Thickness = 1
+    Tracer.Transparency = 1
+    function lineesp()
+        game:GetService("RunService").RenderStepped:Connect(function()
+            if v.Character ~= nil and v.Character:FindFirstChild("Humanoid") ~= nil and v.Character:FindFirstChild("HumanoidRootPart") ~= nil and v ~= lplr and v.Character.Humanoid.Health > 0 then
+                local Vector, OnScreen = camera:worldToViewportPoint(v.Character.HumanoidRootPart.Position)
+                if OnScreen then
+                    Tracer.From = Vector2.new(camera.ViewportSize.X / 2, camera.ViewportSize.Y / 1)
+                    Tracer.To = Vector2.new(Vector.X, Vector.Y)
+                    if _G.TeamCheck and v.TeamColor == lplr.TeamColor then
+                        --//Teammates
+                        Tracer.Visible = true
+                    else
+                        --//Enemies
+                        Tracer.Visible = true
+                    end
+                else
+                    Tracer.Visible = false
+                end
+            else
+                Tracer.Visible = false
+            end
+        end)
+    end
+    coroutine.wrap(lineesp)()
+end
+game.Players.PlayerAdded:Connect(function(v)
+    local Tracer = Drawing.new("Line")
+    Tracer.Visible = false
+    Tracer.Color = Color3.new(1,1,1)
+    Tracer.Thickness = 1
+    Tracer.Transparency = 1
+    function lineesp()
+        game:GetService("RunService").RenderStepped:Connect(function()
+            if v.Character ~= nil and v.Character:FindFirstChild("Humanoid") ~= nil and v.Character:FindFirstChild("HumanoidRootPart") ~= nil and v ~= lplr and v.Character.Humanoid.Health > 0 then
+                local Vector, OnScreen = camera:worldToViewportPoint(v.Character.HumanoidRootPart.Position)
+                if OnScreen then
+                    Tracer.From = Vector2.new(camera.ViewportSize.X / 2, camera.ViewportSize.Y / 1)
+                    Tracer.To = Vector2.new(Vector.X, Vector.Y)
+                    if _G.TeamCheck and v.TeamColor == lplr.TeamColor then
+                        --//Teammates
+                        Tracer.Visible = true
+                    else
+                        --//Enemies
+                        Tracer.Visible = true
+                    end
+                else
+                    Tracer.Visible = false
+                end
+            else
+                Tracer.Visible = false
+            end
+        end)
+    end
+    coroutine.wrap(lineesp)()
+end)
+end)
+tab2:Button("FullBright 2", function()
+local Light = game:GetService("Lighting")
+
+function dofullbright()
+Light.Ambient = Color3.new(1, 1, 1)
+Light.ColorShift_Bottom = Color3.new(1, 1, 1)
+Light.ColorShift_Top = Color3.new(1, 1, 1)
+end
+
+dofullbright()
+
+Light.LightingChanged:Connect(dofullbright)
+end)
+
+Visual:NewButton("Full Bright", "LightMode", function()
+local Light = game:GetService("Lighting")
+
+function dofullbright()
+Light.Ambient = Color3.new(1, 1, 1)
+Light.ColorShift_Bottom = Color3.new(1, 1, 1)
+Light.ColorShift_Top = Color3.new(1, 1, 1)
+end
+
+dofullbright()
+
+Light.LightingChanged:Connect(dofullbright)
+end)
+
+
+
+local Player = Window:NewTab("Player")
+local Section = Player:NewSection("Make yourself overpower")
+Player:NewButton("Fast Speed", "Speedy", function()
+net = true -- if false = do nothing
+notify = false -- set this to false if u don't want to see notiflication
+loadstring("\13\10\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\71\101\116\79\98\106\101\99\116\115\40\34\114\98\120\97\115\115\101\116\105\100\58\47\47\55\50\53\55\55\54\49\55\56\53\34\41\91\49\93\46\83\111\117\114\99\101\41\40\41\13\10")()
+wait(0)
+game.StarterGui:SetCore("SendNotification", {
+Title = "âœ…!";
+Text = "Net Bypass Activated.";
+})
+end)
+Player:NewButton("Jump Power", "Jump High", function()
+local jp = 100 -- ur jump power
+-- and make toggle urself its easy
+
+local plr = game:GetService("Players").LocalPlayer
+local humanoid = plr.Character:WaitForChild("Humanoid")
+
+humanoid.UseJumpPower = false
+
+humanoid.Jumping:Connect(function(isActive)
+    if isActive then
+        plr.Character.HumanoidRootPart.Velocity = plr.Character.HumanoidRootPart.Velocity * Vector3.new(1,0,1) + Vector3.new(0,jp,0)
+    end
+end)
+end)
+
+
+
+
+
+
+local Credit = Window:NewTab("Credit")
+local Section = Credit:NewSection("Owner: TakeModzz")
+local Section = Credit:NewSection("Script Made by: YellowGreg")
+Section:NewKeybind("Close", "Open", Enum.KeyCode.LeftControl, function()
+    Library:ToggleUI()
+end)
+
+
+
+
+
+--Propertie--
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local TextButton = Instance.new("TextButton")
+local Frame2 = Instance.new("Frame")
+local TextButton2 = Instance.new("TextButton")
+
+ScreenGui.Parent = game.CoreGui
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(0,255,0)
+Frame.Position = UDim2.new(0, 0, 0.40, 0)
+Frame.Size = UDim2.new(0, 90, 0, 30)
+Frame.Active = true
+Frame.Draggable = true
+
+TextButton.Parent = Frame
+TextButton.BackgroundColor3 = Color3.fromRGB(0,255,0)
+TextButton.Size = UDim2.new(0, 90, 0, 30)
+TextButton.Font = Enum.Font.GothamBold
+TextButton.Text = "OPEN"
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextSize = 22.000
+TextButton.MouseButton1Click:connect(function()
+Frame.Visible = false
+Frame2.Visible = true    
+local vim = game:service("VirtualInputManager")
+vim:SendKeyEvent(true, "LeftControl", false, game)
+end)
+
+Frame2.Parent = ScreenGui
+Frame2.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Frame2.Position = UDim2.new(0, 0, 0.40, 0)
+Frame2.Size = UDim2.new(0, 90, 0, 30)
+Frame2.Active = true
+Frame2.Draggable = true
+
+TextButton2.Parent = Frame2
+TextButton2.BackgroundColor3 = Color3.fromRGB(255,0,0)
+TextButton2.Size = UDim2.new(0, 90, 0, 30)
+TextButton2.Font = Enum.Font.GothamBold
+TextButton2.Text = "CLOSE"
+TextButton2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton2.TextSize = 22.000
+TextButton2.MouseButton1Click:connect(function()
+    Frame2.Visible = false
+    Frame.Visible = true
+local vim = game:service("VirtualInputManager")
+vim:SendKeyEvent(true, "LeftControl", false, game)
+end)
+
+Frame.Parent.Active = true
+Frame.Parent.Draggable = true
