@@ -1,4 +1,4 @@
-local Library = loadstring(game:HttpGet("loadstring(game:HttpGet("https://raw.githubusercontent.com/YellowGreg/AFGui/main/GUI"))()"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/YellowGreg/AFGui/main/GUI"))()
 local Window = Library.CreateLib("HarshTechV7.4 Test", "BloodTheme")
 local Tab = Window:NewTab("Home")
 local Section = Tab:NewSection("Test")
