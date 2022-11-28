@@ -18,15 +18,15 @@ local TextButton2 = Instance.new("TextButton")
 ScreenGui.Parent = game.CoreGui
 
 Frame.Parent = ScreenGui
-Frame.BackgroundColor3 = Color3.fromRGB(32, 32, 32)
+Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Frame.Position = UDim2.new(0, 0, 0.40, 0)
-Frame.Size = UDim2.new(0, 90, 0, 30)
+Frame.Size = UDim2.new(0, 90, 0, 40)
 Frame.Active = true
 Frame.Draggable = true
 
 TextButton.Parent = Frame
-TextButton.BackgroundColor3 = Color3.fromRGB(32, 32 , 32)
-TextButton.Size = UDim2.new(0, 90, 0, 30)
+TextButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.Size = UDim2.new(0, 90, 0, 40)
 TextButton.Font = Enum.Font.GothamBold
 TextButton.Text = "Toggle"
 TextButton.TextColor3 = Color3.fromRGB(102, 0, 102)
@@ -39,15 +39,15 @@ vim:SendKeyEvent(true, "LeftControl", false, game)
 end)
 
 Frame2.Parent = ScreenGui
-Frame2.BackgroundColor3 = Color3.fromRGB(32, 32, 32)
+Frame2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Frame2.Position = UDim2.new(0, 0, 0.40, 0)
-Frame2.Size = UDim2.new(0, 90, 0, 30)
+Frame2.Size = UDim2.new(0, 90, 0, 40)
 Frame2.Active = true
 Frame2.Draggable = true
 
 TextButton2.Parent = Frame2
-TextButton2.BackgroundColor3 = Color3.fromRGB(32, 32, 32)
-TextButton2.Size = UDim2.new(0, 90, 0, 30)
+TextButton2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton2.Size = UDim2.new(0, 90, 0, 40)
 TextButton2.Font = Enum.Font.GothamBold
 TextButton2.Text = "Toggle"
 TextButton2.TextColor3 = Color3.fromRGB(102, 0, 102)
