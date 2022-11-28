@@ -8,12 +8,9 @@ Print("test button")
 end)
 
 Section:NewToggle("test", "test", function(v)
-Print("test Toggle") = v
-end)
-
-Section:NewTextBox("test", "test", function()
 
 end)
+
 
 
 Section:NewKeybind("Close", "Open", Enum.KeyCode.LeftControl, function()
