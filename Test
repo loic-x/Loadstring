@@ -27,11 +27,11 @@ Frame.Draggable = true
 
 TextButton.Parent = Frame
 TextButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-TextButton.BackgroundTransparency = 0.7
+TextButton.BackgroundTransparency = 0.8
 TextButton.Size = UDim2.new(0, 90, 0, 40)
 TextButton.Font = Enum.Font.GothamBold
 TextButton.Text = "Toggle"
-TextButton.TextColor3 = Color3.fromRGB(204, 0, 204)
+TextButton.TextColor3 = Color3.fromRGB(255, 0, 255)
 TextButton.TextSize = 22.000
 TextButton.MouseButton1Click:connect(function()
 Frame.Visible = false
@@ -50,11 +50,11 @@ Frame2.Draggable = true
 
 TextButton2.Parent = Frame2
 TextButton2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-TextButton2.BackgroundTransparency = 0.7
+TextButton2.BackgroundTransparency = 0.8
 TextButton2.Size = UDim2.new(0, 90, 0, 40)
 TextButton2.Font = Enum.Font.GothamBold
 TextButton2.Text = "Toggle"
-TextButton2.TextColor3 = Color3.fromRGB(204, 0, 204)
+TextButton2.TextColor3 = Color3.fromRGB(255, 0, 255)
 TextButton2.TextSize = 22.000
 TextButton2.MouseButton1Click:connect(function()
     Frame2.Visible = false
