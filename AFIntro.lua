@@ -159,7 +159,7 @@ AF.TextLabel2.Archivable = true
 AF.TextLabel2.ClipsDescendants = false
 AF.TextLabel2.AutoLocalize = true
 AF.TextLabel2.Font = Enum.Font.Antique
-AF.TextLabel2.Text = "Has Been Loaded!"
+AF.TextLabel2.Text = "is Now Being Loaded!"
 AF.TextLabel2.TextColor3 = Color3.new(1, 1, 1)
 AF.TextLabel2.TextScaled = false
 AF.TextLabel2.TextSize = 35
@@ -199,11 +199,11 @@ local OriginalPositions = {}
 OriginalPositions[1] = LeftSideText.Position
 OriginalPositions[2] = RightSideText.Position
 
-LeftSideText:TweenPosition(UDim2.new(0, 0, 0.25, 0), Enum.EasingDirection.Out, Enum.EasingStyle.Quint, 1)
+LeftSideText:TweenPosition(UDim2.new(0, 0, 0.28, 0), Enum.EasingDirection.Out, Enum.EasingStyle.Quint, 1)
 task.wait(1)
-RightSideText:TweenPosition(UDim2.new(0, 0, 0.25, 0), Enum.EasingDirection.Out, Enum.EasingStyle.Quint, 1)
+RightSideText:TweenPosition(UDim2.new(0, 0, 0.28, 0), Enum.EasingDirection.Out, Enum.EasingStyle.Quint, 1)
 
-task.wait(2)
+task.wait(1.5)
 
 LeftSideText:TweenPosition(OriginalPositions[1], Enum.EasingDirection.Out, Enum.EasingStyle.Quint, 1)
 task.wait(1)
