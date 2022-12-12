@@ -200,13 +200,13 @@ OriginalPositions[1] = LeftSideText.Position
 OriginalPositions[2] = RightSideText.Position
 
 LeftSideText:TweenPosition(UDim2.new(0, 0, 0.26, 0), Enum.EasingDirection.Out, Enum.EasingStyle.Quint, 1)
-task.wait(1)
+task.wait()
 RightSideText:TweenPosition(UDim2.new(0, 0, 0.26, 0), Enum.EasingDirection.Out, Enum.EasingStyle.Quint, 1)
 
-task.wait(1.5)
+task.wait()
 
 LeftSideText:TweenPosition(OriginalPositions[1], Enum.EasingDirection.Out, Enum.EasingStyle.Quint, 1)
-task.wait(1)
+task.wait()
 RightSideText:TweenPosition(OriginalPositions[2], Enum.EasingDirection.Out, Enum.EasingStyle.Quint, 1)
 task.wait()
 
