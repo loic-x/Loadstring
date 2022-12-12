@@ -199,9 +199,9 @@ local OriginalPositions = {}
 OriginalPositions[1] = LeftSideText.Position
 OriginalPositions[2] = RightSideText.Position
 
-LeftSideText:TweenPosition(UDim2.new(0, 0, 0.28, 0), Enum.EasingDirection.Out, Enum.EasingStyle.Quint, 1)
+LeftSideText:TweenPosition(UDim2.new(0, 0, 0.26, 0), Enum.EasingDirection.Out, Enum.EasingStyle.Quint, 1)
 task.wait(1)
-RightSideText:TweenPosition(UDim2.new(0, 0, 0.28, 0), Enum.EasingDirection.Out, Enum.EasingStyle.Quint, 1)
+RightSideText:TweenPosition(UDim2.new(0, 0, 0.26, 0), Enum.EasingDirection.Out, Enum.EasingStyle.Quint, 1)
 
 task.wait(1.5)
 
