@@ -208,7 +208,7 @@ task.wait(1.5)
 LeftSideText:TweenPosition(OriginalPositions[1], Enum.EasingDirection.Out, Enum.EasingStyle.Quint, 1)
 task.wait(1)
 RightSideText:TweenPosition(OriginalPositions[2], Enum.EasingDirection.Out, Enum.EasingStyle.Quint, 1)
-task.wait(1)
+task.wait()
 
 while task.wait() do
     if AF2.ImageTransparency == 1 then
