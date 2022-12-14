@@ -63,6 +63,10 @@ end)
 Section:NewButton("Shopping Wars", "Yep it is a script i guess", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraIsMe2/ToraIsMe2/main/0shopping", true))()
 end)
+Section:NewButton("Wacky Wizards", "uhh ok", function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraIsMe2/ToraIsMe2/main/0wacky", true))()
+		end)
+
 
 
 
