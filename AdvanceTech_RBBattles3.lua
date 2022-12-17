@@ -43,7 +43,7 @@ Text = "AdvancedFalling Team",
 
 --// Library & Windows \\--
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/YellowGreg/AFGui/main/GUI"))()
-local Window = Library.CreateLib("AdvanceTech | RB Battles Season 3 | V1", "BloodTheme")
+local Window = Library.CreateLib("AdvanceTech | RB Battles Season 3 | V1.1", "BloodTheme")
 
 
 
