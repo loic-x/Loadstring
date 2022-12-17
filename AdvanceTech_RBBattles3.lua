@@ -75,7 +75,7 @@ Section:NewButton("Funky Friday", "Go to the end of the obby", function()
 Section:NewButton("Tower Of Hell", "end the game", function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraIsMe2/ToraIsMe2/main/0tower", true))()
 		end)
-Section:NewButton("Arsenal(Kill the Bot)", "yeaa", function() 
+Section:NewButton("Arsenal", "yeaa", function() 
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraIsMe2/ToraIsMe2/main/0asenal", true))()
 		end)
 
