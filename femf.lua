@@ -4,11 +4,11 @@ local s = workspace.Ignore.Zombies
 local k = workspace["\95\80\97\114\116\115"] 
 
 local h = loadstring(game:HttpGet("\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\98\108\111\111\100\98\97\108\108\47\45\98\97\99\107\45\117\112\115\45\102\111\114\45\108\105\98\115\47\109\97\105\110\47\97\97\97\97"))() 
-local i = h:CreateWindow("\77\105\99\104\97\101\108\39\115\32\90\111\109\98\105\101\115", "\102\108\105\112\35\48\48\48\49") 
-local g = i:addPage("\77\97\105\110", 1, true, 6) 
-local _ = i:addPage("\71\117\110\32\77\111\100\115", 1, false, 6) 
-local f_ = i:addPage("\69\83\80", 1, false, 6) 
-local tf = i:addPage("\84\101\108\101\112\111\114\116\115", 1, false, 6) 
+local i = h:CreateWindow("Michael Zombie", "flip#0001") 
+local g = i:addPage("Main", 1, true, 6) 
+local _ = i:addPage("Gun Mods", 1, false, 6) 
+local f_ = i:addPage("ESP", 1, false, 6) 
+local tf = i:addPage("Teleports", 1, false, 6) 
 local mt = i:addPage("\77\105\115\99", 1, false, 6) 
 local om = false local no = false local j = false local e = false 
 
