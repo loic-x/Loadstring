@@ -137,25 +137,25 @@ _:addButton("Infinite Ammo", function()
     end 
   end) 
 function o(n) if om == true then 
-    local cb = Instance.new("\66\105\108\108\98\111\97\114\100\71\117\105") 
-    cb.Name = "\69\83\80\70\114\97\109\101" 
+    local cb = Instance.new("BillboardGui") 
+    cb.Name = "ESPFrame" 
     cb.Size = UDim2.new(5, 0, 7, 0) cb.AlwaysOnTop = true 
-    local dc = Instance.new("\73\109\97\103\101\76\97\98\101\108") 
-    dc.Image = "\104\116\116\112\58\47\47\119\119\119\46\114\111\98\108\111\120\46\99\111\109\47\97\115\115\101\116\47\63\105\100\61\50\55\54\52\49\52\49\56\54\51" 
+    local dc = Instance.new("ImageLabel") 
+    dc.Image = "http://www.roblox.com/asset/?id=2764141863" 
     dc.Parent = cb 
     dc.ImageColor3 = Color3.fromRGB(255, 0, 0) 
     dc.BackgroundTransparency = 1 
     dc.Size = UDim2.new(1, 0, 1, 0) 
     cb.Parent = n 
   else 
-    if n:FindFirstChild("\69\83\80\70\114\97\109\101") then 
+    if n:FindFirstChild("ESPFrame") then 
       n.ESPPFrame:Destroy() 
     end 
   end 
 end 
-game:GetService("\85\115\101\114\73\110\112\117\116\83\101\114\118\105\99\101").JumpRequest:Connect(function() 
+game:GetService("UserInputService").JumpRequest:Connect(function() 
     if j == true then 
-      l:FindFirstChildOfClass('Humanoid'):ChangeState("\74\117\109\112\105\110\103") 
+      l:FindFirstChildOfClass('Humanoid'):ChangeState("Jumping") 
     end 
   end) 
 s.ChildAdded:Connect(o) 
