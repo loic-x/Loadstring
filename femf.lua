@@ -102,23 +102,23 @@ f_:addToggle("Show Zombies", function(c)
   end) 
 f_:addToggle("Show Box", function(b) 
     if b == true then 
-      local a = Instance.new("\66\105\108\108\98\111\97\114\100\71\117\105") 
-      a.Name = "\66\111\120\69\83\80" 
+      local a = Instance.new("BillboardGui") 
+      a.Name = "BoxESP" 
       a.Size = UDim2.new(5, 0, 1, 0) 
       a.AlwaysOnTop = true 
       a.StudsOffset = Vector3.new(0, 2, 0) 
-      local ba = Instance.new("\84\101\120\116\76\97\98\101\108") 
+      local ba = Instance.new("TextLabel") 
       ba.BackgroundTransparency = 1 
       ba.Size = UDim2.new(1, 0, 1, 0) 
-      ba.Text = "\66\79\88" 
+      ba.Text = "BOX" 
       ba.TextColor3 = Color3.fromRGB(255, 255, 0) 
       ba.TextStrokeTransparency = 0 
       ba.Parent = a 
       ba.Font = Enum.Font.FredokaOne 
       ba.TextScaled = true 
-      a.Parent = workspace["\95\77\97\112\67\111\109\112\111\110\101\110\116\115"].MysteryBox.PurchaseBox 
+      a.Parent = workspace["_MapComponents"].MysteryBox.PurchaseBox 
     else 
-      workspace["\95\77\97\112\67\111\109\112\111\110\101\110\116\115"].MysteryBox.PurchaseBox.BoxESP:Destroy() 
+      workspace["_MapComponents"].MysteryBox.PurchaseBox.BoxESP:Destroy() 
     end 
   end) 
 
