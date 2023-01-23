@@ -4,12 +4,13 @@ local s = workspace.Ignore.Zombies
 local k = workspace["_Parts"] 
 
 local h = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/aaaa"))() 
-local i = h:CreateWindow("Michael Zombie", "flip#0001") 
+local i = h:CreateWindow("Michael Zombie", "YellowGreg#7993") 
 local g = i:addPage("Main", 1, true, 6) 
 local _ = i:addPage("Gun Mods", 1, false, 6) 
 local f_ = i:addPage("ESP", 1, false, 6) 
 local tf = i:addPage("Teleports", 1, false, 6) 
-local mt = i:addPage("Misc", 1, false, 6) 
+local mt = i:addPage("Misc", 1, false, 6)
+local credit = i:addPage("Credits" 1, false, 6)
 local om = false local no = false local j = false local e = false 
 
 g:addToggle("Kill Aura", function(c) if 
@@ -158,5 +159,10 @@ game:GetService("UserInputService").JumpRequest:Connect(function()
       l:FindFirstChildOfClass('Humanoid'):ChangeState("Jumping") 
     end 
   end) 
-s.ChildAdded:Connect(o) 
+s.ChildAdded:Connect(o)
+--credits
+credits:addLabel("Made By AdvanceFalling Team")
+credits:addLabel("We are dumb developers :)")
+
+
 
