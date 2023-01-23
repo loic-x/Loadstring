@@ -58,15 +58,15 @@ g:addToggle("Infinte Jump", function(c)
     end 
   end) 
 
-tf:addButton("Box", function() 
+tf:addButton("Teleport MysteryBox", function() 
     l.HumanoidRootPart.CFrame = workspace["_MapComponents"].MysteryBox.PurchaseBox.CFrame 
   end) 
 
-tf:addButton("Spawn", function() 
+tf:addButton("Teleport MapSpawn", function() 
     l.HumanoidRootPart.CFrame = workspace["_MapComponents"].MAP_SPAWN.CFrame 
   end) 
 
-f_:addToggle("Show Parts", function(c) 
+f_:addToggle("ESP Parts", function(c) 
     if c == true then for i, n in pairs(k:GetChildren()) do 
         local r = Instance.new("BillboardGui") 
         r.Name = "PartESP" 
@@ -95,13 +95,13 @@ f_:addToggle("Show Parts", function(c)
     end 
   end) 
 
-f_:addToggle("Show Zombies", function(c) 
+f_:addToggle("ESP Zombies", function(c) 
     if c == true then 
       om = true else 
       om = false 
     end 
   end) 
-f_:addToggle("Show Box", function(b) 
+f_:addToggle("ESP MysteryBox", function(b) 
     if b == true then 
       local a = Instance.new("BillboardGui") 
       a.Name = "BoxESP" 
