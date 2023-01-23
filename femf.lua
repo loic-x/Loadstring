@@ -161,8 +161,8 @@ game:GetService("UserInputService").JumpRequest:Connect(function()
   end) 
 s.ChildAdded:Connect(o)
 --credits
-credits:addLabel("Made By AdvanceFalling Team")
-credits:addLabel("We are dumb developers :)")
+credit:addLabel("Made By AdvanceFalling Team")
+credit:addLabel("We are dumb developers :)")
 
 
 
