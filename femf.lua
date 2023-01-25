@@ -43,6 +43,79 @@ g:addToggle("Kill Aura", function(c) if
     end 
   end) 
 
+g:addButton("Always HeadShot", function(c)
+            spawn(function()
+local mt = getrawmetatable(game)
+local old = mt.__namecall
+setreadonly(mt,false)
+mt.__namecall = newcclosure(function(self, ...)
+ local args = {...}
+ if getnamecallmethod() == 'FireServer' and self.Name == 'ClientBulletHit' then
+   args[1] = args[1].Parent.Head
+ end
+ return old(self, unpack(args))
+end)
+end)
+spawn(function()
+while true do
+   wait()
+   game:GetService("Players").LocalPlayer.Character.Remotes.Reload:FireServer()
+end
+end)
+            end)
+
+g:addButton("Anti-Knockdown", function(c)
+            local localPlayer = game:GetService("Players").LocalPlayer
+
+local function booga()
+   local closestPlayer = nil
+ local shortestDistance = math.huge
+   for i, v in pairs(workspace.Ignore.Zombies:GetChildren()) do
+       if v:FindFirstChild("Humanoid") and v.Humanoid.Health ~= 0  and v:FindFirstChild("Head") then
+           local magnitude = (v.Head.Position - localPlayer.Character.Head.Position).magnitude
+
+           if magnitude < shortestDistance then
+               closestPlayer = v
+               shortestDistance = magnitude
+           end
+       end
+   end
+
+   return closestPlayer
+end
+while true do
+    wait()
+spawn(function()
+if game.Players.LocalPlayer.Character:FindFirstChild("Humanoid").Health < 80 then
+local args = {
+   [1] = booga().Humanoid
+}
+
+game:GetService("ReplicatedStorage").Framework.Remotes.KnifeHitbox:FireServer(unpack(args))
+  end
+  end)
+   end
+            end)
+
+g:addButton("Zombie Counter", function(c)
+            getgenv().settings = {
+    TextColor = Color3.fromRGB(255, 255, 255),
+    TextSize = 25,
+    TextFont = 2
+};
+
+--[[fonts:
+    UI = 0
+    System = 1
+    Plex = 2
+    Monospace = 3
+
+    You may have to change the TextSize based off the font since all fonts scale differently in size
+]]--
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/xaxaxaxaxaxaxaxaxa/RobloxScripts/main/Michaels-Zombies/zombieCounter.lua"))();
+            end)
+
 g:addButton("No-Clip", function(c) 
     for _, n in pairs(game.Players.LocalPlayer.Character:GetDescendants()) do 
       if n:IsA('BasePart') and 
@@ -101,6 +174,37 @@ f_:addToggle("ESP Zombies", function(c)
       om = false 
     end 
   end) 
+
+f_:addButton("Esp Zombies", function(b)
+            getgenv().espSettings = {
+    Highlight = {
+        DepthMode = Enum.HighlightDepthMode.AlwaysOnTop, -- don't mess with this
+
+        FillTransparency = 1, -- 0 for the zombie model to be filled a color, 1 for it to not be
+        FillColor = Color3.fromRGB(0, 190, 0),
+
+        OutlineTransparency = 0, -- 0 for the zombie model to be outlined a color, 1 for it to not be
+        OutlineColor = Color3.fromRGB(0, 205, 0),
+
+        Enabled = true, -- don't mess with this
+    },
+
+    Text = {
+        Visible = false, -- don't mess with this
+        ZIndex = 1, -- don't mess with this
+        Transparency = 1,
+        Color = Color3.fromRGB(225, 225, 225),
+        Size = 15, -- the size of the text (you may have to change this if you change the font)
+        Center = true, -- don't mess with this
+        Outline = true, -- don't mess with this
+        OutlineColor = Color3.fromRGB(0, 0, 0),
+        Font = 2 -- 0 = UI, 1 = System, 2 = Plex, 3 = Monospace
+    }
+};
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/xaxaxaxaxaxaxaxaxa/RobloxScripts/main/Michaels-Zombies/zombieEsp.lua"))();
+            end)
+
 f_:addToggle("ESP MysteryBox", function(b) 
     if b == true then 
       local a = Instance.new("BillboardGui") 
