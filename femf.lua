@@ -235,6 +235,15 @@ _:addToggle("No Reload", function(c)
       e = false 
     end 
   end) 
+_:addButton("Insta Reload", function()
+            spawn(function()
+while true do
+   wait()
+   game:GetService("Players").LocalPlayer.Character.Remotes.Reload:FireServer()
+end
+end)
+            end)
+
 _:addButton("Infinite Ammo", function() 
     while wait() do 
       l.CharStats.GunInventory.Gun1.Storage.Value = 999999 
