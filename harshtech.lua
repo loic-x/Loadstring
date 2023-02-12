@@ -112,7 +112,6 @@ SOFTWARE.
 
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/YellowGreg/Loadstring/main/AFIntro.lua"))()
-
 wait()
 local CoreGui = game:GetService("StarterGui")
 CoreGui:SetCore("SendNotification", {
