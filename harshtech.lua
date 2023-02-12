@@ -144,47 +144,7 @@ Duration = 12
  Color = Color3.fromRGB(43,98,255), 
  Font = Enum.Font.Ubuntu
  })
- 
-  game.StarterGui:SetCore("ChatMakeSystemMessage",{
-  Text = "NEW UPDATE!",
- Color = Color3.fromRGB(255,0,0), 
- Font = Enum.Font.Ubuntu
- })
- game.StarterGui:SetCore("ChatMakeSystemMessage",{
-    Text = " Whats new for HarshTechV7.5 ",
- Color = Color3.fromRGB(255,0,0), 
- Font = Enum.Font.Ubuntu
- })
-game.StarterGui:SetCore("ChatMakeSystemMessage",{
-    Text = "--// New Scripts",
- Color = Color3.fromRGB(255,0,0), 
- Font = Enum.Font.Ubuntu
- })
- game.StarterGui:SetCore("ChatMakeSystemMessage",{
-    Text = "--// New Fe Scripts",
- Color = Color3.fromRGB(255,0,0), 
- Font = Enum.Font.Ubuntu
- })
-game.StarterGui:SetCore("ChatMakeSystemMessage",{
-    Text = "--// New Gui/Hub",
- Color = Color3.fromRGB(255,0,0), 
- Font = Enum.Font.Ubuntu
- })
-game.StarterGui:SetCore("ChatMakeSystemMessage",{
-    Text = "--// New Games",
- Color = Color3.fromRGB(255,0,0), 
- Font = Enum.Font.Ubuntu
- })
-game.StarterGui:SetCore("ChatMakeSystemMessage",{
-    Text = "--// Added A Settings Tab To Make Your Peformance Good",
- Color = Color3.fromRGB(255,0,0), 
- Font = Enum.Font.Ubuntu
- })
-game.StarterGui:SetCore("ChatMakeSystemMessage",{
-    Text = "--// Added Pc Version of HarshTechV7.5",
- Color = Color3.fromRGB(255,0,0), 
- Font = Enum.Font.Ubuntu
- })
+loadstring(game:HttpGet("https://raw.githubusercontent.com/YellowGreg/Loadstring/main/Test"))()
  
 local GameId = game.PlaceId
 local GameName = game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name
