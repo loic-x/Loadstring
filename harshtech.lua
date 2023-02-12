@@ -185,6 +185,7 @@ game.StarterGui:SetCore("ChatMakeSystemMessage",{
  Color = Color3.fromRGB(255,0,0), 
  Font = Enum.Font.Ubuntu
  })
+ 
 local GameId = game.PlaceId
 local GameName = game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name
 local plrs = game:GetService("Players")
@@ -24799,13 +24800,16 @@ Section:NewButton("Player: "..game.Players.LocalPlayer.Name.." | "..game.Players
 
 local Section = Tab:NewSection("Effect only You")
 
-Section:NewTextBox("Walkspeed","Rare kavo UI walkspeed setter", function(txt) game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = txt
+Section:NewTextBox("Walkspeed","Rare kavo UI walkspeed setter", function(txt) 
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = txt
 end)
 
-Section:NewTextBox("FOV","Max FOV number 120", function(txt) game.Workspace.CurrentCamera.FieldOfView = txt
+Section:NewTextBox("FOV","Max FOV number 120", function(txt) 
+game.Workspace.CurrentCamera.FieldOfView = txt
 end)
 
-Section:NewTextBox("JumpPower","Increases Jumping", function(txt) game.Players.LocalPlayer.Character.Humanoid.JumpPower = txt
+Section:NewTextBox("JumpPower","Increases Jumping", function(txt) 
+game.Players.LocalPlayer.Character.Humanoid.JumpPower = txt
 end)
 
 Section:NewToggle("Inf Jump", "Jump In the air many times", functions(s)
