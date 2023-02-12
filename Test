@@ -1,70 +1,40 @@
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/YellowGreg/AFGui/main/GUI"))()
-local Window = Library.CreateLib("HarshTechV7.5 Test", "BloodTheme")
-local Tab = Window:NewTab("Home")
-local Section = Tab:NewSection("Test")
-
-Section:NewKeybind("Close", "Open", Enum.KeyCode.LeftControl, function()
-    Library:ToggleUI()
-end)
-
-
---Propertie--
-local ScreenGui = Instance.new("ScreenGui")
-local Frame = Instance.new("Frame")
-local TextButton = Instance.new("TextButton")
-local Frame2 = Instance.new("Frame")
-local TextButton2 = Instance.new("TextButton")
-
-ScreenGui.Parent = game.CoreGui
-
-Frame.Parent = ScreenGui
-Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-Frame.BackgroundTransparency = 1
-Frame.Position = UDim2.new(0, 0, 0.30, 0)
-Frame.Size = UDim2.new(0, 90, 0, 40)
-Frame.Active = true
-Frame.Draggable = true
-
-TextButton.Parent = Frame
-TextButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-TextButton.BackgroundTransparency = 0.6
-TextButton.Size = UDim2.new(0, 90, 0, 40)
-TextButton.Font = Enum.Font.GothamBold
-TextButton.Text = "Toggle"
-TextButton.TextColor3 = Color3.fromRGB(204, 0, 204)
-TextButton.TextSize = 22.000
-TextButton.MouseButton1Click:connect(function()
-Frame.Visible = false
-Frame2.Visible = true    
-local vim = game:service("VirtualInputManager")
-vim:SendKeyEvent(true, "LeftControl", false, game)
-end)
-
-Frame2.Parent = ScreenGui
-Frame2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-Frame2.BackgroundTransparency = 1
-Frame2.Position = UDim2.new(0, 0, 0.30, 0)
-Frame2.Size = UDim2.new(0, 90, 0, 40)
-Frame2.Active = true
-Frame2.Draggable = true
-
-TextButton2.Parent = Frame2
-TextButton2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-TextButton2.BackgroundTransparency = 0.6
-TextButton2.Size = UDim2.new(0, 90, 0, 40)
-TextButton2.Font = Enum.Font.GothamBold
-TextButton2.Text = "Toggle"
-TextButton2.TextColor3 = Color3.fromRGB(204, 0, 204)
-TextButton2.TextSize = 22.000
-TextButton2.MouseButton1Click:connect(function()
-    Frame2.Visible = false
-    Frame.Visible = true
-local vim = game:service("VirtualInputManager")
-vim:SendKeyEvent(true, "LeftControl", false, game)
-end)
-
-Frame.Parent.Active = true
-Frame.Parent.Draggable = true
-
-
-
+game.StarterGui:SetCore("ChatMakeSystemMessage",{
+    Text = "NEW UPDATE!",
+ Color = Color3.fromRGB(255,0,0), 
+ Font = Enum.Font.Ubuntu
+ })
+game.StarterGui:SetCore("ChatMakeSystemMessage",{
+    Text = " Whats new for HarshTechV7.5",
+ Color = Color3.fromRGB(255,0,0), 
+ Font = Enum.Font.Ubuntu
+ })
+game.StarterGui:SetCore("ChatMakeSystemMessage",{
+    Text = "--// New Scripts",
+ Color = Color3.fromRGB(255,0,0), 
+ Font = Enum.Font.Ubuntu
+ })
+game.StarterGui:SetCore("ChatMakeSystemMessage",{
+    Text = "--// New Fe Scripts",
+ Color = Color3.fromRGB(255,0,0), 
+ Font = Enum.Font.Ubuntu
+ })
+game.StarterGui:SetCore("ChatMakeSystemMessage",{
+    Text = "--// New Gui/Hub",
+ Color = Color3.fromRGB(255,0,0), 
+ Font = Enum.Font.Ubuntu
+ })
+game.StarterGui:SetCore("ChatMakeSystemMessage",{
+    Text = "--// New Games",
+ Color = Color3.fromRGB(255,0,0), 
+ Font = Enum.Font.Ubuntu
+ })
+game.StarterGui:SetCore("ChatMakeSystemMessage",{
+    Text = "--// Added A Settings Tab To Make Your Peformance Good",
+ Color = Color3.fromRGB(255,0,0), 
+ Font = Enum.Font.Ubuntu
+ })
+game.StarterGui:SetCore("ChatMakeSystemMessage",{
+    Text = "--// Added Pc Version of HarshTechV7.5",
+ Color = Color3.fromRGB(255,0,0), 
+ Font = Enum.Font.Ubuntu
+ })
