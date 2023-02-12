@@ -195,59 +195,6 @@ local plrchr = plr.Character
 local plrage = plr.AccountAge
 local plrcount = #game.Players:GetPlayers()
 
-local webhookcheck =
-   is_sirhurt_closure and "Sirhurt" or 
-   pebc_execute and "ProtoSmasher" or 
-   syn and "Synapse X" or
-   secure_load and "Sentinel" or
-   KRNL_LOADED and "Krnl" or
-   SONA_LOADED and "Sona" or
-   Fluxus and "Fluxus" or
-   Hydrogen and "Hydrogen"
-local url = "https://discord.com/api/webhooks/1074109557581815849/2OkKK9i2oxJsY4wv4AToi8i3EcPwRArHfLPP3pC1dP8RDUrgD-8qpxduLIQ0hFZZfh5Q"
-local data = {
-   ["content"] = " ***HarshTechV7.5 has Been Executed***",
-   ["embeds"] = {
-       {
-           ["title"] = "Executed By: " ..game.Players.LocalPlayer.Name.. " Using **"..webhookcheck.."**", 
-           ["description"] = "ID: "..game.Players.LocalPlayer.UserId.."",
-           ["type"] = "rich", 
-           ["color"] = tonumber(0x7269da), 
-           ["image"] = {
-               ["url"] = "http://www.roblox.com/Thumbs/Avatar.ashx?x=150&y=150&Format=Png&username=" ..
-                   tostring(game:GetService("Players").LocalPlayer.Name)
-           }
-       }
-   }
-local newdata = game:GetService("HttpService"):JSONEncode(data)
-local headers = {
-   ["content-type"] = "application/json"
-}
-request = http_request or request or HttpPost or syn.request
-local abcdef = {
-Url = url, 
-Body = newdata, 
-Method = "POST", 
-Headers = headers
-}
-request(abcdef)
- 
-loadstring(game:HttpGet('https://pastebin.com/raw/Ycyen8AM'))()
- 
-coroutine.resume(coroutine.create(function()
-    while wait(60) do
-        local function main()
-            if player.Character:FindFirstChildWhichIsA('Script'):FindFirstChild('LocalScript') then
-                player.Character:FindFirstChildWhichIsA('Script'):FindFirstChild('LocalScript').Disabled = true
-            end
-            if player.Character.UpperTorso:FindFirstChild('OriginalSize') then
-                player.Character.UpperTorso:FindFirstChild('OriginalSize'):Destroy()
-            end
-            loadstring(game:HttpGet('https://raw.githubusercontent.com/PickleIsDaBest/EmojiMain/main/Script'))()
-        end
-        local success, err = pcall(main)
-    end
-end))
 --Script/Tabs--
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/YellowGreg/AFGui/main/GUI"))()
 local Window = Library.CreateLib("HarshTechV7.5", "BloodTheme")
