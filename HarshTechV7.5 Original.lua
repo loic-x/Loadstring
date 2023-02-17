@@ -1846,10 +1846,6 @@ Section:NewButton("Fe Chat Bypasser", "bypasses words :0", function()
    loadstring(game:HttpGet('https://raw.githubusercontent.com/bedra45/chetbypasser/main/chetbypass'))()
 end)
 
-Section:NewButton("Gamepasses", "Makes you own every gamepass not forever", function()
-game.Players.LocalPlayer.UserId = "2205774994"
-end)
-
 Section:NewButton("Freeze Time", "You will freeze not the other player", function()
     loadstring(game:HttpGet('https://pastebin.com/raw/djAd7g2W'))()
 end)
@@ -1990,6 +1986,24 @@ end)
 ------------------------------------------------------------------------------------------------------------Hub------------------------------------------------------------------------------------------------------------
 local Tab = Window:NewTab("Hub|Gui")
 local Section = Tab:NewSection("All Gui And Hub Here")
+Section:NewButton("GameHubV5(Fix Version)","?",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TakeModzz/Games-Hub-V5-Selector-Fixed/main/Games"))()
+end)
+Section:NewButton("Yeeeter30-Hub","?",function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Yeeeter30/yeeeter30-hub/main/Yeeeter30%20hub'))()
+end)
+Section:NewButton("LynchHub","?",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/lynch1720/LynchHub/main/5thUpdate"))()
+end)
+Section:NewButton("Zxkerz Devilz V1","?",function()
+loadstring(game:HttpGet("https://pastebin.com/raw/AQLdnd5g"))()
+end)
+Section:NewButton("XtraXHub","?",function()
+loadstring(game:HttpGet('https://www.klgrth.io/paste/v7rjy/raw'))()
+end)
+Section:NewButton("GHub","?",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Xzekep/Xzekep/main/GHub%20made%20by%20ChrisTheScripter"))()
+end)
 Section:NewButton("MiniHubV2","?",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/MiniNoobie/MINI-HUB-V2/main/FINALLY%20UPDATED%20MINI%20HUB",true))()
 end)
@@ -19857,14 +19871,6 @@ local Section = Tab:NewSection("Fe Script | No Hats")
 Section:NewButton("Fe-Fighter(R6)", "Ya", function()
 loadstring(game:HttpGet('https://pastebin.com/raw/hapD7ECJ'))();
 end)
-Section:NewButton("Fe C*ck Sucking(R15)", "Ya", function()
-AnimationId = "45036843"
-local Anim = Instance.new("Animation")
-Anim.AnimationId = "rbxassetid://"..AnimationId
-local Anim = game.Players[Player].Character.Humanoid:LoadAnimation(Anim)
-Anim:Play()
-Anim:AdjustSpeed(1)
-end)
 Section:NewButton("Fe Rake(R6)", "Ya", function()
 -- Methods
 local Methods = loadstring(game:HttpGet("https://raw.githubusercontent.com/coolsk8rboy/The-John-Cena-Factory/main/JohnCenasMain.lua"))()
@@ -19927,22 +19933,6 @@ end)
 end)
 Section:NewButton("Fe-Gaster(R6)", "Ya", function()
 loadstring(game:HttpGet('https://pastebin.com/raw/aDBGkcN3'))();
-end)
-Section:NewButton("Hold D*ck(R15)", "Ya", function()
-AnimationId = "48975505"
-local Anim = Instance.new("Animation")
-Anim.AnimationId = "rbxassetid://"..AnimationId
-local Anim = game.Players[Player].Character.Humanoid:LoadAnimation(Anim)
-Anim:Play(2)
-Anim:AdjustSpeed(1)
-end)
-Section:NewButton("Floating Head(R15)", "Ya", function()
-AnimationId = "121572214"
-local Anim = Instance.new("Animation")
-Anim.AnimationId = "rbxassetid://"..AnimationId
-local k = game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(Anim)
-k:Play(0)
-k:AdjustSpeed(1)
 end)
 
 Section:NewButton("Fe Invisble(R6 and R15)", "NOTE: Its not invis its just like a clone so be somewhere safe", function()
@@ -24775,12 +24765,21 @@ end)
 Section:NewTextBox("JumpPower","Increases Jumping", function(txt) game.Players.LocalPlayer.Character.Humanoid.JumpPower = txt
 end)
 
-Section:NewToggle("Inf Jump", "Jump In the air many times", function()
+Section:NewButton("Turn-On Inf Jump", "Jump In the air many times", function()
 local InfiniteJumpEnabled = true
 game:GetService("UserInputService").JumpRequest:connect(function()
 	if InfiniteJumpEnabled then
 		game:GetService"Players".LocalPlayer.Character:FindFirstChildOfClass'Humanoid':ChangeState("Jumping")
 	end
+end)
+end)
+local J = false;
+Section:NewToggle("Bunny Hop","?",function(K)
+J = K;
+spawn(function()
+while wait()
+and J do game.Players.LocalPlayer.Character:WaitForChild("Humanoid").Jump = true
+end
 end)
 end)
 
@@ -25509,6 +25508,42 @@ uis.InputBegan:Connect(function(inp, processed)
 	end
 end)
 end)
+Section:NewButton("Turn-On NoClip","?", function()
+    local noclip = true 
+	char = game.Players.LocalPlayer.Character 
+	while true do 
+	if noclip == true then 
+	for _,v in pairs(char:children()) do 
+	pcall(function() if 
+	v.className == "Part" then 
+	v.CanCollide = false elseif 
+	v.ClassName == "Model" then 
+	v.Head.CanCollide = false 
+	end 
+	end) 
+	end 
+	end 
+	game:service("RunService").Stepped:wait() 
+	end
+end)
+Section:NewButton("Turn-Off NoClip","?", function()
+    local noclip = false
+	char = game.Players.LocalPlayer.Character 
+	while true do 
+	if noclip == true then 
+	for _,v in pairs(char:children()) do 
+	pcall(function() if 
+	v.className == "Part" then 
+	v.CanCollide = false elseif 
+	v.ClassName == "Model" then 
+	v.Head.CanCollide = false 
+	end 
+	end) 
+	end 
+	end 
+	game:service("RunService").Stepped:wait() 
+	end
+end)
 
 
 
@@ -25519,7 +25554,7 @@ end)
 
 
 local Tab = Window:NewTab("Setting")
-local Section = Tab:NewSection("Peformance")
+local Section = Tab:NewSection("Peformance | Screen")
 Section:NewButton("Anti Lag", "?", function()
 for ai,O in pairs(game:GetService("Workspace"):GetDescendants()) 
 do 
@@ -25572,6 +25607,42 @@ for i, e in pairs(l:GetChildren()) do
     end
 end
 end)
+Section:NewButton("Full Bright","?", function()
+local Light = game:GetService("Lighting")
+
+function dofullbright()
+Light.Ambient = Color3.new(1, 1, 1)
+Light.ColorShift_Bottom = Color3.new(1, 1, 1)
+Light.ColorShift_Top = Color3.new(1, 1, 1)
+end
+
+dofullbright()
+
+Light.LightingChanged:Connect(dofullbright)
+end)
+local Section = Tab:NewSection("Anti")
+Section:NewButton("Anti-Afk-Kick","?",function()
+wait(0.5)local ba=Instance.new("ScreenGui")
+local ca=Instance.new("TextLabel")local da=Instance.new("Frame")
+local _b=Instance.new("TextLabel")local ab=Instance.new("TextLabel")ba.Parent=game.CoreGui
+ba.ZIndexBehavior=Enum.ZIndexBehavior.Sibling;ca.Parent=ba;ca.Active=true
+ca.BackgroundColor3=Color3.new(0.176471,0.176471,0.176471)ca.Draggable=true
+ca.Position=UDim2.new(0.698610067,0,0.098096624,0)ca.Size=UDim2.new(0,370,0,52)
+ca.Font=Enum.Font.SourceSansSemibold;ca.Text="Anti AFK Script"ca.TextColor3=Color3.new(0,1,1)
+ca.TextSize=22;da.Parent=ca
+da.BackgroundColor3=Color3.new(0.196078,0.196078,0.196078)da.Position=UDim2.new(0,0,1.0192306,0)
+da.Size=UDim2.new(0,370,0,107)_b.Parent=da
+_b.BackgroundColor3=Color3.new(0.176471,0.176471,0.176471)_b.Position=UDim2.new(0,0,0.800455689,0)
+_b.Size=UDim2.new(0,370,0,21)_b.Font=Enum.Font.Arial;_b.Text="made by ur mom "
+_b.TextColor3=Color3.new(0,1,1)_b.TextSize=20;ab.Parent=da
+ab.BackgroundColor3=Color3.new(0.176471,0.176471,0.176471)ab.Position=UDim2.new(0,0,0.158377,0)
+ab.Size=UDim2.new(0,370,0,44)ab.Font=Enum.Font.ArialBold;ab.Text="Status: Active"
+ab.TextColor3=Color3.new(0,1,1)ab.TextSize=20;local bb=game:service'VirtualUser'
+game:service'Players'.LocalPlayer.Idled:connect(function()
+bb:CaptureController()bb:ClickButton2(Vector2.new())
+ab.Text="Roblox tried to kick u but i kicked him instead"wait(2)ab.Text="Status : Active"end)
+end)
+
 local Section = Tab:NewSection("Server")
 Section:NewButton("ServerHop", "?", function()
 local PlaceID = game.PlaceId
@@ -25649,6 +25720,28 @@ end)
 local Section = Tab:NewSection("Keybind")
 Section:NewKeybind("Close", "Open", Enum.KeyCode.LeftControl, function()
     Library:ToggleUI()
+end)
+local Section = Tab:NewSection("Visual")
+local aj = loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/V.G-Hub/main/Karrot-Esp"))()
+Section:NewToggle("Enable Esp", "?", function(K)
+aj:Toggle(K)
+aj.Players = K 
+end)
+Section:NewToggle("Enable Player Esp ","?",function(L)
+aj.TeamMates = L 
+end)									
+Section:NewToggle("Tracers Esp", "?" ,function(K)
+aj.Tracers = K
+end)
+									 
+Section:NewToggle("Name Esp", "?", function(K)
+aj.Names = K
+end)							  
+Section:NewToggle("Boxes Esp", "?", function(K)
+aj.Boxes = K 
+end)
+Section:NewColorPicker("ESP Color","?", Color3.fromRGB(255,255,255), function(P)
+aj.Color = P 
 end)
 local Section = Tab:NewSection("Color Picker")
 Section:NewButton("COMING SOON", "?", function()
