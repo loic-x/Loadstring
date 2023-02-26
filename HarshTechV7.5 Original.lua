@@ -113,8 +113,7 @@ SOFTWARE.
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/YellowGreg/Loadstring/main/AFIntro.lua"))()
 wait()
-local CoreGui = game:GetService("StarterGui")
-CoreGui:SetCore("SendNotification", {
+game:GetService("StarterGui"):SetCore("SendNotification",{
     Title = "HarshTechV7.5",
     Text = "Is a script hub thats all",
     Duration = 5, 
@@ -24826,11 +24825,7 @@ end)
 
 
 
-
-
-
 local Section = Tab:NewSection("R15 Animation")
-
 Section:NewButton("Zombie Animation", "R15 animation", function()
 while true do
     wait(1)
@@ -24863,7 +24858,6 @@ game.Players.LocalPlayer.Character.Humanoid.Jump = false
     end
 end
 end)
-
 Section:NewButton("Astronaut", "local script", function()
 while true do
     wait(1)
@@ -24881,7 +24875,6 @@ game.Players.LocalPlayer.Character.Humanoid.Jump = false
      end
 end
 end)
-
 Section:NewButton("Bubbly", "local script", function()
 while true do
     wait(1)
@@ -24900,7 +24893,6 @@ game.Players.LocalPlayer.Character.Humanoid.Jump = false
      end
 end
 end)
-
 Section:NewButton("Elder", "local script", function()
 while true do
     wait(1)
@@ -24917,7 +24909,6 @@ Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=845396048"
 end
 end
 end) 
-
 Section:NewButton("Knight", "local script", function()
 while true do
     wait(1)
@@ -24935,7 +24926,6 @@ Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=616005863"
 end
 end 
 end)
-
 Section:NewButton("Levitation", "local script", function()
 while true do
     wait(1)
@@ -24953,7 +24943,6 @@ Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=750780242"
 end
 end
 end)
-
 Section:NewButton("Mage", "local script", function()
 while true do
     wait(1)
@@ -24988,7 +24977,6 @@ Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=656115606"
 end
 end
 end)
-
 Section:NewButton("Pirate", "local script", function()
 while true do
     wait(1)
@@ -25006,7 +24994,6 @@ Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=750780242"
 end
 end
 end)
-
 Section:NewButton("Robot", "local script", function()
 while true do
     wait(1)
@@ -25024,7 +25011,6 @@ Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=616087089"
 end
 end
 end)
-
 Section:NewButton("Stylish", "local script", function()
 while true do
     wait(1)
@@ -25042,7 +25028,6 @@ Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=616134815"
 end
 end
 end)
-
 Section:NewButton("SuperHero", "local script", function()
 while true do
     wait(1)
@@ -25060,7 +25045,6 @@ Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=616108001"
 end 
 end 
 end)
-
 Section:NewButton("Toy", "local script", function()
 while true do
     wait(1)
@@ -25078,7 +25062,6 @@ Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=782846423"
 end
 end
 end)
-
 Section:NewButton("Vampire", "local script", function()
 while true do
     wait(1)
@@ -25096,7 +25079,6 @@ Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=1083443587"
 end
 end
 end)
-
 Section:NewButton("Werewolf", "local script", function()
 while true do
     wait(1)
@@ -25114,7 +25096,6 @@ Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=1083189019"
 end
 end
 end)
-
 Section:NewButton("Patrol", "local script", function()
 while true do
     wait(1)
@@ -25132,7 +25113,6 @@ Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=1148863382"
 end
 end
 end)
-
 Section:NewButton("Confident", "local script", function()
 while true do
     wait(1)
@@ -25150,7 +25130,6 @@ Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=1069973677"
 end
 end
 end)
-
 Section:NewButton("Ghost", "local script", function()
 while true do
     wait(1)
@@ -25169,7 +25148,6 @@ Animate.swim.Swim.AnimationId = "http://www.roblox.com/asset/?id=616011509"
 end
 end
 end)
-
 Section:NewButton("Sneaky", "local script", function()
 while true do
     wait(1)
@@ -25188,7 +25166,6 @@ Animate.swim.Swim.AnimationId = "http://www.roblox.com/asset/?id=616011509"
 end
 end
 end)
-
 Section:NewButton("Princess", "local script", function()
 while true do
     wait(1)
@@ -25206,7 +25183,6 @@ Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=941000007"
 end
 end
 end)
-
 Section:NewButton("No Animation", "local script", function()
 while true do
     wait(1)
@@ -25225,7 +25201,6 @@ Animate.swim.Swim.AnimationId = "http://www.roblox.com/asset/?id=0"
 end
 end
 end)
-
 Section:NewButton("Athro", "local script", function()
 while true do
     wait(1)
@@ -25310,11 +25285,6 @@ Section:NewButton("Turn-Off NoClip","?", function()
 	game:service("RunService").Stepped:wait() 
 	end
 end)
-
-
-
-
-
 
 
 
@@ -25453,7 +25423,6 @@ game:service'Players'.LocalPlayer.Idled:connect(function()
 bb:CaptureController()bb:ClickButton2(Vector2.new())
 ab.Text="Roblox tried to kick u but i kicked him instead"wait(2)ab.Text="Status : Active"end)
 end)
-
 local Section = Tab:NewSection("Server")
 Section:NewButton("ServerHop", "?", function()
 local PlaceID = game.PlaceId
@@ -25543,8 +25512,7 @@ aj.TeamMates = L
 end)									
 Section:NewToggle("Tracers Esp", "?" ,function(K)
 aj.Tracers = K
-end)
-									 
+end)								 
 Section:NewToggle("Name Esp", "?", function(K)
 aj.Names = K
 end)							  
@@ -25564,7 +25532,6 @@ end
 
 
 
-
 --// Credits \\--
 local Tab = Window:NewTab("Credits")
 local Section = Tab:NewSection("Made by: AdvanceFalling Team")
@@ -25578,8 +25545,9 @@ setclipboard("https://discord.gg/MzeSqBBpCh")
 end)
 
 
---// Gui Button \\--
 
+
+--// Gui Button \\--
 local ScreenGui = Instance.new("ScreenGui")
 local Frame = Instance.new("ImageLabel")
 local TextButton = Instance.new("TextButton")
@@ -25614,14 +25582,6 @@ TextButton.TextWrapped = true
 TextButton.MouseButton1Down:connect(function()
     Library:ToggleUI()
 end)
-
-
-
-
-
-
-
-
 
 
 
