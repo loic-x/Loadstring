@@ -25361,9 +25361,10 @@ for i, e in pairs(l:GetChildren()) do
         e.Enabled = false
     end
 end
-end
+end)
 
-local Section = Tab:NewSection("RTX | Screen")
+
+local Section = Tab:NewSection("RTX")
 Section:NewButton("Shader RTX","looks good", function()
 local find1 = game.Lighting:FindFirstChildWhichIsA("BloomEffect") if find1 then
     game.Lighting:FindFirstChildWhichIsA("BloomEffect"):Destroy()
