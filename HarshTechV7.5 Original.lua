@@ -19222,18 +19222,18 @@ end)
 
 local Section = Tab:NewSection("Monster Ghoul")
 
-Section:NewButton("Monster Ghoul Gui 1", "Tokoy Ghoul i think", function()
+Section:NewButton("Monster Ghoul Gui 1(old)", "Tokoy Ghoul i think", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/itsyouranya/free/main/monsterghoul.lua"))()
 end)
 
-Section:NewButton("Monster Ghoul Gui 2(New)", "Im a joke", function()
+Section:NewButton("Monster Ghoul Gui 2(old)", "Im a joke", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/itsyouranya/free/main/monsterghoul.lua", true))()
 end)
 
 
 local Section = Tab:NewSection("Mining Simulator 2")
 
-Section:NewButton("MiningSim2 AutoFarm", "New lol", function()
+Section:NewButton("MiningSim2 AutoFarm(old)", "New lol", function()
 getgenv().Chests = {
 'Legendary';
 'Epic';
@@ -19241,20 +19241,20 @@ getgenv().Chests = {
 loadstring(game:HttpGet'https://github.com/RunDTM/miningsim2/raw/main/serverhop.lua')()
 end)
 
-Section:NewButton("MiningSim2 Gui 1", "new", function()
+Section:NewButton("MiningSim2 Gui 1(old)", "new", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/MaGiXxScripter/Cum-Hub/main/loader'))()
 end)
 
-Section:NewButton("MiningSim2 Gui 2(New)", "Kinda old lol", function()
+Section:NewButton("MiningSim2 Gui 2(old)", "Kinda old lol", function()
 _G.key = "aMoGuS" 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/NukeVsCity/TheALLHACKLoader/main/NukeLoader"))()
 end)
 
-Section:NewButton("MiningSim2 Gui 3(New)", "New", function()
+Section:NewButton("MiningSim2 Gui 3(old)", "New", function()
 loadstring(game:HttpGet'https://raw.githubusercontent.com/RunDTM/miningsim2/main/rewrite.lua')()
 end)
 
-Section:NewButton("MiningSim2 Gui 4(New)", "idk what to say", function()
+Section:NewButton("MiningSim2 Gui 4(old)", "idk what to say", function()
 loadstring(game:HttpGet'https://github.com/RunDTM/miningsim2/raw/main/script.lua')()
 end)
 
@@ -25594,35 +25594,40 @@ end)
 
 --// Gui Button \\--
 
---Propertie--
 local ScreenGui = Instance.new("ScreenGui")
-local Frame = Instance.new("Frame")
+local Frame = Instance.new("ImageLabel")
 local TextButton = Instance.new("TextButton")
+
+--Properties:
 
 ScreenGui.Parent = game.CoreGui
 
+Frame.Name = "Frame"
 Frame.Parent = ScreenGui
-Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-Frame.BackgroundTransparency = 1
-Frame.Position = UDim2.new(0, 0, 0.40, 0)
-Frame.Size = UDim2.new(0, 90, 0, 40)
-Frame.Active = true
-Frame.Draggable = true
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.BackgroundTransparency = 1.000
+Frame.Position = UDim2.new(0, 0, 0, 400)
+Frame.Size = UDim2.new(0, 100, 0, 50)
+Frame.Image = "rbxassetid://3570695787"
+Frame.ImageColor3 = Color3.fromRGB(11, 18, 7)
+Frame.ImageTransparency = 0.200
+Frame.ScaleType = Enum.ScaleType.Slice
+Frame.SliceCenter = Rect.new(100, 100, 100, 100)
+Frame.SliceScale = 0.120
 
 TextButton.Parent = Frame
-TextButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-TextButton.BackgroundTransparency = 0.6
-TextButton.Size = UDim2.new(0, 90, 0, 40)
-TextButton.Font = Enum.Font.GothamBold
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.BackgroundTransparency = 1.000
+TextButton.Position = UDim2.new(0, 0, 0, -5)
+TextButton.Size = UDim2.new(0, 100, 0, 60)
+TextButton.Font = Enum.Font.SourceSans
 TextButton.Text = "Toggle"
-TextButton.TextColor3 = Color3.fromRGB(204, 0, 204)
-TextButton.TextSize = 22.000
-TextButton.MouseButton1Click:connect(function()
-Library:ToggleUI()
+TextButton.TextColor3 = Color3.fromRGB(0, 34, 255)
+TextButton.TextSize = 20.000
+TextButton.TextWrapped = true
+TextButton.MouseButton1Down:connect(function()
+    Library:ToggleUI()
 end)
-
-
-
 
 
 
