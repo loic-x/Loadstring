@@ -1,51 +1,51 @@
 game.StarterGui:SetCore("ChatMakeSystemMessage",{
     Text = "NEW UPDATE!",
- Color = Color3.fromRGB(255,0,0), 
+ Color = Color3.fromRGB(255,165,0), 
  Font = Enum.Font.Ubuntu
  })
 game.StarterGui:SetCore("ChatMakeSystemMessage",{
     Text = " Whats new for HarshTechV7.5",
- Color = Color3.fromRGB(255,0,0), 
+ Color = Color3.fromRGB(255,165,0), 
  Font = Enum.Font.Ubuntu
  })
 game.StarterGui:SetCore("ChatMakeSystemMessage",{
     Text = "[+] New Scripts",
- Color = Color3.fromRGB(255,0,0), 
+ Color = Color3.fromRGB(0,255,0), 
  Font = Enum.Font.Ubuntu
  })
 game.StarterGui:SetCore("ChatMakeSystemMessage",{
     Text = "[+] New Fe Scripts",
- Color = Color3.fromRGB(255,0,0), 
+ Color = Color3.fromRGB(0,255,0), 
  Font = Enum.Font.Ubuntu
  })
 game.StarterGui:SetCore("ChatMakeSystemMessage",{
     Text = "[+] New Gui/Hub",
- Color = Color3.fromRGB(255,0,0), 
+ Color = Color3.fromRGB(0,255,0), 
  Font = Enum.Font.Ubuntu
  })
 game.StarterGui:SetCore("ChatMakeSystemMessage",{
     Text = "[+] New Games",
- Color = Color3.fromRGB(255,0,0), 
+ Color = Color3.fromRGB(0,255,0), 
  Font = Enum.Font.Ubuntu
  })
 game.StarterGui:SetCore("ChatMakeSystemMessage",{
     Text = "[+] Added A Settings Tab To Make Your Peformance Good",
- Color = Color3.fromRGB(255,0,0), 
+ Color = Color3.fromRGB(0,255,0), 
  Font = Enum.Font.Ubuntu
  })
 game.StarterGui:SetCore("ChatMakeSystemMessage",{
     Text = "[+] Added Pc Version of HarshTechV7.5",
- Color = Color3.fromRGB(255,0,0), 
+ Color = Color3.fromRGB(0,255,0), 
  Font = Enum.Font.Ubuntu
  })
 
 game.StarterGui:SetCore("ChatMakeSystemMessage",{
     Text = "[-] Removed Leak Script",
- Color = Color3.fromRGB(255,110,10), 
+ Color = Color3.fromRGB(255,0,10), 
  Font = Enum.Font.Ubuntu
  })
  game.StarterGui:SetCore("ChatMakeSystemMessage",{
     Text = "[-] Removed A^F Team Script Tab",
- Color = Color3.fromRGB(255,110,10), 
+ Color = Color3.fromRGB(255,0,0), 
  Font = Enum.Font.Ubuntu
  })
