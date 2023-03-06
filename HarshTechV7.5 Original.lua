@@ -1969,6 +1969,18 @@ local Section = Tab:NewSection("All Gui And Hub Here")
 Section:NewButton("GameHubV5(Fix Version)","?",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/TakeModzz/Games-Hub-V5-Selector-Fixed/main/Games"))()
 end)
+Section:NewButton("Arceus V3 Hub","?",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/chillz-workshop/main/Arceus%20X%20V3"))()
+end)
+Section:NewButton("MoonUI-V11","?",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/IlikeyocutgHAH/MoonUI-v11-v1/main/MoonUI"))()
+end)
+Section:NewButton("Spy Gui","?",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/MichaelScripter/MiniScript/main/Spy%20gui.lua"))()
+end)
+Section:NewButton("Vcsk V Hub","?",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Vcsk/AstralHub/main/Main.lua", true))()
+end)
 Section:NewButton("Yeeeter30-Hub","?",function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Yeeeter30/yeeeter30-hub/main/Yeeeter30%20hub'))()
 end)
@@ -17791,47 +17803,32 @@ end)
 
 local Section = Tab:NewSection("Build a Boat")
 
-Section:NewButton("Build a Boat 1", "havent played", function()
+Section:NewButton("Build a Boat 1 (Old)", "havent played", function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/ThunderZ-HUB/HUB/main/Script"))()
 end)
 
-Section:NewButton("Build a Boat 2", "havent play", function()
+Section:NewButton("Build a Boat 2 (Old)", "havent play", function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/StenDirt/Trash-Game/main/Script.lua"))()
 end)
 
-Section:NewButton("Build a Boat 3", "Dino-Hub", function()
+Section:NewButton("Build a Boat 3 (Old)", "Dino-Hub", function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/SandaFrosty/Dino-Script/main/Build-Boat-For-Treasure"))()
 end)
 
-Section:NewButton("Build a Boat 4", "idk", function()
+Section:NewButton("Build a Boat 4 (Old)", "idk", function()
 _G.autofarm = true loadstring(game:HttpGet('https://gist.githubusercontent.com/cod2rx/d2a7e436d3af135d787529141e6485cc/raw/5bb4df0a94b0a3cf06f0c87a25cb6859e56d23e3/BABFT%2520Autofarm.lua'))()
 end)
 
-Section:NewButton("Build a Boat 5", "Bored", function()
+Section:NewButton("Build a Boat 5 (Old)", "Bored", function()
 _G.Color = Color3.fromRGB(255, 255, 255)
 loadstring(game:HttpGet"https://rawscripts.net/raw/SAZA-HUB_496")()
 end)
 
-Section:NewButton("Build a Boat 6(New)", "New", function()
+Section:NewButton("Build a Boat 6 (Old)", "New", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Deni210/BABFT/main/Ruby%20Hub", true))()
 end)
 
-Section:NewButton("inf Blocks(New)", "op", function()
-_G.RUN = true
-spawn(function()
-coroutine.wrap(function()
-while _G.RUN do wait()
-coroutine.wrap(function()
-while _G.RUN do wait()
-workspace.ItemBoughtFromShop:InvokeServer("Winter Chest",math.floor(game:GetService("Players").LocalPlayer.Data.Gold.Value / 100))
-end
-end)()
-end
-end)()
-end)
-end)
-
-Section:NewButton("Build a Boat 7(New)", "oh cool", function()
+Section:NewButton("Build a Boat 7 (Old)", "oh cool", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ThunderZ-HUB/HUB/main/Script"))()
 end)
 
@@ -17839,42 +17836,47 @@ end)
 
 local Section = Tab:NewSection("Goal Simulator")
 
-Section:NewButton("Goal Simulator 1", "Play soccer", function()
+Section:NewButton("Goal Simulator 1 (Old)", "Play soccer", function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/insanedude59/Scripts/main/GoalKickSimulator"))()
 end)
 
 
-
+ 
 
 local Section = Tab:NewSection("Anime Dimensions")
 
-Section:NewButton("Anime Dimensions 1", "Different anime lol", function()
+Section:NewButton("Anime Dimensions 1 (Old)", "Different anime lol", function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/TheWitch-BirdHub/BirdHubv0.1/main/load"))()
 end)
 
-Section:NewButton("Anime Dimension 2", "Anime wow im a fan lol", function()
+Section:NewButton("Anime Dimension 2 (Old)", "Anime wow im a fan lol", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/ghost-home/public/main/AnimeGhost.lua', true))()
 end)
 
-local Section = Tab:NewSection("No Scope Sniper")
 
-Section:NewButton("Op Silent Aim", "Well its not silent lol", function()
-      getgenv().Settings = {
 
+local Section = Tab:NewSection("No Scope Arcade")
+Section:NewButton("Silent Aim Gui 1 (New)", "?", function()
+loadstring(game:HttpGet("https://ghostbin.co/paste/pn5rdka/raw", true))()
+end)
+Section:NewButton("Silent Aim Gui 2 (New)", "?", function()
+loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Drifter0507/GUIS/main/NOSCOPEARCADE", true))();
+end)
+Section:NewButton("Silent Aim Gui 3 (New)", "?", function()
+loadstring(game:HttpGet("https://anomiss.in/script.lua"))()
+end)
+Section:NewButton("Op Silent Aim (Old)", "Well its not silent lol", function()
+getgenv().Settings = {
    Fov = 150,
 
    Hitbox = "Head",
 
    FovCircle = true,
-
 }
-
-
-
 loadstring(game:HttpGet("https://raw.githubusercontent.com/WetCheezit/Releases/main/No-Scope-Arcade/Silent%20aim.lua"))()
 end)
 
-Section:NewButton("Silent Aim(New and More OP)", "SUPER OP", function()
+Section:NewButton("Silent Aim (Old)", "SUPER OP", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/Games/NoScopeArcade", true))()
 end)
 
@@ -17887,20 +17889,31 @@ end)
 
 
 local Section = Tab:NewSection("MeepCity")
-
-Section:NewButton("MeepCity GUI 1", "Kinda Old", function()
+Section:NewButton("MeepCity GUI 1 (New)", "?", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/synolope/meepcracked/main/script.lua"))()
 end)
 
-Section:NewButton("MeepCity GUI 2", "New and Op wow 😲", function()
+Section:NewButton("MeepCity GUI 2 (New)", "?", function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/kilav3rm/Scripts/main/MeepCity'),true))()
+end)
+
+Section:NewButton("MeepCity GUI 3 (New)", "?", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+end)
+
+Section:NewButton("MeepCity GUI 1 (Old)", "Kinda Old", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/synolope/meepcracked/main/script.lua"))()
+end)
+
+Section:NewButton("MeepCity GUI 2 (Old)", "New and Op wow 😲", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/synolope/mpcity/main/mainscript.lua",true))()
 end)
 
-Section:NewButton("MeepCity GUI 3(New)", "ohh idk", function()
+Section:NewButton("MeepCity GUI 3 (Old)", "ohh idk", function()
 --[[made by synolope ;)]] loadstring(game:HttpGet("https://raw.githubusercontent.com/synolope/mpcity/main/loader.lua",true))()
 end)
 
-Section:NewButton("MeepCity GUI 4(New)", "🥏", function()
+Section:NewButton("MeepCity GUI 4 (Old)", "🥏", function()
 --MEEPCITY GUI BY V3RMILLION
  
  -- GUI
@@ -18130,12 +18143,19 @@ end)
 
 
 local Section = Tab:NewSection("Muscle Legend")
-
-Section:NewButton("Muscle Legend GUI 1", "Op lol", function()
-   loadstring(game:HttpGet('https://raw.githubusercontent.com/jynzl/main/main/Musclas%20Legenos.lua'))()
+Section:NewButton("Muscle Legend GUI 1 (New)", "Op lol", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TrixAde/Proxima-Hub/main/Main.lua"))()
 end)
 
-Section:NewButton("Muscle Legend GUI 2(New)", "yea", function()
+Section:NewButton("Muscle Legend GUI 2 (New)", "Op lol", function()
+loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/ahmadsgamer2/Script--Game/main/Script%20Game"))()
+end)
+
+Section:NewButton("Muscle Legend GUI 1 (Old)", "Op lol", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/jynzl/main/main/Musclas%20Legenos.lua'))()
+end)
+
+Section:NewButton("Muscle Legend GUI 2 (Old)", "yea", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/harisiskandar178/Roblox-Script/main/Muscle%20Legend"))()
 end)
 
@@ -18143,11 +18163,11 @@ end)
 
 local Section = Tab:NewSection("Ninja Legend")
 
-Section:NewButton("Ninja Legend GUI 1", "its a month old", function()
+Section:NewButton("Ninja Legend GUI 1 (Old)", "its a month old", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptpastebin/raw/main/1"))()
 end)
 
-Section:NewButton("Ninja Legend GUI 2(New)", "idk", function()
+Section:NewButton("Ninja Legend GUI 2 (Old)", "idk", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/StormSKz12/StirkeHub1/main/Gameincluded"))()
 end)
 
@@ -18156,8 +18176,13 @@ end)
 
 
 local Section = Tab:NewSection("Weapon Fighting Simulator")
-
-Section:NewButton("Weapon FightingSim GUI 1(New)", "numb", function()
+Section:NewButton("Weapon FightingSim GUI 1 (New)", "?", function()
+loadstring(game:HttpGet(("https://aizen.ml/uploads/wfs.txt")))()
+end)
+Section:NewButton("Weapon FightingSim GUI 2 (New)", "?", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/vfvo/scripts/main/weaponfightsim.lua"))() 
+end)
+Section:NewButton("Weapon FightingSim GUI 1 (Old)", "numb", function()
 loadstring(game:HttpGet("https://rawscripts.net/raw/loader_1038"))()
 end)
 
@@ -18165,12 +18190,19 @@ end)
 
 
 local Section = Tab:NewSection("Ultra Power Tycoon")
+Section:NewButton("Ultra Power Tycoon Gui 1 (New)", "Yea super power", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/PunyGbriel/ScriptUltraPowerTycoon/main/BEESUltraPowerTycoon.txt"))()
+end)
 
-Section:NewButton("Ultra Power Tycoon", "Yea super power", function()
+Section:NewButton("Ultra Power Tycoon Gui 2 (New)", "Yea super power", function()
+loadstring(game:HttpGet("https://bit.ly/3cWNFwd"))()
+end)
+
+Section:NewButton("Ultra Power Tycoon Gui 1 (Old)", "Yea super power", function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/anisnouacer1/My-Roblox-Scripts/main/Ultra%20Power%20Tycoon.lua"))()
 end)
 
-Section:NewButton("Ultra Power Tycoon Gui 2(New)", "aweesoe", function()
+Section:NewButton("Ultra Power Tycoon Gui 2 (Old)", "aweesoe", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/6UwPt11f"))()
 end)
 
@@ -18178,29 +18210,15 @@ end)
 
 
 local Section = Tab:NewSection("Animal Simulator")
-
-Section:NewButton("Animal Simulator GUI 1", "No info idk", function()
-       loadstring(game:HttpGet('https://raw.githubusercontent.com/LeftOnReadInvalid/RobloxStuff/main/Animal%20Simulator%20GUI', true))()
+Section:NewButton("Animal Sim GUI 1 (New)", "No info idk", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CrowzScripts/AnimalSim/main/CrowOnTop"))()
 end)
 
-Section:NewButton("AutoFarm(New)", "ohh Really", function()
-while true do
-local args = {
-    [1] = workspace.Eggs.Egg7
-}
- 
-game:GetService("ReplicatedStorage").EggEvent:FireServer(unpack(args))
- 
-local args = {
-    [1] = workspace.Treasures.Treasure1
-}
- 
-game:GetService("ReplicatedStorage").TreasureEvent:FireServer(unpack(args))
-wait(0.1)
-end
+Section:NewButton("Animal Simulator GUI 1 (Old)", "No info idk", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/LeftOnReadInvalid/RobloxStuff/main/Animal%20Simulator%20GUI', true))()
 end)
 
-Section:NewButton("Animal simulator GUI 3(New)", "Awesommee", function()
+Section:NewButton("Animal simulator GUI 2 (Old)", "Awesommee", function()
 -- By DevSenpai Small Exploit Script Developer
 -- join SenpaiScript Discord Group his my Friend https://discord.gg/xjTMBJe6tg
 
@@ -18287,12 +18305,19 @@ end)
 
 
 local Section = Tab:NewSection("Slap Battle")
+Section:NewButton("Slap Battle Gui 1 (New)", "?", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/dizyhvh/rbx_scripts/main/dizzy_hub/scripts/slap_battles.lua"))()
+end)
 
-Section:NewButton("Slap Battle Gui 1(New)", "DizzyHub", function()
+Section:NewButton("Slap Battle Gui 2 (New)", "?", function()
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/cheesynob39/R20-EXPLOITER/main/Slap_Battles.lua")))()
+end)
+
+Section:NewButton("Slap Battle Gui 1 (Old)", "DizzyHub", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/dizyhvh/slap_battles_gui/main/0.lua"))()
 end)
 
-Section:NewButton("Slap Battle Gui 2(New)", "old but good i think", function()
+Section:NewButton("Slap Battle Gui 2 (Old)", "old but good i think", function()
 local library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/AikaV3rm/UiLib/master/Lib.lua')))()
 local w = library:CreateWindow("by Thwartedbrute#5028 & dizy#5334")
 
@@ -18816,9 +18841,14 @@ workspace[Player].Ragdolled:Destroy()
 end)
 
 
-local Section = Tab:NewSection("AnimeFighter")
-
-Section:NewButton("AnimeFighterSimulator 1", "Op Yea", function()
+local Section = Tab:NewSection("AnimeFighter Simulator")
+Section:NewButton("AnimeFighter 1 (New)", "Op Yea", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/M4tr1x01/luascripts/main/solohub.lua"))()
+end)
+Section:NewButton("AnimeFighter 2 (New)", "Op Yea", function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/HeyyyRappp/HeyyyRappp/main/swhubloader/Loader.lua/matthewpogi/trishacheater')))()
+end)
+Section:NewButton("AnimeFighter 1 (Old)", "Op Yea", function()
 game.StarterGui:SetCore("SendNotification", {
     Title = "Subscribe To xMiles_Games";
     Text = "Subscribe For More Scripts"; -- what the text says (ofc)
@@ -18829,33 +18859,38 @@ loadstring(game:HttpGet(('https://raw.githubusercontent.com/XTheMasterX/Scripts/
 end)
 
 
-Section:NewButton("AnimeFighter 2", "Op Yea", function()
+Section:NewButton("AnimeFighter 2 (Old)", "Op Yea", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Shisobad/new/main/script.lua"))()
 end)
 
-Section:NewButton("AnimeFighter 3", "Op Yea", function()
+Section:NewButton("AnimeFighter 3 (Old)", "Op Yea", function()
 loadstring(game.HttpGet(game, "https://raw.githubusercontent.com/KiJinGaming/FreeScript/main/KJHub.lua"))(); 
 end)
 
-Section:NewButton("AnimeFighter 4(New)", "yeee", function()
+Section:NewButton("AnimeFighter 4 (Old)", "yeee", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
 end)
 
-Section:NewButton("AnimeFighter 5(New)", "", function()
+Section:NewButton("AnimeFighter 5 (Old)", "", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Kaizenofficiall/ZenHub/main/Loader", true))()
 end)
 
 
 
 local Section = Tab:NewSection("Shindo Life")
+Section:NewButton("Shindo Life Gui 1 (New)","?", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NukeVsCity/TheALLHACKLoader/main/NukeLoader"))()
+end)
 
+Section:NewButton("Shindo Life Gui 2 (New)","?", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Corrupt2625/Revamps/main/SpyHub.lua"))()
+end)
 
-Section:NewButton("Shindo Life Gui 1", "Anime Always", function()
+Section:NewButton("Shindo Life Gui 1 (Old)","Anime Always", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/PremierHub/Data/main/code.lua"))()
 end)
 
-
-Section:NewButton("Shindo Life Gui 2", "Anime Always", function()
+Section:NewButton("Shindo Life Gui 2 (Old)", "Anime Always", function()
 local library = loadstring(game:HttpGet("https://pastebin.com/raw/GAGA5H8t"))();
 
 local Gamer = library:CreateSection("Shindo Life");
@@ -18892,58 +18927,74 @@ end)
 library:Ready();
 end)
 
-Section:NewButton("Shindo Life Gui 3", "New 3 days old lol", function()
+Section:NewButton("Shindo Life Gui 3 (Old)", "New 3 days old lol", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/SxnwDev/Premier/main/Free-Premier.lua", true))()
 end)
 
 
 
 local Section= Tab:NewSection("Clicker Simulator")
-
-Section:NewButton("Clicker Simulator 1", "Click Fast", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Kederal/script.gg/main/loader.lua"))()
+Section:NewButton("Clicker Simulator 1 (New)", "Click Fast", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/YdfYvekX"))()
 end)
-
-Section:NewButton("Clicker Simulator 2", "Clicker Bitch", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/ExtremeAntonis/KeySystemUI/main/KeySystemUI-Obfuscated.lua"))()
-end)
-
-Section:NewButton("Clicker Simulator 3(New)", "Normal idk gui", function()
+Section:NewButton("Clicker Simulator 2 (New)", "Click Fast", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Kaizenofficiall/ZenHub/main/Loader", true))()
 end)
 
-Section:NewButton("Clicker Simulator 4(New)", "idk ", function()
+Section:NewButton("Clicker Simulator 1 (Old)", "Click Fast", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Kederal/script.gg/main/loader.lua"))()
+end)
+
+Section:NewButton("Clicker Simulator 2 (Old)", "Clicker Bitch", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ExtremeAntonis/KeySystemUI/main/KeySystemUI-Obfuscated.lua"))()
+end)
+
+Section:NewButton("Clicker Simulator 3 (Old)", "Normal idk gui", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Kaizenofficiall/ZenHub/main/Loader", true))()
+end)
+
+Section:NewButton("Clicker Simulator 4 (old)", "idk ", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ExtremeAntonis/KeySystemUI/main/KeySystemUI-Obfuscated.lua"))()
 end)
 
 
 local Section = Tab:NewSection("Pls Donate")
-
-Section:NewButton("Pls Donate Gui 1", "Boi you poor.. oh im sorry", function()
+Section:NewButton("Pls Donate Gui 1 (New)", "?", function()
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/o5u3/PLS-Donate/main/Fake-Donate.lua")))()
+end)
+Section:NewButton("Pls Donate Gui 2 (New)", "?", function()
+loadstring(game:HttpGet('https://tubhub.cloud/scripts/prettyplease.lua', false))()
+end)
+Section:NewButton("Pls Donate Gui 3 (New)", "?", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CF-Trail/tzechco-PlsDonateAutofarmBackup/main/autofarm"))()
+end)
+Section:NewButton("Pls Donate Gui 1 (Old)", "Boi you poor.. oh im sorry", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/NocturneMoDz/PLEASE-DONATE-NEW-GUI-/main/METAB"))();
 end)
 
-Section:NewButton("Pls Donate Gui 2", "Lol Poor but new gui", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/NocturneMoDz/PLEASE-DONATE-BOOTH-/main/METAB"))()
-end)
+
 
 
 
 local Section = Tab:NewSection("One Piece")
+Section:NewButton("One piece Gui 1 (New)","?",function()
+repeat wait() until game:IsLoaded()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LioK251/RbScripts/main/lazyhub.lua"))()
+end)
 
-Section:NewButton("One piece 1", "Luffy,Zoro,Sanji,Usopp", function()
+Section:NewButton("One piece 1 (Old)", "Luffy,Zoro,Sanji,Usopp", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptpastebin/raw/main/32"))()
 end)
 
-Section:NewButton("One Piece 2", "Pirate king lol", function()
+Section:NewButton("One Piece 2 (Old)", "Pirate king lol", function()
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/Urbanstorms/Cool-things/main/A%200ne%20Piece%20Game.lua'),true))()
 end)
 
-Section:NewButton("One piece Gui 3(New)", "Normal Gui lol", function()
+Section:NewButton("One piece Gui 3 (Old)", "Normal Gui lol", function()
 loadstring(game:HttpGet("https://rawscripts.net/raw/loader_1038"))()
 end)
 
-Section:NewButton("One Piece Gui 4(New)", "Easy", function()
+Section:NewButton("One Piece Gui 4 (Old)", "Easy", function()
 -- Made by: Uzu#8575
 -- Join his discord server: https://discord.gg/Wr223Z9ghE
 loadstring(game:HttpGet("https://rawscripts.net/raw/loader_1038"))()
@@ -18953,12 +19004,42 @@ end)
 
 
 local Section = Tab:NewSection("Raise A Floppa")
+Section:NewButton("Raise a floppa Gui 1 (New)","?",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/tip52/Leo-hub/main/loader.lua"))()
+end)
+Section:NewButton("Raise a floppa Gui 2 (New)","?",function()
+--Game Name : raise a floppa ðŸ”‘
+--Game Link : https://www.roblox.com/games/9203864304
+--[[Script Options :
+	[+] Auto Click Floppa
+	[+] Auto Collect Money
+	[+] Auto Request Rent
+	[+] Auto Request Raise
+	[+] Auto Buy
+	[+] Instant Max Alter
+	[+] Auto Praise Alter
+	[+] Auto Feed Floppa
+	[+] Auto Feed Baby Floppas
+	[+] Auto Clean Floppa Poop
+	[+] Auto Fertalize Cat Nip Plant
+	[+] Teleport to Backroom
+	[+] Bingus ESP
+]]
 
-Section:NewButton("Raise a Floppa Gui 1", "Feed cat", function()
+--Script :
+_G.RedGUI = true
+_G.Theme = "Dark" -- Must disable or remove _G.RedGUI to use
+--Themes: Light, Dark, Mocha, Aqua and Jester
+_G.V3rmillion = true
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/raiseafloppa.lua"))()
+end)
+
+Section:NewButton("Raise a Floppa Gui 1 (Old)", "Feed cat", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/SunkenMuch/Soggyware/main/Main',true))()
 end)
 
-Section:NewButton("Raise a Floppa Gui 2", "Belgua lol", function()
+Section:NewButton("Raise a Floppa Gui 2 (Old)", "Belgua lol", function()
    local Library =
    loadstring(game:HttpGet("https://raw.githubusercontent.com/preztel/AzureLibrary/master/uilib.lua", true))()
 
@@ -19041,14 +19122,14 @@ AutoTab:CreateButton(
 )
 end)
 
-Section:NewButton("Raise a Floppa Gui 3(New)", "idk what to say lol", function()
+Section:NewButton("Raise a Floppa Gui 3 (Old)", "idk what to say lol", function()
 loadstring(game:HttpGet("https://cheeseskid.tk/shit/theflopdontstop.lua",true))()
 end)
 
 
 local Section = Tab:NewSection("My Kingdom")
 
-Section:NewButton("My Kingdom Infinite Money", "No your rich", function()
+Section:NewButton("Infinite Money (Old)", "No your rich", function()
 --// Created by Ezpi#0474 \\--
 
 --// Settings \\--
@@ -19079,19 +19160,29 @@ end)
 
 local Section = Tab:NewSection("Shrek in Backroom")
 
-Section:NewButton("Shrek in Backroom Gui 1", "Shrekkkk", function()
+Section:NewButton("Shrek in Backroom Gui 1 (New)","?",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Insanxty/pi/main/sherk", true))()
+end)
+
+Section:NewButton("Shrek in Backroom Gui 1 (Old)", "Shrekkkk", function()
 loadstring(game:HttpGet("\104\116\116\112\115\58\47\47\112\97\115\116\101\98\105\110\46\99\111\109\47\114\97\119\47\110\106\120\66\100\102\67\76\10"))()
 end)
 
-Section:NewButton("Shrek in Backroom Gui 2(New)", "Damn why this game", function()
+Section:NewButton("Shrek in Backroom Gui 2 (Old)", "Damn why this game", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/beliveri12/BeluseHub/main/Loader.lua', true))()
 end)
 
 
 
 local Section = Tab:NewSection("Starving Artist")
+Section:NewButton("Artist Gui 1 (New)","?",function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/rblxscriptsnet/unfair/main/rblxhub.lua'),true))()
+end)
+Section:NewButton("Artist Gui 2 (New)","Key: 1133282",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/YellowGreg/Loadstring/main/StarvingArt.lua"))()
+end)
 
-Section:NewButton("Steal Art(New)", "Bruh you bad at drawing i guess", function()
+Section:NewButton("Steal Art (Old)", "Bruh you bad at drawing i guess", function()
 Timer = true --false if you dont wanna timer
 
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/anisnouacer1/My-Roblox-Scripts/main/Starving%20Artist%20%5BNew%5D.lua')))()
@@ -19099,12 +19190,14 @@ end)
 
 
 local Section = Tab:NewSection("Be A parkour Ninja")
-
-Section:NewButton("Be a Parkour Gui 1", "op", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Min1273/n-to/main/README.md"))()
+Section:NewButton("Be a Parkour Gui 1 (New)", "op", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/zAuR0JUT"))()
+end)
+Section:NewButton("Be a Parkour Gui 2 (New)", "Key: 96b5ef6e00-8ff6683644-00beaf24cd", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NooVster/NOOVHUB/main/Source"))()
 end)
 
-Section:NewButton("Be a Parkour HitBox(New)", "Bro Mobile Hitbox lol", function()
+Section:NewButton("Be a Parkour HitBox (Old)", "Bro Mobile Hitbox lol", function()
 local InfiniteJumpEnabled = true
 game:GetService("UserInputService").JumpRequest:connect(function()
 	if InfiniteJumpEnabled then
@@ -19150,7 +19243,7 @@ end
 end)
 end)
 
-Section:NewButton("Be a parkour Auto Kill(New)", "Teleport Oh", function()
+Section:NewButton("Be a parkour Auto Kill (Old)", "Teleport Oh", function()
 spawn(function()
  while task.wait() do
 pcall(function()
@@ -19194,51 +19287,72 @@ end)
 
 local Section = Tab:NewSection("Monster Ghoul")
 
-Section:NewButton("Monster Ghoul Gui 1(old)", "Tokoy Ghoul i think", function()
+Section:NewButton("Monster Ghoul Gui 1 (Old)", "Tokoy Ghoul i think", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/itsyouranya/free/main/monsterghoul.lua"))()
 end)
 
-Section:NewButton("Monster Ghoul Gui 2(old)", "Im a joke", function()
+Section:NewButton("Monster Ghoul Gui 2 (Old)", "Im a joke", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/itsyouranya/free/main/monsterghoul.lua", true))()
 end)
 
 
 local Section = Tab:NewSection("Mining Simulator 2")
-
-Section:NewButton("MiningSim2 AutoFarm(old)", "New lol", function()
+Section:NewButton("MiningSim2 Gui 1 (New)","key: PJL_981273hAKPmaspio128KAmsaplLapmmasA",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ProjectLightningDev/Project-Lightning-Loader/main/Loader.Lua"))()
+end)
+Section:NewButton("MiningSim2 Gui 2 (New)","?",function()
+loadstring(game:HttpGet("https://soggy-ware.cf"))()
+end)
+Section:NewButton("MiningSim2 AutoFarm (Old)", "New lol", function()
 getgenv().Chests = {
 'Legendary';
 'Epic';
 }
 loadstring(game:HttpGet'https://github.com/RunDTM/miningsim2/raw/main/serverhop.lua')()
 end)
-
-Section:NewButton("MiningSim2 Gui 1(old)", "new", function()
+Section:NewButton("MiningSim2 Gui 1 (Old)", "new", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/MaGiXxScripter/Cum-Hub/main/loader'))()
 end)
-
-Section:NewButton("MiningSim2 Gui 2(old)", "Kinda old lol", function()
+Section:NewButton("MiningSim2 Gui 2 (Old)", "Kinda old lol", function()
 _G.key = "aMoGuS" 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/NukeVsCity/TheALLHACKLoader/main/NukeLoader"))()
 end)
-
-Section:NewButton("MiningSim2 Gui 3(old)", "New", function()
+Section:NewButton("MiningSim2 Gui 3 (Old)", "New", function()
 loadstring(game:HttpGet'https://raw.githubusercontent.com/RunDTM/miningsim2/main/rewrite.lua')()
 end)
-
-Section:NewButton("MiningSim2 Gui 4(old)", "idk what to say", function()
+Section:NewButton("MiningSim2 Gui 4 (Old)", "idk what to say", function()
 loadstring(game:HttpGet'https://github.com/RunDTM/miningsim2/raw/main/script.lua')()
 end)
 
 
 
 local Section = Tab:NewSection("Zombie Attack")
-
-Section:NewButton("Zombie Attack 1(old)", "Zombiiee lol", function()
+Section:NewButton("Zombie Attack Gui [Key: N1LmKwD7jpbxadf](New)","?",function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/zeuise0002/SSSWWW222/main/README.md'),true))()
+end)
+Section:NewButton("Zombie Attack Gui 2 (New(","?",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/YellowGreg/Zombie-Attack-Gui/main/Zombie%20Attack%20V1.lua"))()
+end)
+Section:NewButton("Zombie Attack Gui 3 (New)","?",function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+end)
+Section:NewButton("Zombie Attack Gui 4 (New)","?",function()
+loadstring(game:HttpGet("https://www.klgrth.io/paste/g4h99/raw"))()
+end)
+Section:NewButton("Zombie Attack Gui 5 (New)","?",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/anisnouacer1/My-Roblox-Scripts/main/Zombie%20Attack.lua"))()
+end)
+Section:NewButton("Big Head Gui 6 (New)","?",function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/xSyon/ZombieAttack/main/engine.lua'),true))()
+end)
+Section:NewButton("AutoFarm Gui 7 (New)","?",function()
+loadstring(game:HttpGet("https://pastebin.com/raw/LUprkdQC", true))()
+end)
+Section:NewButton("Zombie Attack 1 (Old)", "Zombiiee lol", function()
     loadstring(game:HttpGet('https://ghost-storage.7m.pl/scripts/ghosthublauncher.lua'))()
 end)
 
-Section:NewButton("Zombie Attack 2(old)", "Kinda old but Op", function()
+Section:NewButton("Zombie Attack 2 (Old)", "Kinda old but Op", function()
 -- Made by TeamPoison --
 -- V3rmillion: T3aMp0isoN --
 -- Discord: Brother Omar#9562 --
@@ -19762,47 +19876,47 @@ end)
 
 local Section = Tab:NewSection("Bulked Up")
 
-Section:NewButton("Bulked Up AutoFarm(old)", "Collect Gem idiot", function()
+Section:NewButton("Bulked Up AutoFarm (old)", "Collect Gem idiot", function()
     loadstring(game:HttpGet(("https://dosage.wtf/files/bulkedup.lua"), true))()
 end)
 
 
 local Section = Tab:NewSection("Break In")
-Section:NewButton("Break In Gui 1(New)","?",function()
+Section:NewButton("Break In Gui 1 (New)","?",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/TrixAde/Proxima-Hub/main/Main.lua"))()
 end)
-Section:NewButton("Break In Gui 2(New)","?",function()
+Section:NewButton("Break In Gui 2 (New)","?",function()
 loadstring(game:HttpGet("https://pastebin.com/raw/kizK33QB"))()
 end)
-Section:NewButton("Break In Gui 3(New)","?",function()
+Section:NewButton("Break In Gui 3 (New)","?",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/megamoeus/HHubmega/master/BreakIn", true))()
 end)
-Section:NewButton("Break In Gui 1(Old)", "I don't play this game", function()
+Section:NewButton("Break In Gui 1 (Old)", "I don't play this game", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/RubyBoo4life/break-in-v1/main/.gitignore"))();
 end)
 
-Section:NewButton("Break in Gui 2(Old)", "Bruh", function()
+Section:NewButton("Break in Gui 2 (Old)", "Bruh", function()
 loadstring(game:HttpGet(('https://pastebin.com/raw/MHx8q6xP'),true))()
 end)
 
 
 local Section = Tab:NewSection("Adopt Me")
-Section:NewButton("Adopt Me Gui AutoFarm(New)","?",function()
+Section:NewButton("Adopt Me Gui AutoFarm (New)","?",function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/KodaLINEN/LFAM/main/auto'))()
 end)
-Section:NewButton("Adopt Me Gui(New)","?",function()
+Section:NewButton("Adopt Me Gui (New)","?",function()
 loadstring(game:HttpGet(('https://gitfront.io/r/ReQiuYTPL/wFUydaK74uGx/hub/raw/ReQiuYTPLHub.lua'),true))()
 end)
-Section:NewButton("Adopt Me Gui 2(New)","?",function()
+Section:NewButton("Adopt Me Gui 2 (New)","?",function()
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/Cospog-Scripts/shnigelutils/main/mainLoader.lua'),true))()
 end)
-Section:NewButton("Adopt Me Gui 3(New)","?",function()
+Section:NewButton("Adopt Me Gui 3 (New)","?",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/BloxiYT/Diamond/main/AdoptMe"))()
 end)
-Section:NewButton("Adopt Me Get Pet(New)","?",function()
+Section:NewButton("Adopt Me Get Pet (New)","?",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/lf4d7/daphie/main/ame.lua"))()
 end)
-Section:NewButton("Adopt Me AutoFarm(Old)", "New and Op", function()
+Section:NewButton("Adopt Me AutoFarm (Old)", "New and Op", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/BloxiYT/Diamond/main/AdoptMe"))()
 end)
 
@@ -24790,17 +24904,16 @@ end
 end)
 end)
 
-Section:NewToggle("Infinite Jump","Activates Infinite Jump ( toggle )",function(state)
-if state then
-		local InfJump = {["Enabled"] = true}
-		connectioninfjump = uis.JumpRequest:connect(function(jump)
-			if InfJump["Enabled"] then
-				lplr.Character:FindFirstChildOfClass'Humanoid':ChangeState("Jumping")
-			end
-		end)
-	else
-		connectioninfjump:Disconnect()
-	end
+local InfiniteJumpEnabled;
+Section:NewToggle("Infinite Jump", "By toggling this you can jump infinitely.", function(State)
+    InfiniteJumpEnabled = State
+end)
+
+local Player = game:GetService("Players").LocalPlayer
+game:GetService("UserInputService").JumpRequest:Connect(function()
+     if InfiniteJumpEnabled then
+         Player.Character:WaitForChild("Humanoid"):ChangeState("Jumping")
+     end
 end)
 
 
@@ -24811,6 +24924,79 @@ Section:NewToggle("Gravity", "WOW", function(state)
     else
         game.Workspace.Gravity = 196
     end
+end)
+
+
+
+
+local Section = Tab:NewSection("For Games")
+Section:NewButton("Fly V2", "Makes you Fly", function()
+ loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\40\39\104\116\116\112\115\58\47\47\103\105\115\116\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\109\101\111\122\111\110\101\89\84\47\98\102\48\51\55\100\102\102\57\102\48\97\55\48\48\49\55\51\48\52\100\100\100\54\55\102\100\99\100\51\55\48\47\114\97\119\47\101\49\52\101\55\52\102\52\50\53\98\48\54\48\100\102\53\50\51\51\52\51\99\102\51\48\98\55\56\55\48\55\52\101\98\51\99\53\100\50\47\97\114\99\101\117\115\37\50\53\50\48\120\37\50\53\50\48\102\108\121\37\50\53\50\48\50\37\50\53\50\48\111\98\102\108\117\99\97\116\111\114\39\41\44\116\114\117\101\41\41\40\41\10\10")()
+end)
+Section:NewToggle("Fly Script", "?", function(g)
+loadstring(game:HttpGet("https://pastebin.com/raw/gaz0U0XX"))();
+end)
+Section:NewButton("Xray(Need Keyboard and press E)", "WallXray lol", function()
+local xrayHotkey = Enum.KeyCode.E                                                                 
+local uis = game:GetService("UserInputService")
+local xrayOn = false
+uis.InputBegan:Connect(function(inp, processed)
+	if processed then return end
+	if inp.KeyCode == xrayHotkey then
+		xrayOn = not xrayOn
+		for i, descendant in pairs(workspace:GetDescendants()) do
+			if descendant:IsA("BasePart") then
+				if xrayOn then
+					if not descendant:FindFirstChild("OriginalTransparency") then
+						local originalTransparency = Instance.new("NumberValue")
+						originalTransparency.Name = "OriginalTransparency"
+						originalTransparency.Value = descendant.Transparency
+						originalTransparency.Parent = descendant
+					end
+					descendant.Transparency = 0.5
+				else
+					descendant.Transparency = descendant.OriginalTransparency.Value
+				end
+			end
+		end
+	end
+end)
+end)
+Section:NewButton("Turn-On NoClip","?", function()
+    local noclip = true 
+	char = game.Players.LocalPlayer.Character 
+	while true do 
+	if noclip == true then 
+	for _,v in pairs(char:children()) do 
+	pcall(function() if 
+	v.className == "Part" then 
+	v.CanCollide = false elseif 
+	v.ClassName == "Model" then 
+	v.Head.CanCollide = false 
+	end 
+	end) 
+	end 
+	end 
+	game:service("RunService").Stepped:wait() 
+	end
+end)
+Section:NewButton("Turn-Off NoClip","?", function()
+    local noclip = false
+	char = game.Players.LocalPlayer.Character 
+	while true do 
+	if noclip == false then 
+	for _,v in pairs(char:children()) do 
+	pcall(function() if 
+	v.className == "Part" then 
+	v.CanCollide = true elseif 
+	v.ClassName == "Model" then 
+	v.Head.CanCollide = true
+	end 
+	end) 
+	end 
+	end 
+	game:service("RunService").Stepped:wait() 
+	end
 end)
 
 
@@ -25233,72 +25419,7 @@ end
 end
 end)
 
-local Section = Tab:NewSection("For Games")
-Section:NewButton("Fly V2", "Makes you Fly", function()
- loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\40\39\104\116\116\112\115\58\47\47\103\105\115\116\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\109\101\111\122\111\110\101\89\84\47\98\102\48\51\55\100\102\102\57\102\48\97\55\48\48\49\55\51\48\52\100\100\100\54\55\102\100\99\100\51\55\48\47\114\97\119\47\101\49\52\101\55\52\102\52\50\53\98\48\54\48\100\102\53\50\51\51\52\51\99\102\51\48\98\55\56\55\48\55\52\101\98\51\99\53\100\50\47\97\114\99\101\117\115\37\50\53\50\48\120\37\50\53\50\48\102\108\121\37\50\53\50\48\50\37\50\53\50\48\111\98\102\108\117\99\97\116\111\114\39\41\44\116\114\117\101\41\41\40\41\10\10")()
-end)
-Section:NewButton("Xray(Need Keyboard and press E)", "WallXray lol", function()
-local xrayHotkey = Enum.KeyCode.E                                                                 
-local uis = game:GetService("UserInputService")
-local xrayOn = false
-uis.InputBegan:Connect(function(inp, processed)
-	if processed then return end
-	if inp.KeyCode == xrayHotkey then
-		xrayOn = not xrayOn
-		for i, descendant in pairs(workspace:GetDescendants()) do
-			if descendant:IsA("BasePart") then
-				if xrayOn then
-					if not descendant:FindFirstChild("OriginalTransparency") then
-						local originalTransparency = Instance.new("NumberValue")
-						originalTransparency.Name = "OriginalTransparency"
-						originalTransparency.Value = descendant.Transparency
-						originalTransparency.Parent = descendant
-					end
-					descendant.Transparency = 0.5
-				else
-					descendant.Transparency = descendant.OriginalTransparency.Value
-				end
-			end
-		end
-	end
-end)
-end)
-Section:NewButton("Turn-On NoClip","?", function()
-    local noclip = true 
-	char = game.Players.LocalPlayer.Character 
-	while true do 
-	if noclip == true then 
-	for _,v in pairs(char:children()) do 
-	pcall(function() if 
-	v.className == "Part" then 
-	v.CanCollide = false elseif 
-	v.ClassName == "Model" then 
-	v.Head.CanCollide = false 
-	end 
-	end) 
-	end 
-	end 
-	game:service("RunService").Stepped:wait() 
-	end
-end)
-Section:NewButton("Turn-Off NoClip","?", function()
-    local noclip = false
-	char = game.Players.LocalPlayer.Character 
-	while true do 
-	if noclip == true then 
-	for _,v in pairs(char:children()) do 
-	pcall(function() if 
-	v.className == "Part" then 
-	v.CanCollide = false elseif 
-	v.ClassName == "Model" then 
-	v.Head.CanCollide = false 
-	end 
-	end) 
-	end 
-	end 
-	game:service("RunService").Stepped:wait() 
-	end
-end)
+
 
 
 
@@ -25309,6 +25430,253 @@ end)
 
 
 local Tab = Window:NewTab("Setting")
+local Section = Tab:NewSection("Better Roblox")
+Section:NewButton("Custom Roblox UI","?",function()
+getgenv().DisableWebhook = true
+loadstring(game:HttpGet("https://eternityhub.xyz/BetterRoblox/Loader"))()
+end)
+Section:NewButton("Custom Volume","?",function()
+if not game:IsLoaded() then game.Loaded:Wait() end
+
+local plr = game.Players.LocalPlayer
+local m = plr:GetMouse()
+local us = game:GetService("UserInputService")
+
+local function fiximage(id)
+   return string.format("rbxthumb://type=Asset&id=%s&w=420&h=420",tonumber(id))
+end
+
+local rblxgui = game.CoreGui:WaitForChild("RobloxGui")
+local shield = rblxgui:WaitForChild("SettingsShield"):WaitForChild("SettingsShield")
+local pageview = shield:WaitForChild("MenuContainer"):WaitForChild("PageViewClipper"):WaitForChild("PageView"):WaitForChild("PageViewInnerFrame")
+local volsound = rblxgui:WaitForChild("Sounds"):WaitForChild("VolumeChangeSound")
+
+local settings = pageview:FindFirstChild("Page")
+
+if not settings then
+   local addedcon
+   addedcon = pageview.ChildAdded:Connect(function(page)
+       if page.Name == "Page" then
+           settings = page
+           addedcon:Disconnect()
+       end
+   end)
+   
+   repeat task.wait() until settings
+end
+
+local volume = settings:WaitForChild("VolumeFrame")
+volume:WaitForChild("Slider"):Destroy()
+
+local slider = Instance.new("Frame")
+slider.AnchorPoint = Vector2.new(1,0.5)
+slider.BackgroundTransparency = 1
+slider.Position = UDim2.new(1,0,0.5,0)
+slider.Size = UDim2.new(0.6,0,1,0)
+slider.Name = "Slider"
+
+local bar = Instance.new("ImageLabel",slider)
+bar.AnchorPoint = Vector2.new(0.5,0.5)
+bar.BackgroundTransparency = 1
+bar.Position = UDim2.new(0.5,0,0.5,0)
+bar.Size = UDim2.new(0.95,0,0.7,0)
+bar.ImageColor3 = Color3.fromRGB(78,84,96)
+bar.Image = fiximage(6755657364)
+bar.ScaleType = Enum.ScaleType.Slice
+bar.SliceCenter = Rect.new(210,210,210,210)
+
+local fill = bar:Clone()
+fill.AnchorPoint = Vector2.new(0,0)
+fill.ImageColor3 = Color3.fromRGB(0,162,255)
+fill.Position = UDim2.new(0,0,0,0)
+fill.Size = UDim2.new(1,0,1,0)
+fill.Parent = bar
+
+local gradient = Instance.new("UIGradient",fill)
+gradient.Color = ColorSequence.new(Color3.fromRGB(135,200,200))
+gradient.Transparency = NumberSequence.new({
+   NumberSequenceKeypoint.new(0,0),
+   NumberSequenceKeypoint.new(0.9999,0),
+   NumberSequenceKeypoint.new(1,1)
+})
+
+local button = Instance.new("TextButton",slider)
+button.ZIndex = 10
+button.BackgroundTransparency = 1
+button.Size = UDim2.new(1,0,1,0)
+button.Font = Enum.Font.SourceSans
+button.TextColor3 = Color3.fromRGB(255,255,255)
+button.TextSize = 26
+
+local uset = UserSettings():GetService("UserGameSettings")
+local roundamount = 5
+
+local oldval = uset.MasterVolume
+function update(percent)
+   local trueround = roundamount/100
+   local p = math.round(percent/trueround)*trueround
+   
+   gradient.Offset = Vector2.new(p-1,0)
+   uset.MasterVolume = p
+   button.Text = math.round(p*100) .."%"
+   
+   local diff = uset.MasterVolume - oldval
+   
+   if diff ~= 0 then
+       volsound:Play()
+   end
+   oldval = uset.MasterVolume
+end
+
+function setslider()
+   local abpos = bar.AbsolutePosition.X
+   local absize = bar.AbsoluteSize.X
+   local x = m.X
+   
+   local p = math.clamp((x-abpos)/(absize),0,1)
+   update(p)
+end
+update(uset.MasterVolume)
+
+local holding = false
+button.MouseButton1Down:Connect(function()
+   setslider()
+   holding = true
+end)
+
+us.InputEnded:Connect(function(key,pro)
+   if key.UserInputType == Enum.UserInputType.MouseButton1 then
+       holding = false
+   end
+end)
+
+volsound.Volume = 1
+
+m.Move:Connect(function()
+   if holding then
+       setslider()
+   end
+end)
+
+slider.Parent = volume
+end)
+Section:NewButton("Custom Inventory","?",function()
+local plr = game.Players.LocalPlayer
+local backpack = game.CoreGui:WaitForChild("RobloxGui"):WaitForChild("Backpack")
+local rs = game:GetService("RunService")
+local ts = game:GetService("TweenService")
+
+local function fiximage(id)
+   return string.format("rbxthumb://type=Asset&id=%s&w=420&h=420",tonumber(id))
+end
+
+function textbounds(str,fontsize,font,size)
+   return game:GetService("TextService"):GetTextSize(str,fontsize,font,size)
+end
+
+function style(v,equippable)
+   local bg = Instance.new("ImageLabel")
+   local tool
+   bg.Size = UDim2.new(0.9,0,0.9,0)
+   bg.AnchorPoint = Vector2.new(0.5,0.5)
+   bg.Position = UDim2.new(0.5,0,0.5,0)
+   bg.BackgroundTransparency = 1
+   bg.ImageTransparency = 0.4
+   bg.Image = fiximage(1215686062)
+   bg.ImageColor3 = Color3.fromRGB(0,0,0)
+   bg.ZIndex = -2
+   bg.Parent = v
+   v.BackgroundTransparency = 1
+   v.ToolName.Font = "Gotham"
+   Instance.new("UIStroke",v.ToolName)
+   
+   Instance.new("UIStroke",v.Number)
+   if equippable then
+       local tip = v:WaitForChild("ToolTip")
+       
+       v.Number.Font = "Gotham"
+       tip.Font = "Gotham"
+       tip.BackgroundColor3 = Color3.fromRGB(70,70,75)
+       tip.TextSize = 13
+       tip.RichText = true
+       
+       Instance.new("UIStroke",tip).ApplyStrokeMode = "Border"
+       Instance.new("UICorner",tip).CornerRadius = UDim.new(0,4)
+       
+       tip.Changed:Connect(function()
+           wait()
+           local size = textbounds(tip.Text,tip.TextSize,tip.Font,tip.AbsoluteSize)
+           tip.Size = UDim2.new(0,size.X+15,0,size.Y)
+       end)
+       
+       v.ChildAdded:Connect(function(sel)
+           rs.RenderStepped:Wait()
+           if sel.Name == "Equipped" then
+               ts:Create(bg,TweenInfo.new(0.1),{Size=UDim2.new(1,0,1,0)}):Play()
+               v.BackgroundTransparency = 1
+               sel.Visible = false
+               bg.ImageColor3 = Color3.fromRGB(10,130,255)
+               
+               sel:GetPropertyChangedSignal("Parent"):Wait()
+               bg.ImageColor3 = Color3.fromRGB(0,0,0)
+               ts:Create(bg,TweenInfo.new(0.1),{Size=UDim2.new(0.9,0,0.9,0)}):Play()
+           end
+       end)
+   end
+   
+   v.Changed:Connect(function()
+       v.BackgroundTransparency = 1
+   end)
+   
+   rs.RenderStepped:Connect(function()
+       if tool then
+           bg.ImageTransparency = (tool.Enabled and 0.4) or 0.7
+       else
+           tool = plr.Character:FindFirstChildOfClass("Tool")
+       end
+   end)
+end
+
+if not game:IsLoaded() then game.Loaded:Wait() end
+repeat wait() until game.Players.LocalPlayer
+plr = game.Players.LocalPlayer
+
+for i,v in pairs(backpack:WaitForChild("Hotbar"):GetChildren()) do
+   style(v,true)
+end
+
+local inv = backpack:WaitForChild("Inventory")
+local list = inv:WaitForChild("ScrollingFrame"):WaitForChild("UIGridFrame")
+local sr = inv:WaitForChild("Search")
+local t = sr:WaitForChild("TextBox")
+
+inv.BackgroundTransparency = 0.4
+inv.BackgroundColor3 = Color3.fromRGB(0,0,0)
+sr.BackgroundTransparency = 0.5
+t.Font = "Gotham"
+t.TextSize = 16
+
+Instance.new("UICorner",inv)
+Instance.new("UICorner",sr)
+
+t.Changed:Connect(function()
+   local empty = t.Text == "Search"
+   
+   if empty then
+       t.TextColor3 = Color3.fromRGB(195,195,195)
+   else
+       t.TextColor3 = Color3.fromRGB(255,255,255)
+   end
+end)
+
+list.ChildAdded:Connect(function(v)
+   rs.RenderStepped:Wait()
+   if v:IsA("TextButton") then
+       style(v,false)
+   end
+end)
+end)
+
 local Section = Tab:NewSection("Peformance")
 Section:NewButton("Anti Lag", "?", function()
 for ai,O in pairs(game:GetService("Workspace"):GetDescendants()) 
@@ -25422,6 +25790,356 @@ dofullbright()
 Light.LightingChanged:Connect(dofullbright)
 end)
 local Section = Tab:NewSection("Anti")
+Section:NewButton("Anti-Ban","?",function()
+-- This basically makes roblox unable to log your chat messages sent in-game. Meaning if you get reported for saying something bad, you won't get banned!
+-- Store in autoexec folder
+-- Credits: AnthonyIsntHere and ArianBlaack
+
+--[[
+    Change-logs:
+    8/22/2022 - Fixed Chat gui glitching on some games such as Prison Life.
+    9/30/2022 - Fixed chat gui glitching AGAIN... (added better checks too)
+    10/10/2022 - Added gethui() function and fix for Synapse v3.
+    11/11/2022 - Idk what happened but it stopped working... I fixed it though.
+]]--
+
+local ACL_LoadTime = tick()
+
+local ChatChanged = false
+local OldSetting = nil
+local WhitelistedCoreTypes = {
+    "Chat",
+    "All",
+    Enum.CoreGuiType.Chat,
+    Enum.CoreGuiType.All
+}
+
+local StarterGui = game:GetService("StarterGui")
+
+local FixCore = function(x)
+    local CoreHook; CoreHook = hookmetamethod(x, "__namecall", function(self, ...)
+        local Method = getnamecallmethod()
+        local Arguments = {...}
+        
+        if self == x and Method == "SetCoreGuiEnabled" and not checkcaller() then
+            local CoreType = Arguments[1]
+            local Enabled = Arguments[2]
+            
+            if table.find(WhitelistedCoreTypes, CoreType) and not Enabled then
+                if CoreType == ("Chat" or Enum.CoreGuiType.Chat) then
+                    OldSetting = Enabled
+                end
+                ChatChanged = true
+            end
+        end
+        
+        return CoreHook(self, ...)
+    end)
+    
+    x.CoreGuiChangedSignal:Connect(function(Type)
+        if table.find(WhitelistedCoreTypes, Type) and ChatChanged then
+            task.wait()
+            if not StarterGui:GetCoreGuiEnabled(Enum.CoreGuiType.Chat) then
+                x:SetCoreGuiEnabled(Enum.CoreGuiType.Chat, true)
+            end
+            wait(1)
+             if StarterGui:GetCoreGuiEnabled(Enum.CoreGuiType.Chat) then
+                x:SetCoreGuiEnabled(Enum.CoreGuiType.Chat, OldSetting) -- probably defaults to false i am too tired for the making of this lol
+            end
+            ChatChanged = false
+        end
+    end)
+end
+
+if StarterGui then
+    FixCore(StarterGui)
+    if not StarterGui:GetCoreGuiEnabled(Enum.CoreGuiType.Chat) then
+        StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.Chat, true)
+    end
+else
+    local Connection; Connection = game.ChildAdded:Connect(function(x)
+        if x:IsA("StarterGui") then
+            FixCore(x)
+            Connection:Disconnect()
+        end
+    end)
+end
+
+if not game:IsLoaded() then
+    game.Loaded:wait()
+end
+
+local CoreGui = game:GetService("CoreGui")
+local TweenService = game:GetService("TweenService")
+local Players = game:GetService("Players")
+
+local Player = Players.LocalPlayer
+
+local PlayerGui = Player:FindFirstChildWhichIsA("PlayerGui") do
+    if not PlayerGui then
+        repeat task.wait() until Player:FindFirstChildWhichIsA("PlayerGui")
+        PlayerGui = Player:FindFirstChildWhichIsA("PlayerGui")
+    end
+end
+
+local Notify = function(_Title, _Text , Time)
+    StarterGui:SetCore("SendNotification", {Title = _Title, Text = _Text, Icon = "rbxassetid://2541869220", Duration = Time})
+end
+
+local Tween = function(Object, Time, Style, Direction, Property)
+	return TweenService:Create(Object, TweenInfo.new(Time, Enum.EasingStyle[Style], Enum.EasingDirection[Direction]), Property)
+end
+
+local ACLWarning = Instance.new("ScreenGui")
+local Background = Instance.new("Frame")
+local Top = Instance.new("Frame")
+local Exit = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local WarningLbl = Instance.new("TextLabel")
+local Loading = Instance.new("Frame")
+local Bar = Instance.new("Frame")
+local WarningBackground = Instance.new("Frame")
+local WarningFrame = Instance.new("Frame")
+local Despair = Instance.new("TextLabel")
+local UIListLayout = Instance.new("UIListLayout")
+local Reason_1 = Instance.new("TextLabel")
+local Reason_2 = Instance.new("TextLabel")
+local Trollge = Instance.new("ImageLabel")
+local UIPadding = Instance.new("UIPadding")
+
+local MakeGuiThread = coroutine.wrap(function()
+    if syn then
+        if gethui then
+            gethui(ACLwarning)
+        else
+            syn.protect_gui(ACLWarning)
+        end
+    end
+    
+    ACLWarning.Name = "ACL Warning"
+    ACLWarning.Parent = CoreGui
+    ACLWarning.Enabled = false
+    ACLWarning.DisplayOrder = -2147483648
+    
+    Background.Name = "Background"
+    Background.Parent = ACLWarning
+    Background.AnchorPoint = Vector2.new(0.5, 0.5)
+    Background.BackgroundColor3 = Color3.fromRGB(21, 0, 0)
+    Background.BorderSizePixel = 0
+    Background.Position = UDim2.new(0.5, 0, 0.5, 0)
+    Background.Size = UDim2.new(0.300000012, 0, 0.5, 0)
+    
+    Top.Name = "Top"
+    Top.Parent = Background
+    Top.AnchorPoint = Vector2.new(0.5, 0.5)
+    Top.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
+    Top.BorderSizePixel = 0
+    Top.Position = UDim2.new(0.5, 0, 0.100000001, 0)
+    Top.Size = UDim2.new(0.899999976, 0, 0.100000001, 0)
+    
+    Exit.Name = "Exit"
+    Exit.Parent = Top
+    Exit.AnchorPoint = Vector2.new(0.5, 0.5)
+    Exit.BackgroundColor3 = Color3.fromRGB(38, 0, 0)
+    Exit.Position = UDim2.new(0.949999988, 0, 0.5, 0)
+    Exit.Size = UDim2.new(0.100000001, -6, 1, -9)
+    Exit.Visible = false
+    Exit.Font = Enum.Font.Arcade
+    Exit.Text = "X"
+    Exit.TextColor3 = Color3.fromRGB(255, 255, 255)
+    Exit.TextScaled = true
+    Exit.TextSize = 14.000
+    Exit.TextWrapped = true
+    
+    UICorner.CornerRadius = UDim.new(0.200000003, 0)
+    UICorner.Parent = Exit
+    
+    WarningLbl.Name = "WarningLbl"
+    WarningLbl.Parent = Top
+    WarningLbl.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    WarningLbl.BackgroundTransparency = 1.000
+    WarningLbl.Position = UDim2.new(0, 17, 0, 0)
+    WarningLbl.Size = UDim2.new(0.5, 0, 1, 0)
+    WarningLbl.Font = Enum.Font.Arcade
+    WarningLbl.Text = "Warning!"
+    WarningLbl.TextColor3 = Color3.fromRGB(255, 255, 255)
+    WarningLbl.TextScaled = true
+    WarningLbl.TextSize = 14.000
+    WarningLbl.TextWrapped = true
+    WarningLbl.TextXAlignment = Enum.TextXAlignment.Left
+    
+    Loading.Name = "Loading"
+    Loading.Parent = Top
+    Loading.AnchorPoint = Vector2.new(0.5, 0.5)
+    Loading.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
+    Loading.BorderSizePixel = 0
+    Loading.Position = UDim2.new(0.699999988, 0, 0.5, 0)
+    Loading.Size = UDim2.new(0.349999994, 0, 0.0199999996, 0)
+    
+    Bar.Name = "Bar"
+    Bar.Parent = Loading
+    Bar.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    Bar.BorderSizePixel = 0
+    Bar.Size = UDim2.new(0, 0, 1, 0)
+    
+    WarningBackground.Name = "WarningBackground"
+    WarningBackground.Parent = Background
+    WarningBackground.AnchorPoint = Vector2.new(0.5, 0.5)
+    WarningBackground.BackgroundColor3 = Color3.fromRGB(9, 9, 9)
+    WarningBackground.BorderSizePixel = 0
+    WarningBackground.Position = UDim2.new(0.5, 0, 0.550000012, 0)
+    WarningBackground.Size = UDim2.new(0.899999976, 0, 0.800000012, 0)
+    
+    WarningFrame.Name = "WarningFrame"
+    WarningFrame.Parent = WarningBackground
+    WarningFrame.AnchorPoint = Vector2.new(0.5, 0.5)
+    WarningFrame.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+    WarningFrame.BorderSizePixel = 0
+    WarningFrame.Position = UDim2.new(0.5, 0, 0.5, 0)
+    WarningFrame.Size = UDim2.new(0.899999976, 0, 0.899999976, 0)
+    
+    Despair.Name = "Despair"
+    Despair.Parent = WarningFrame
+    Despair.AnchorPoint = Vector2.new(0.5, 0.5)
+    Despair.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+    Despair.BackgroundTransparency = 1.000
+    Despair.BorderColor3 = Color3.fromRGB(27, 42, 53)
+    Despair.BorderSizePixel = 0
+    Despair.Position = UDim2.new(0.5, 0, 0.100000001, 0)
+    Despair.Size = UDim2.new(0.949999988, 0, 0.119999997, 0)
+    Despair.Font = Enum.Font.Oswald
+    Despair.Text = "Anti Chat Logger will not work here!"
+    Despair.TextColor3 = Color3.fromRGB(255, 255, 255)
+    Despair.TextScaled = true
+    Despair.TextSize = 50.000
+    Despair.TextWrapped = true
+    Despair.TextYAlignment = Enum.TextYAlignment.Top
+    
+    UIListLayout.Parent = WarningFrame
+    UIListLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+    UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+    UIListLayout.Padding = UDim.new(0, 15)
+    
+    Reason_1.Name = "Reason_1"
+    Reason_1.Parent = WarningFrame
+    Reason_1.AnchorPoint = Vector2.new(0.5, 0.5)
+    Reason_1.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+    Reason_1.BackgroundTransparency = 1.000
+    Reason_1.BorderColor3 = Color3.fromRGB(27, 42, 53)
+    Reason_1.BorderSizePixel = 0
+    Reason_1.Position = UDim2.new(0.5, 0, 0.100000001, 0)
+    Reason_1.Size = UDim2.new(0.949999988, 0, 0.100000001, 0)
+    Reason_1.Visible = false
+    Reason_1.Font = Enum.Font.Oswald
+    Reason_1.Text = "-Chat Module was not found."
+    Reason_1.TextColor3 = Color3.fromRGB(255, 0, 0)
+    Reason_1.TextScaled = true
+    Reason_1.TextSize = 50.000
+    Reason_1.TextWrapped = true
+    Reason_1.TextYAlignment = Enum.TextYAlignment.Top
+    
+    Reason_2.Name = "Reason_2"
+    Reason_2.Parent = WarningFrame
+    Reason_2.AnchorPoint = Vector2.new(0.5, 0.5)
+    Reason_2.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+    Reason_2.BackgroundTransparency = 1.000
+    Reason_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+    Reason_2.BorderSizePixel = 0
+    Reason_2.Position = UDim2.new(0.5, 0, 0.100000001, 0)
+    Reason_2.Size = UDim2.new(0.949999988, 0, 0.100000001, 0)
+    Reason_2.Visible = false
+    Reason_2.Font = Enum.Font.Oswald
+    Reason_2.Text = "-MessagePosted function is invalid."
+    Reason_2.TextColor3 = Color3.fromRGB(255, 0, 0)
+    Reason_2.TextScaled = true
+    Reason_2.TextSize = 50.000
+    Reason_2.TextWrapped = true
+    Reason_2.TextYAlignment = Enum.TextYAlignment.Top
+    
+    Trollge.Name = "Trollge"
+    Trollge.Parent = WarningFrame
+    Trollge.AnchorPoint = Vector2.new(0.5, 0.5)
+    Trollge.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    Trollge.BackgroundTransparency = 1.000
+    Trollge.Position = UDim2.new(0.5, 0, 0.670000017, 0)
+    Trollge.Size = UDim2.new(0.449999988, 0, 0.5, 0)
+    Trollge.Image = "rbxassetid://10104834800"
+    
+    UIPadding.Parent = WarningFrame
+    UIPadding.PaddingTop = UDim.new(0, 10)
+    
+    Exit.MouseButton1Click:Connect(function()
+        local UpTween = Tween(Background, .2, "Quint", "Out", {Position = UDim2.new(0.5, 0, 0.45, 0)})
+        local DownTween = Tween(Background, 1, "Quad", "Out", {Position = UDim2.new(0.5, 0, 2, 0)})
+        UpTween:Play()
+        UpTween.Completed:wait()
+        DownTween:Play()
+        DownTween.Completed:wait()
+        ACLWarning:Destroy()
+    end)
+end)()
+
+local ExitCooldown = function()
+    wait(.5)
+    local Tween = Tween(Bar, 3, "Quad", "InOut", {Size = UDim2.new(1, 0, 1, 0)})
+    Tween:Play()
+    Tween.Completed:wait()
+    Loading:Destroy()
+    Exit.Visible = true
+end
+
+local PlayerScripts = Player:WaitForChild("PlayerScripts")
+local ChatMain = PlayerScripts:FindFirstChild("ChatMain", true) or false
+
+if not ChatMain then
+    local Timer = tick()
+    repeat
+        task.wait()
+    until PlayerScripts:FindFirstChild("ChatMain", true) or tick() > (Timer + 3)
+    ChatMain = PlayerScripts:FindFirstChild("ChatMain", true)
+    if not ChatMain then
+        ACLWarning.Enabled = true
+        Reason_1.Visible = true
+        ExitCooldown()
+        return
+    end
+end
+
+local PostMessage = require(ChatMain).MessagePosted
+
+if not PostMessage then
+    ACLWarning.Enabled = true
+    Reason_2.Visible = true
+    ExitCooldown()
+    return
+end
+
+local MessageEvent = Instance.new("BindableEvent")
+local OldFunctionHook
+OldFunctionHook = hookfunction(PostMessage.fire, function(self, Message)
+    if not checkcaller() and self == PostMessage then
+        MessageEvent:Fire(Message)
+        return
+    end
+    return OldFunctionHook(self, Message)
+end)
+
+if setfflag then
+    setfflag("AbuseReportScreenshot", "False")
+    setfflag("AbuseReportScreenshotPercentage", "0")
+end
+
+ChatFixToggle = false
+task.spawn(function()
+    wait(1)
+    ACLWarning:Destroy()
+end)
+if OldSetting then
+    StarterGui:SetCoreGuiEnabled(CoreGuiSettings[1], CoreGuiSettings[2])
+end
+Notify("🔹Anthony's ACL🔹", "Anti Chat and Screenshot Logger Loaded!", 15)
+print(string.format("Anti Chat-Logger has loaded in %s seconds.", tostring(tick() - ACL_LoadTime):sub(1, 4)))
+end)
 Section:NewButton("Anti-Afk-Kick","?",function()
 wait(0.5)local ba=Instance.new("ScreenGui")
 local ca=Instance.new("TextLabel")local da=Instance.new("Frame")
@@ -25559,6 +26277,7 @@ local Tab = Window:NewTab("Credits")
 local Section = Tab:NewSection("Made by: AdvanceFalling Team")
 local Section = Tab:NewSection("Team: YellowGreg-WspBoy12-MMSVon-ShadowClark")
 local Section = Tab:NewSection("Credit: To Owner Who made the Script")
+local Section = Tab:NewSection("I do NOT OWN THIS SCRIPT! credits to the orginal")
 local Section = Tab:NewSection("Credit: to kavo for the UI")
 local Section = Tab:NewSection("Join Our Discord if you found any bug")
 local Section = Tab:NewSection("Join the discord if you found any script not working")
@@ -25589,6 +26308,7 @@ Frame.ImageTransparency = 0.200
 Frame.ScaleType = Enum.ScaleType.Slice
 Frame.SliceCenter = Rect.new(100, 100, 100, 100)
 Frame.SliceScale = 0.120
+Frame.Active = true
 
 TextButton.Parent = Frame
 TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
