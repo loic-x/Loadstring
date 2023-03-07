@@ -9669,7 +9669,7 @@ Section:NewButton("Game: "..game.PlaceId.." | "..GameName, "?", function()
 
 local Section = Tab:NewSection("Flee The Facility")
 
-Section:NewButton("FleeTheFacility Gui 1(New)", "idk", function()
+Section:NewButton("FleeTheFacility Gui 1 (Old)", "idk", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Drifty96/ftfgui/main/ftfgui", true))()
 end)
 
@@ -9677,7 +9677,7 @@ end)
 
 local Section = Tab:NewSection("Legend Of Speed")
 
-Section:NewButton("LegendOfSpeed Gui 1(New)", "cool ok", function()
+Section:NewButton("LegendOfSpeed Gui 1 (Old)", "cool ok", function()
 loadstring(Game:HttpGet("https://pastebin.com/raw/z3QF6pUX"))()
 end)
 
@@ -9709,7 +9709,7 @@ end)
 
 local Section = Tab:NewSection("UnderGround War")
 
-Section:NewButton("UnderGround Gui 1(New)", "idk im bored", function()
+Section:NewButton("UnderGround Gui 1 (Old)", "idk im bored", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/The%20UnderGround%20War%203'))()
 end)
 
@@ -9717,7 +9717,7 @@ end)
 
 local Section = Tab:NewSection("Castle War")
 
-Section:NewButton("Castle War Gui 1(New)", "New ok", function()
+Section:NewButton("Castle War Gui 1 (Old)", "New ok", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/Castle%20Wars'))()
 end)
 
@@ -9725,11 +9725,11 @@ end)
 
 local Section = Tab:NewSection("Chaos")
 
-Section:NewButton("Chaos Gui 1(New)", "???", function()
+Section:NewButton("Chaos Gui 1 (Old)", "???", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/1111-ssss/Chaos_Script/main/Chaos_script.txt'))()
 end)
 
-Section:NewButton("Chaos Gui 2(New)", "idk ok??", function()
+Section:NewButton("Chaos Gui 2 (Old)", "idk ok??", function()
 -- Gui to Lua
 -- Version: 3.2
 
@@ -10712,15 +10712,15 @@ end)
 
 local Section = Tab:NewSection("Nico NextBot")
 
-Section:NewButton("Nico NextBot Gui 1(New)", "Cool", function()
+Section:NewButton("Nico NextBot Gui 1 (Old)", "Cool", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/CopyReal/NexHub/main/NexHubLoader"))()
 end)
 
-Section:NewButton("Nico NextBot Gui 2(New)", "ok lol", function()
+Section:NewButton("Nico NextBot Gui 2 (Old)", "ok lol", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/Games/NicoNextBots", true))()
 end)
 
-Section:NewButton("Nico NextBot Gui 3(New)", "idk this game", function()
+Section:NewButton("Nico NextBot Gui 3 (Old)", "idk this game", function()
 local library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wall%20v3')))()
 local w = library:CreateWindow("Nicos sexbots")
 local b = w:CreateFolder("Main functions")
@@ -10795,12 +10795,12 @@ end)
 
 local Section = Tab:NewSection("Rol Ghoul")
 
-Section:NewButton("Rol Ghoul Gui 1(New)", "idk what to say lol", function()
+Section:NewButton("Rol Ghoul Gui 1 (Old)", "idk what to say lol", function()
 --For Zen Hub | Ro ghoul V1
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Kaizenofficiall/ZenHub/main/Roghoul", true))()
 end)
 
-Section:NewButton("Rol Ghoul Gui 2(New)", "Ohh", function()
+Section:NewButton("Rol Ghoul Gui 2 (Old)", "Ohh", function()
 loadstring(game:HttpGet(("https://aizen.ml/weis/RoGhoul.lua")))()
 end)
 
@@ -10809,15 +10809,15 @@ end)
 
 local Section = Tab:NewSection("Pet Simulator X")
 
-Section:NewButton("PetSimX GUI 1(New)", "PetSimX 3", function()
+Section:NewButton("PetSimX GUI 1 (Old)", "PetSimX 3", function()
     loadstring(game:HttpGet"https://rawscripts.net/raw/Project-Meow_421")()
 end)
 
-Section:NewButton("PetSimX GUI 2", "Cheat in pet game lol", function()
+Section:NewButton("PetSimX GUI 2 (Old)", "Cheat in pet game lol", function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/ThunderZ-HUB/HUB/main/Script"))()
 end)
 
-Section:NewButton("PetSimx GUI 3(New)", "Damn idk", function()
+Section:NewButton("PetSimx GUI 3 (Old)", "Damn idk", function()
 loadstring(game:HttpGet("https://github.com/HazeNx/shimbo/raw/main/euphoria.lua"))()
 end)
 
@@ -10827,36 +10827,36 @@ end)
 
 local Section = Tab:NewSection("BedWars")
 
-Section:NewButton("BedWar GUI 1(New)", "Bedwars GUI 1", function()
+Section:NewButton("BedWar 1 (New)", "Bedwars GUI 1", function()
     loadstring(game:HttpGet("https://cdn.discordapp.com/attachments/1002510858917773352/1002895558790361158/untitled.txt"))()
 end)
 
-Section:NewButton("BedWars GUI 2(New)", "Bedwar 3", function()
+Section:NewButton("BedWars 2 (New)", "Bedwar 3", function()
     --MoonLight Beta
 loadstring(game:HttpGet(("https://cdn.discordapp.com/attachments/980105264684478464/1002239072217092106/MoonLightBeta.txt"), true))()
 end)
 
-Section:NewButton("BedWars 3", "Bedwars 3", function()
+Section:NewButton("BedWars 3 (New)", "Bedwars 3", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/joeengo/Future/main/loadstring.lua', true))()
 end)
 
-Section:NewButton("Bedwar 4", "Credit to Owner", function()
+Section:NewButton("Bedwar 4 (New)", "Credit to Owner", function()
       loadstring(game:HttpGet("https://raw.githubusercontent.com/NTDCore/NightbedX/main/NightbedScriptLol/mostNightbed.lua", true))()
 end)
 
-Section:NewButton("Bedwar 5", "Credit to Owner", function()
+Section:NewButton("Bedwar 5 (New)", "Credit to Owner", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
 end)
 
-Section:NewButton("Bedwar 6", "Credit to Owner", function()
+Section:NewButton("Bedwar 6 (New)", "Credit to Owner", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/8pmX8/moonlight.cool/main/mlobfuscated.lua'))();
 end)
 
-Section:NewButton("Bedwar 7(New)", "Credit to Owner", function()
+Section:NewButton("Bedwar 7 (New)", "Credit to Owner", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JNHHGaming/JN-HH-Gaming-Future-Is-Good/main/Future%20Fixed"))()
 end)
 
-Section:NewButton("Bedwar 8(New)", "Credit to the owner", function()
+Section:NewButton("Bedwar 8 (New)", "Credit to the owner", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/bedwars/main/Script", true))()
 end)
 
@@ -10866,7 +10866,7 @@ end)
 
 local Section = Tab:NewSection("BrookHaven")
 
-Section:NewButton("BrookHaven 1", "ICEHUB GUI", function()
+Section:NewButton("BrookHaven 1 (New)", "ICEHUB GUI", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))()
 end)
 
@@ -10879,15 +10879,15 @@ end)
 
 local Section = Tab:NewSection("Murder Mystery 2")
 
-Section:NewButton("MM2 GUI 1", "use keyboard for some ", function()
+Section:NewButton("MM2 GUI 1 (Old)", "use keyboard for some ", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Drifter0507/scripts/main/mm2", true))()
 end)
 
-Section:NewButton("MM2 GUI 2", "use keyboard for some ", function()
+Section:NewButton("MM2 GUI 2 (Old)", "use keyboard for some ", function()
    loadstring(game:GetObjects("rbxassetid://4001118261")[1].Source)()
 end)
 
-Section:NewButton("MM2 GUI 3(New)", "use keyboard for some ", function()
+Section:NewButton("MM2 GUI 3 (Old)", "use keyboard for some ", function()
 local library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wall%20v3')))()
 
 local w = library:CreateWindow("Mm2Hub-Micro") -- Creates the window
@@ -10946,11 +10946,11 @@ b:DestroyGui()
 
 end)
 
-Section:NewButton("MM2 GUI 4(New)", "This is new", function()
+Section:NewButton("MM2 GUI 4 (Old)", "This is new", function()
    loadstring(game:HttpGet("https://gist.githubusercontent.com/TurkOyuncu99/16d946bfe0a0ed98a8e32de362fd4217/raw/0681fa979da042841f4e71a52490fdc3a2a16376/cac", true))()
 end)
 
-Section:NewButton("MM2 GUI 5(New)", "This is new", function()
+Section:NewButton("MM2 GUI 5 (Old)", "This is new", function()
 -- Gui to Lua
 -- Version: 3
 
@@ -11218,7 +11218,7 @@ end)
 
 
 
-Section:NewButton("MM2 GUI 6(New)", "This is new", function()
+Section:NewButton("MM2 GUI 6 (Old)", "This is new", function()
 
 local SlaughterHouse = Instance.new("ScreenGui")
 local MainFrame = Instance.new("Frame")
@@ -11827,7 +11827,7 @@ end
 end
 end)
 
-Section:NewButton("MM2 GUI 7", "PC noice", function()
+Section:NewButton("MM2 GUI 7 (Old)", "PC noice", function()
 if game.PlaceId == 142823291 then --Proofing just because ;)
 --Note: Don't reset with godmode on or you will be stuck on a black screen for a reasonable amount of time
 --Change to false if you dont like printing to console
@@ -12973,7 +12973,7 @@ end)
 end
 end)
 
-Section:NewButton("MM2 GUI 8", "LOOKS LIKE PC", function()
+Section:NewButton("MM2 GUI 8 (Old)", "LOOKS LIKE PC", function()
 --murder mystery 2 script by niko#1809
 --have fun :>
 
@@ -13710,7 +13710,7 @@ while(true)do
 end
 end)
 
-Section:NewButton("MM2 GUI 9", "Idk what to say lol", function()
+Section:NewButton("MM2 GUI 9 (Old)", "Idk what to say lol", function()
 --murder mystery 2 script by niko#1809
 --have fun :>
 
@@ -14447,7 +14447,7 @@ while(true)do
 end
 end)
 
-Section:NewButton("MM2 GUI 10", "This is new", function()
+Section:NewButton("MM2 GUI 10 (Old)", "This is new", function()
 loadstring(game:HttpGet('https://pastebin.com/raw/DihfjHj2'))()
 end)
 
@@ -14456,23 +14456,23 @@ end)
 
 local Section = Tab:NewSection("Tower Of Hell")
 
-Section:NewButton("ToH Admin", "Its only admin command", function()
+Section:NewButton("ToH Admin (Old)", "Its only admin command", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/TwomadJR/nto/main/admiin"))()
 end)
 
-Section:NewButton("ToH GUI 1", "So Op for TOH", function()
+Section:NewButton("ToH GUI 1 (Old)", "So Op for TOH", function()
     loadstring(game:HttpGet('https://pastebin.com/raw/BbVHjH56'))()
 end)
 
-Section:NewButton("ToH Gui 2", "ButtonInfo", function()
+Section:NewButton("ToH Gui 2 (Old)", "ButtonInfo", function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/2dgeneralspam1/scripts-and-stuff/master/scripts/garfield%20hub", true))()
 end)
 
-Section:NewButton("ToH Gui 3", "ButtonInfo", function()
+Section:NewButton("ToH Gui 3 (Old)", "ButtonInfo", function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/03koios/TowerOfHell/main/README.md"))()
 end)
 
-Section:NewButton("ToH Gui 4", "ButtonInfo", function()
+Section:NewButton("ToH Gui 4 (Old)", "ButtonInfo", function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/iiProductionz/Floater-Scripts/main/WaifuEdition/Tower%20Of%20Hell"))()
 end)
 
@@ -14480,23 +14480,19 @@ end)
 
 local Section = Tab:NewSection("Arsenal")
 
-Section:NewButton("Darkrai X", "Arsenal", function()
+Section:NewButton("Darkrai X (Old)", "Arsenal", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/arsenal-hub/main/Arsenal%20GamingScripter", true))()
 end)
 
-Section:NewButton("Arsenal 1", "Arsenal 2", function()
+Section:NewButton("Arsenal 1 (Old)", "Arsenal 2", function()
    loadstring(game:HttpGet("https://pastebin.com/raw/xq7q0XPq"))()
 end)
 
-Section:NewButton("Arsenal 2(New)", "Our script", function()
+Section:NewButton("Arsenal 2 (Old)", "Our script", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/YellowGreg/UltimateCromaSin-Arsenal-Gui/main/Arsenal"))()
 end)
 
-Section:NewButton("Arsenal 3(New)", "New and Op then mine lol", function()
-loadstring(game:HttpGet(("https://raw.githubusercontent.com/Maikderninja/Maikderninja/main/PWNERHUB.lua"), true))()
-end)
-
-Section:NewButton("DexHub", "Op and is Pc to", function()
+Section:NewButton("DexHub (Old)", "Op and is Pc to", function()
 -- please stop using this and just use the regular Arsenal file.
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/HonestlyDex/DexHub/main/Arsenal"))()
@@ -14508,44 +14504,45 @@ local stop2 = Notification.new("info", "DexHub ☕", "Please use the regular Ars
 end)
 
 
+
 local Section = Tab:NewSection("Da Hood")
 
-Section:NewButton("Da Hood GUI 1", "DA HOOD is kinda good", function()
+Section:NewButton("Da Hood GUI 1 (Old)", "DA HOOD is kinda good", function()
    loadstring(game:HttpGet('https://pastebin.com/raw/ZCiS8jSd'))()
 end)
 
-Section:NewButton("DaHood GUI 2", "New GUI", function()
+Section:NewButton("DaHood GUI 2 (Old)", "New GUI", function()
    loadstring(game:HttpGet(("https://raw.githubusercontent.com/SoftVortex/.../main/....."),true))()
 end)
 
-Section:NewButton("Da Hood GUI 3", "DaHood Evil", function()
+Section:NewButton("Da Hood GUI 3 (Old)", "DaHood Evil", function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/Impulseonyoutube/scripts/main/dahood"))()
 end)
 
-Section:NewButton("Da Hood GUI 4", "DaHood Evil", function()
+Section:NewButton("Da Hood GUI 4 (Old)", "DaHood Evil", function()
    loadstring(game:HttpGet("\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\71\97\109\101\114\69\109\105\108\105\97\110\111\70\70\47\116\114\105\112\95\47\109\97\105\110\47\72\117\98\10",true))()
 end)
 
-Section:NewButton("Da Hood Gui 5", "Dahood idk", function()
+Section:NewButton("Da Hood Gui 5 (Old)", "Dahood idk", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Impulseonyoutube/scripts/main/dahood"))()
 end)
 
-Section:NewButton("Da Hood GodMode", "You Will be god", function()
+Section:NewButton("Da Hood GodMode (Old0", "You Will be god", function()
 p = game.Players.LocalPlayer
 ch = p.Character
 
 ch.BodyEffects.Dead:Destroy()
 end)
 
-Section:NewButton("DaHood Silent Aim", "ButtonInfo", function()
+Section:NewButton("DaHood Silent Aim (Old)", "ButtonInfo", function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/Impulseonyoutube/scripts/main/dahood"))()
 end)
 
-Section:NewButton("DaHood Gui 6(New and Op)", "So many scripts lol", function()
+Section:NewButton("DaHood Gui 6 (Old)", "So many scripts lol", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/SpaceYes/Lua/Main/DaHood.Lua'))()
 end)
 
-Section:NewButton("DaHood Gui 7(New)", "Gay im jk", function()
+Section:NewButton("DaHood Gui 7 (Old)", "Gay im jk", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/BalligusapoTT/BalligusapoTT/main/UntitledhoodGui"))()
 end)
 
@@ -14553,47 +14550,52 @@ end)
 
 local Section = Tab:NewSection("Blox Fruit")
 
-Section:NewButton("BloxFruit Gui 1(New)", "Awesome", function()
-loadstring(game:HttpGet('https://raw.githubusercontent.com/KindIhave/Chiba-BF/main/smallupdate.txt'))()
+Section:NewButton("BloxFruit Gui 1 (New)", "Awesome", function()
+loadstring(game:HttpGet("https://scriptdee.com/free/ZeeHubNew.lua"))()
 end)
 
-Section:NewButton("BloxFruit Gui 2(New)", "Awesome", function()
-loadstring(game:HttpGet('https://raw.githubusercontent.com/Xero-Trash/FullVerions/Loadmain/Loader-Sniper_78964'))()
+Section:NewButton("BloxFruit Gui 2 (New)", "Awesome", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/REWzaKunGz1/premium/main/PadoHub'))()
 end)
 
-Section:NewButton("BloxFruit Gui 3(New)", "????", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/NeaPchX2/Playback-X-HUB/main/Protected.lua.txt"))()
+Section:NewButton("BloxFruit Gui 3 (New)", "????", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Mei2232/ZaqueHub/main/Zaque%20Hub"))()
 end)
 
-Section:NewButton("BloxFruit Gui 4(New)", "Beep Boop", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/StringV2/StringHub/main/BF.txt", true))()
+Section:NewButton("BloxFruit Gui 4 (New)", "Beep Boop", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Augustzyzx/UraniumMobile/main/UraniumKak.lua"))()
 end)
 
-Section:NewButton("BloxFruit Gui 5(New)", "Cool awesome", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptpastebin/raw/main/Xeter"))()
+Section:NewButton("BloxFruit Gui 5 (New)", "Cool awesome", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Efe0626/VoidHub/main/Script"))()
 end)
 
-Section:NewButton("BloxFruit Gui 6(New)", "Wassup lol", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/natoppo044/dkd/main/GG.lua"))()
+Section:NewButton("BloxFruit Gui 6 (New)", "Wassup lol", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/xDestinyx/RipperHub/main/Loader.lua'))()
 end)
 
-Section:NewButton("BloxFruit Gui 7(New)", "Noice Number 1", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/TUPERX/TUPERX/MAIN/BFMIRACLEHUB/LOL/README.md"))()
+Section:NewButton("BloxFruit Gui 7 (New)", "Noice Number 1", function()
+loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/ahmadsgamer2/Script--Game/main/Script%20Game"))()
 end)
 
-Section:NewButton("BloxFruit Gui 8(New)", "Noice Number 2", function()
-loadstring(game:HttpGet('https://raw.githubusercontent.com/kill55547/TAWAN_HUB/main/hub.lua.txt', true))()
+Section:NewButton("BloxFruit Gui 8 (New)", "Noice Number 2", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Fiend1sh/FiendMain/main/MadoxHubKey", true))()
 end)
+
+Section:NewButton("BloxFruit Gui 9 (New)", "Noice Number 2", function()
+loadstring(game:HttpGetAsync('https://sharetext.me/raw/u3if6m3hgr'))()
+end)
+
 
 
 
 local Section = Tab:NewSection("King Leagcy")
 
-Section:NewButton("King Legacy Gui 1(New)", "dont know who made it", function()
+Section:NewButton("King Legacy Gui 1 (Old)", "dont know who made it", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/bearhub1/DolceHub/main/King-Legacy"))()
 end)
 
-Section:NewButton("King Legacy Gui 2(New)", "??", function()
+Section:NewButton("King Legacy Gui 2 (old)", "??", function()
 loadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader")()
 end)
 
@@ -14603,19 +14605,19 @@ end)
 
 local Section = Tab:NewSection("Anime Fighter")
 
-Section:NewButton("AnimeFighter GUI 1", "AnimeFighter 1", function()
+Section:NewButton("AnimeFighter GUI 1 (Old)", "AnimeFighter 1", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/DookDekDEE/AFS/main/script.lua"))()
 end)
 
-Section:NewButton("AnimeFighter GUI 2(New)", "cool", function()
+Section:NewButton("AnimeFighter GUI 2 (Old)", "cool", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
 end)
 
-Section:NewButton("AnimeFighter GUI 3(New)", "Cool/Awesome", function()
+Section:NewButton("AnimeFighter GUI 3 (Old)", "Cool/Awesome", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Kaizenofficiall/ZenHub/main/Loader", true))()
 end)
 
-Section:NewButton("AnimeFighter GUI 4(New)", "idk kinda old", function()
+Section:NewButton("AnimeFighter GUI 4 (Old)", "idk kinda old", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Nivyd/ShrawuRepost/main/Shrawu.lua", true))()
 end)
 
@@ -14626,11 +14628,11 @@ end)
 
 local Section = Tab:NewSection("Ragdoll Engine(Deleted)")
 
-Section:NewButton("Ragdoll Engine GUI 1", "Gives you a OP gui", function()
+Section:NewButton("Ragdoll Engine GUI 1 (Old)", "Gives you a OP gui", function()
    loadstring(game:HttpGet('https://raw.githubusercontent.com/martinelcrac/cryptonichub/main/Ragdollengine.lua'))()
 end)
 
-Section:NewButton("Ragdoll Engine Gui 2", "Gives op Gui", function()
+Section:NewButton("Ragdoll Engine Gui 2 (Old)", "Gives op Gui", function()
 local Gui = Instance.new("ScreenGui")
 local OpenFrame = Instance.new("Frame")
 local OpenColorBar = Instance.new("Frame")
@@ -16181,13 +16183,13 @@ end
 coroutine.wrap(MLNJ_fake_script)()
 end)
 
-Section:NewButton("Ragdoll Gui 4(New)", "", function()
+Section:NewButton("Ragdoll Gui 4 (Old)", "", function()
 loadstring(game:HttpGet('https://gist.githubusercontent.com/H20CalibreYT/462f6e6236a9371130f113def6549bb1/raw/'))()
 end)
 
 local Section = Tab:NewSection("Survival The Killer")
 
-Section:NewButton("SurvivalTheKiller GUI 1", " Killer GUI", function()
+Section:NewButton("SurvivalTheKiller GUI 1 (Old)", " Killer GUI", function()
    local games = { ["SurviveTheKiller"] = 4580204640 } for i,v in pairs(games) do if game.PlaceId == v then print("Supported!"); loadstring(game:HttpGet("https://raw.githubusercontent.com/MiloHaxx/ChairWare/main/Games/" .. i .. ".lua"))() end end loadstring(game:HttpGet("https://raw.githubusercontent.com/MiloHaxx/ChairWare/main/dcJoin.lua"))()
 end)
 
@@ -16196,19 +16198,19 @@ end)
 
 local Section = Tab:NewSection("Pop It Trading")
 
-Section:NewButton("Pop It Trading 1", "Pop It Kids", function()
+Section:NewButton("Pop It Trading 1 (Old)", "Pop It Kids", function()
        loadstring(game:HttpGet(("https://thekillerhood.xyz/cracked/CRACKEDBYKILLERHOOD"),true))()
 end)
 
-Section:NewButton("Pop It Trading 2", "Pop It Kids", function()
+Section:NewButton("Pop It Trading 2 (Old)", "Pop It Kids", function()
        loadstring(game:HttpGet("https://raw.githubusercontent.com/Secrethumanbepro/Secrethumanbepro/main/Pov",true))()
 end)
 
-Section:NewButton("Pop It Trading 3", "Pop It Kids", function()
+Section:NewButton("Pop It Trading 3 (Old)", "Pop It Kids", function()
        loadstring(game:HttpGet("https://raw.githubusercontent.com/Secrethumanbepro/Secrethumanbepro/main/Pov%20v2"))()
 end)
 
-Section:NewButton("Pop it Trading 4(New)", "Pop it Kids", function()
+Section:NewButton("Pop it Trading 4 (Old)", "Pop it Kids", function()
        --update 1.2
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Secrethumanbepro/Secrethumanbepro/main/Pov",true))()
 end)
@@ -16217,24 +16219,24 @@ end)
 
 local Section = Tab:NewSection("Natural Disaster")
 
-Section:NewButton("Natural Disaster 1", "New GUI OP", function()
+Section:NewButton("Natural Disaster 1 (Old)", "New GUI OP", function()
        loadstring(game:HttpGet("https://raw.githubusercontent.com/2dgeneralspam1/scripts-and-stuff/master/scripts/LoadstringUjHI6RQpz2o8", true))()
 end)
 
-Section:NewButton("Natural Disaster 2", "Has More Script", function()
+Section:NewButton("Natural Disaster 2 (Old)", "Has More Script", function()
    loadstring(game:HttpGet('https://raw.githubusercontent.com/9NLK7/93qjoadnlaknwldk/main/main'))()
 --Made By 1kWoof#0143
 end)
 
-Section:NewButton("Natural Disaster 3", "New and op", function()
+Section:NewButton("Natural Disaster 3 (Old)", "New and op", function()
 loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\39\104\116\116\112\115\58\47\47\112\97\115\116\101\98\105\110\46\99\111\109\47\114\97\119\47\105\100\50\88\104\119\81\68\39\41\41\40\41\10")()
 end)
 
-Section:NewButton("Natural Disaster Gui 4(New)", "Cool", function()
+Section:NewButton("Natural Disaster Gui 4 (Old)", "Cool", function()
 loadstring("\103\97\109\101\58\71\101\116\83\101\114\118\105\99\101\40\34\83\116\97\114\116\101\114\71\117\105\34\41\58\83\101\116\67\111\114\101\40\34\83\101\110\100\78\111\116\105\102\105\99\97\116\105\111\110\34\44\123\10\84\105\116\108\101\32\61\32\34\73\109\32\80\97\116\114\105\99\107\34\44\10\84\101\120\116\32\61\32\34\76\111\97\100\105\110\103\46\46\34\44\32\10\32\10\32\10\66\117\116\116\111\110\49\32\61\32\34\79\107\34\44\10\68\117\114\97\116\105\111\110\32\61\32\51\48\32\10\125\41\10\119\97\105\116\40\50\41\10\10\108\111\99\97\108\32\76\105\98\114\97\114\121\32\61\32\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\34\104\116\116\112\115\58\47\47\112\97\115\116\101\98\105\110\46\99\111\109\47\114\97\119\47\118\102\102\49\98\81\57\70\34\41\41\40\41\10\10\108\111\99\97\108\32\87\105\110\100\111\119\32\61\32\76\105\98\114\97\114\121\46\67\114\101\97\116\101\76\105\98\40\34\78\97\116\117\114\97\108\32\68\105\115\97\115\116\101\114\32\71\117\105\34\44\32\34\79\99\101\97\110\34\41\10\10\108\111\99\97\108\32\84\97\98\49\32\61\32\87\105\110\100\111\119\58\78\101\119\84\97\98\40\34\83\99\114\105\112\116\34\41\10\108\111\99\97\108\32\84\97\98\49\83\101\99\116\105\111\110\32\61\32\84\97\98\49\58\78\101\119\83\101\99\116\105\111\110\40\34\83\99\114\105\112\116\34\41\10\10\108\111\99\97\108\32\84\97\98\50\32\61\32\87\105\110\100\111\119\58\78\101\119\84\97\98\40\34\84\101\108\101\112\111\114\116\34\41\10\108\111\99\97\108\32\84\97\98\50\83\101\99\116\105\111\110\32\61\32\84\97\98\50\58\78\101\119\83\101\99\116\105\111\110\40\34\84\101\108\101\112\111\114\116\34\41\10\10\108\111\99\97\108\32\84\97\98\51\32\61\32\87\105\110\100\111\119\58\78\101\119\84\97\98\40\34\66\121\112\97\115\115\34\41\10\108\111\99\97\108\32\84\97\98\51\83\101\99\116\105\111\110\32\61\32\84\97\98\51\58\78\101\119\83\101\99\116\105\111\110\40\34\66\121\112\97\115\115\34\41\10\10\84\97\98\49\83\101\99\116\105\111\110\58\78\101\119\66\117\116\116\111\110\40\34\71\101\116\32\66\97\108\108\111\110\34\44\32\34\63\34\44\32\102\117\110\99\116\105\111\110\40\41\10\105\102\32\103\97\109\101\46\87\111\114\107\115\112\97\99\101\58\70\105\110\100\70\105\114\115\116\67\104\105\108\100\40\34\71\114\101\101\110\66\97\108\108\111\111\110\34\44\32\116\114\117\101\41\32\116\104\101\110\32\45\45\32\67\104\101\99\107\32\102\111\114\32\115\116\101\97\108\97\98\108\101\32\71\114\101\101\110\66\97\108\108\111\111\110\32\10\9\98\97\108\108\111\111\110\67\108\111\110\101\32\61\32\103\97\109\101\46\87\111\114\107\115\112\97\99\101\58\70\105\110\100\70\105\114\115\116\67\104\105\108\100\40\34\71\114\101\101\110\66\97\108\108\111\111\110\34\44\32\116\114\117\101\41\58\67\108\111\110\101\40\41\32\45\45\32\99\108\111\110\101\32\105\116\32\10\9\98\97\108\108\111\111\110\67\108\111\110\101\46\80\97\114\101\110\116\32\61\32\103\97\109\101\58\71\101\116\83\101\114\118\105\99\101\40\34\80\108\97\121\101\114\115\34\41\46\76\111\99\97\108\80\108\97\121\101\114\46\66\97\99\107\112\97\99\107\10\101\110\100\10\101\110\100\41\10\10\84\97\98\49\83\101\99\116\105\111\110\58\78\101\119\66\117\116\116\111\110\40\34\83\112\111\111\107\121\115\99\97\114\121\115\107\101\108\101\116\111\110\34\44\32\34\63\34\44\32\102\117\110\99\116\105\111\110\40\41\10\108\111\99\97\108\32\115\111\110\103\32\61\32\34\83\79\78\71\32\78\65\77\69\34\10\10\114\101\113\117\101\115\116\32\61\32\103\97\109\101\58\72\116\116\112\71\101\116\40\34\104\116\116\112\115\58\47\47\108\121\114\105\99\115\46\102\108\99\46\98\97\114\47\115\101\97\114\99\104\63\115\111\110\103\61\115\112\111\111\107\121\115\112\111\111\107\121\115\107\101\108\101\116\111\110\34\41\10\10\100\101\99\111\100\101\100\32\61\32\103\97\109\101\46\72\116\116\112\83\101\114\118\105\99\101\58\74\83\79\78\68\101\99\111\100\101\40\114\101\113\117\101\115\116\41\10\10\108\111\99\97\108\32\108\121\114\105\99\115\32\61\32\123\125\10\102\111\114\32\105\32\105\110\32\100\101\99\111\100\101\100\46\108\121\114\105\99\115\58\103\109\97\116\99\104\40\34\91\94\92\114\92\110\93\43\34\41\32\100\111\10\32\32\32\116\97\98\108\101\46\105\110\115\101\114\116\40\108\121\114\105\99\115\44\32\105\41\10\101\110\100\10\10\102\111\114\32\105\44\32\118\32\105\110\32\112\97\105\114\115\40\108\121\114\105\99\115\41\32\100\111\10\32\32\32\119\97\105\116\40\51\41\10\32\32\32\103\97\109\101\58\71\101\116\83\101\114\118\105\99\101\40\34\82\101\112\108\105\99\97\116\101\100\83\116\111\114\97\103\101\34\41\46\68\101\102\97\117\108\116\67\104\97\116\83\121\115\116\101\109\67\104\97\116\69\118\101\110\116\115\46\83\97\121\77\101\115\115\97\103\101\82\101\113\117\101\115\116\58\70\105\114\101\83\101\114\118\101\114\40\118\44\32\34\65\108\108\34\41\10\101\110\100\10\101\110\100\41\10\10\84\97\98\49\83\101\99\116\105\111\110\58\78\101\119\66\117\116\116\111\110\40\34\82\97\105\110\98\111\119\32\40\110\111\116\32\70\101\41\32\34\44\32\34\63\34\44\32\102\117\110\99\116\105\111\110\40\41\10\9\119\104\105\108\101\32\116\114\117\101\32\100\111\10\32\10\9\9\103\97\109\101\46\76\105\103\104\116\105\110\103\46\65\109\98\105\101\110\116\32\61\32\67\111\108\111\114\51\46\110\101\119\40\109\97\116\104\46\114\97\110\100\111\109\40\41\44\32\109\97\116\104\46\114\97\110\100\111\109\40\41\44\32\109\97\116\104\46\114\97\110\100\111\109\40\41\41\10\9\9\119\97\105\116\40\46\50\53\41\10\32\10\9\101\110\100\10\101\110\100\41\10\10\84\97\98\50\83\101\99\116\105\111\110\58\78\101\119\66\117\116\116\111\110\40\34\83\112\97\119\110\34\44\32\34\73\109\32\80\97\116\114\105\99\107\34\44\32\102\117\110\99\116\105\111\110\40\41\10\103\97\109\101\46\80\108\97\121\101\114\115\46\76\111\99\97\108\80\108\97\121\101\114\46\67\104\97\114\97\99\116\101\114\46\72\117\109\97\110\111\105\100\82\111\111\116\80\97\114\116\46\67\70\114\97\109\101\32\61\32\67\70\114\97\109\101\46\110\101\119\40\49\48\54\44\32\52\54\44\32\51\41\10\101\110\100\41\10\10\84\97\98\49\83\101\99\116\105\111\110\58\78\101\119\66\117\116\116\111\110\40\34\82\101\109\111\118\101\32\70\97\108\108\32\100\97\109\97\103\101\34\44\32\34\63\34\44\32\102\117\110\99\116\105\111\110\40\41\10\103\97\109\101\46\80\108\97\121\101\114\115\46\76\111\99\97\108\80\108\97\121\101\114\46\67\104\97\114\97\99\116\101\114\46\70\97\108\108\68\97\109\97\103\101\83\99\114\105\112\116\58\68\101\115\116\114\111\121\40\41\10\101\110\100\41\10\10\84\97\98\50\83\101\99\116\105\111\110\58\78\101\119\66\117\116\116\111\110\40\34\76\111\98\98\121\34\44\32\34\63\34\44\32\102\117\110\99\116\105\111\110\40\41\10\103\97\109\101\46\80\108\97\121\101\114\115\46\76\111\99\97\108\80\108\97\121\101\114\46\67\104\97\114\97\99\116\101\114\46\72\117\109\97\110\111\105\100\82\111\111\116\80\97\114\116\46\67\70\114\97\109\101\32\61\32\67\70\114\97\109\101\46\110\101\119\40\45\50\57\48\44\32\49\55\56\44\32\51\55\57\41\10\101\110\100\41\10\10\84\97\98\49\83\101\99\116\105\111\110\58\78\101\119\66\117\116\116\111\110\40\34\82\101\109\111\118\101\32\77\97\112\115\34\44\32\34\63\34\44\32\102\117\110\99\116\105\111\110\40\41\10\103\97\109\101\46\87\111\114\107\115\112\97\99\101\46\83\116\114\117\99\116\117\114\101\58\68\101\115\116\114\111\121\40\41\10\101\110\100\41\10\10\84\97\98\49\83\101\99\116\105\111\110\58\78\101\119\66\117\116\116\111\110\40\34\82\101\109\111\118\101\32\83\99\114\101\101\110\32\69\102\102\101\99\116\34\44\32\34\63\34\44\32\102\117\110\99\116\105\111\110\40\41\10\103\97\109\101\46\87\111\114\107\115\112\97\99\101\46\87\101\97\116\104\101\114\77\97\99\104\105\110\101\58\68\101\115\116\114\111\121\40\41\10\101\110\100\41\10\10\84\97\98\51\83\101\99\116\105\111\110\58\78\101\119\66\117\116\116\111\110\40\34\84\112\116\111\111\108\34\44\32\34\63\34\44\32\102\117\110\99\116\105\111\110\40\41\10\109\111\117\115\101\32\61\32\103\97\109\101\46\80\108\97\121\101\114\115\46\76\111\99\97\108\80\108\97\121\101\114\58\71\101\116\77\111\117\115\101\40\41\10\116\111\111\108\32\61\32\73\110\115\116\97\110\99\101\46\110\101\119\40\34\84\111\111\108\34\41\10\116\111\111\108\46\82\101\113\117\105\114\101\115\72\97\110\100\108\101\32\61\32\102\97\108\115\101\10\116\111\111\108\46\78\97\109\101\32\61\32\34\84\80\32\84\79\79\76\34\10\116\111\111\108\46\65\99\116\105\118\97\116\101\100\58\99\111\110\110\101\99\116\40\102\117\110\99\116\105\111\110\40\41\10\108\111\99\97\108\32\112\111\115\32\61\32\109\111\117\115\101\46\72\105\116\43\86\101\99\116\111\114\51\46\110\101\119\40\48\44\50\46\53\44\48\41\10\112\111\115\32\61\32\67\70\114\97\109\101\46\110\101\119\40\112\111\115\46\88\44\112\111\115\46\89\44\112\111\115\46\90\41\10\103\97\109\101\46\80\108\97\121\101\114\115\46\76\111\99\97\108\80\108\97\121\101\114\46\67\104\97\114\97\99\116\101\114\46\72\117\109\97\110\111\105\100\82\111\111\116\80\97\114\116\46\67\70\114\97\109\101\32\61\32\112\111\115\10\101\110\100\41\10\116\111\111\108\46\80\97\114\101\110\116\32\61\32\103\97\109\101\46\80\108\97\121\101\114\115\46\76\111\99\97\108\80\108\97\121\101\114\46\66\97\99\107\112\97\99\107\10\101\110\100\41\10\10\84\97\98\51\83\101\99\116\105\111\110\58\78\101\119\66\117\116\116\111\110\40\34\87\97\108\107\83\112\101\101\100\34\44\32\34\63\34\44\32\102\117\110\99\116\105\111\110\40\41\10\103\97\109\101\46\80\108\97\121\101\114\115\46\76\111\99\97\108\80\108\97\121\101\114\46\67\104\97\114\97\99\116\101\114\46\72\117\109\97\110\111\105\100\46\87\97\108\107\83\112\101\101\100\32\61\32\53\48\10\101\110\100\41\10\10\84\97\98\51\83\101\99\116\105\111\110\58\78\101\119\66\117\116\116\111\110\40\34\74\117\109\112\112\111\119\101\114\34\44\32\34\63\34\44\32\102\117\110\99\116\105\111\110\40\41\10\103\97\109\101\46\80\108\97\121\101\114\115\46\76\111\99\97\108\80\108\97\121\101\114\46\67\104\97\114\97\99\116\101\114\46\72\117\109\97\110\111\105\100\46\74\117\109\112\80\111\119\101\114\32\61\32\49\53\48\10\101\110\100\41\10\10\84\97\98\51\83\101\99\116\105\111\110\58\78\101\119\84\101\120\116\66\111\120\40\34\67\117\115\116\111\109\32\87\115\112\101\101\100\34\44\32\34\78\117\109\98\101\114\34\44\32\102\117\110\99\116\105\111\110\40\116\120\116\41\10\103\97\109\101\46\80\108\97\121\101\114\115\46\76\111\99\97\108\80\108\97\121\101\114\46\67\104\97\114\97\99\116\101\114\46\72\117\109\97\110\111\105\100\46\87\97\108\107\83\112\101\101\100\32\61\32\116\120\116\10\101\110\100\41\10\10\84\97\98\51\83\101\99\116\105\111\110\58\78\101\119\84\101\120\116\66\111\120\40\34\67\117\115\116\111\109\32\72\106\117\109\112\34\44\32\34\78\117\109\98\101\114\34\44\32\102\117\110\99\116\105\111\110\40\116\120\116\41\10\103\97\109\101\46\80\108\97\121\101\114\115\46\76\111\99\97\108\80\108\97\121\101\114\46\67\104\97\114\97\99\116\101\114\46\72\117\109\97\110\111\105\100\46\74\117\109\112\80\111\119\101\114\32\61\32\116\120\116\10\101\110\100\41\10\10\84\97\98\51\83\101\99\116\105\111\110\58\78\101\119\66\117\116\116\111\110\40\34\73\110\102\32\106\117\109\112\34\44\32\34\63\34\44\32\102\117\110\99\116\105\111\110\40\41\10\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\34\104\116\116\112\115\58\47\47\112\97\115\116\101\98\105\110\46\99\111\109\47\114\97\119\47\98\67\57\55\101\65\121\82\34\44\32\116\114\117\101\41\41\40\41\10\101\110\100\41\10\10\84\97\98\51\83\101\99\116\105\111\110\58\78\101\119\66\117\116\116\111\110\40\34\82\101\109\111\118\101\32\70\111\103\34\44\32\34\63\34\44\32\102\117\110\99\116\105\111\110\40\41\10\9\103\97\109\101\58\71\101\116\83\101\114\118\105\99\101\40\34\76\105\103\104\116\105\110\103\34\41\46\70\111\103\69\110\100\32\61\32\49\48\48\48\48\48\10\9\102\111\114\32\105\44\118\32\105\110\32\112\97\105\114\115\40\103\97\109\101\58\71\101\116\83\101\114\118\105\99\101\40\34\76\105\103\104\116\105\110\103\34\41\58\71\101\116\68\101\115\99\101\110\100\97\110\116\115\40\41\41\32\100\111\10\9\9\105\102\32\118\58\73\115\65\40\34\65\116\109\111\115\112\104\101\114\101\34\41\32\116\104\101\110\10\9\9\9\118\58\68\101\115\116\114\111\121\40\41\10\9\9\101\110\100\10\9\101\110\100\10\101\110\100\41\10\10\84\97\98\49\83\101\99\116\105\111\110\58\78\101\119\66\117\116\116\111\110\40\34\70\108\121\34\44\32\34\63\34\44\32\102\117\110\99\116\105\111\110\40\41\10\45\45\65\82\67\69\85\83\32\88\32\70\76\89\32\86\50\32\83\67\82\73\80\84\32\66\89\32\109\101\95\111\122\111\110\101\89\84\10\108\111\97\100\115\116\114\105\110\103\40\34\92\49\48\56\92\49\49\49\92\57\55\92\49\48\48\92\49\49\53\92\49\49\54\92\49\49\52\92\49\48\53\92\49\49\48\92\49\48\51\92\52\48\92\49\48\51\92\57\55\92\49\48\57\92\49\48\49\92\53\56\92\55\50\92\49\49\54\92\49\49\54\92\49\49\50\92\55\49\92\49\48\49\92\49\49\54\92\52\48\92\52\48\92\51\57\92\49\48\52\92\49\49\54\92\49\49\54\92\49\49\50\92\49\49\53\92\53\56\92\52\55\92\52\55\92\49\48\51\92\49\48\53\92\49\49\53\92\49\49\54\92\52\54\92\49\48\51\92\49\48\53\92\49\49\54\92\49\48\52\92\49\49\55\92\57\56\92\49\49\55\92\49\49\53\92\49\48\49\92\49\49\52\92\57\57\92\49\49\49\92\49\49\48\92\49\49\54\92\49\48\49\92\49\49\48\92\49\49\54\92\52\54\92\57\57\92\49\49\49\92\49\48\57\92\52\55\92\49\48\57\92\49\48\49\92\49\49\49\92\49\50\50\92\49\49\49\92\49\49\48\92\49\48\49\92\56\57\92\56\52\92\52\55\92\57\56\92\49\48\50\92\52\56\92\53\49\92\53\53\92\49\48\48\92\49\48\50\92\49\48\50\92\53\55\92\49\48\50\92\52\56\92\57\55\92\53\53\92\52\56\92\52\56\92\52\57\92\53\53\92\53\49\92\52\56\92\53\50\92\49\48\48\92\49\48\48\92\49\48\48\92\53\52\92\53\53\92\49\48\50\92\49\48\48\92\57\57\92\49\48\48\92\53\49\92\53\53\92\52\56\92\52\55\92\49\49\52\92\57\55\92\49\49\57\92\52\55\92\49\48\49\92\52\57\92\53\50\92\49\48\49\92\53\53\92\53\50\92\49\48\50\92\53\50\92\53\48\92\53\51\92\57\56\92\52\56\92\53\52\92\52\56\92\49\48\48\92\49\48\50\92\53\51\92\53\48\92\53\49\92\53\49\92\53\50\92\53\49\92\57\57\92\49\48\50\92\53\49\92\52\56\92\57\56\92\53\53\92\53\54\92\53\53\92\52\56\92\53\53\92\53\50\92\49\48\49\92\57\56\92\53\49\92\57\57\92\53\51\92\49\48\48\92\53\48\92\52\55\92\57\55\92\49\49\52\92\57\57\92\49\48\49\92\49\49\55\92\49\49\53\92\51\55\92\53\48\92\53\51\92\53\48\92\52\56\92\49\50\48\92\51\55\92\53\48\92\53\51\92\53\48\92\52\56\92\49\48\50\92\49\48\56\92\49\50\49\92\51\55\92\53\48\92\53\51\92\53\48\92\52\56\92\53\48\92\51\55\92\53\48\92\53\51\92\53\48\92\52\56\92\49\49\49\92\57\56\92\49\48\50\92\49\48\56\92\49\49\55\92\57\57\92\57\55\92\49\49\54\92\49\49\49\92\49\49\52\92\51\57\92\52\49\92\52\52\92\49\49\54\92\49\49\52\92\49\49\55\92\49\48\49\92\52\49\92\52\49\92\52\48\92\52\49\92\49\48\92\49\48\34\41\40\41\10\101\110\100\41\10\10\84\97\98\49\83\101\99\116\105\111\110\58\78\101\119\66\117\116\116\111\110\40\34\83\111\117\110\100\34\44\32\34\63\34\44\32\102\117\110\99\116\105\111\110\40\41\10\108\111\99\97\108\32\100\117\114\97\116\105\111\110\32\61\32\56\32\45\45\32\105\110\116\101\103\101\114\32\111\110\108\121\44\32\110\111\32\100\101\99\105\109\97\108\115\10\10\10\10\105\102\32\103\97\109\101\58\71\101\116\83\101\114\118\105\99\101\40\34\83\111\117\110\100\83\101\114\118\105\99\101\34\41\46\82\101\115\112\101\99\116\70\105\108\116\101\114\105\110\103\69\110\97\98\108\101\100\32\116\104\101\110\32\114\101\116\117\114\110\32\101\110\100\10\10\108\111\99\97\108\32\115\111\117\110\100\115\32\61\32\123\125\10\10\102\111\114\32\105\44\118\32\105\110\32\112\97\105\114\115\40\119\111\114\107\115\112\97\99\101\58\71\101\116\68\101\115\99\101\110\100\97\110\116\115\40\41\41\32\100\111\10\32\32\32\32\105\102\32\118\58\73\115\65\40\34\83\111\117\110\100\34\41\32\97\110\100\32\118\46\80\97\114\101\110\116\46\78\97\109\101\32\126\61\32\34\72\117\109\97\110\111\105\100\82\111\111\116\80\97\114\116\34\32\116\104\101\110\10\32\32\32\32\32\32\32\32\116\97\98\108\101\46\105\110\115\101\114\116\40\115\111\117\110\100\115\44\118\41\10\32\32\32\32\101\110\100\10\101\110\100\10\10\10\108\111\99\97\108\32\99\111\110\32\61\32\119\111\114\107\115\112\97\99\101\46\68\101\115\99\101\110\100\97\110\116\65\100\100\101\100\58\67\111\110\110\101\99\116\40\102\117\110\99\116\105\111\110\40\118\41\10\32\32\32\32\105\102\32\118\58\73\115\65\40\34\83\111\117\110\100\34\41\32\97\110\100\32\118\46\80\97\114\101\110\116\46\78\97\109\101\32\126\61\32\34\72\117\109\97\110\111\105\100\82\111\111\116\80\97\114\116\34\32\116\104\101\110\10\32\32\32\32\32\32\32\32\116\97\98\108\101\46\105\110\115\101\114\116\40\115\111\117\110\100\115\44\118\41\10\32\32\32\32\101\110\100\10\101\110\100\41\10\119\97\105\116\40\46\49\41\10\108\111\99\97\108\32\115\116\97\114\116\32\61\32\109\97\116\104\46\102\108\111\111\114\40\116\105\99\107\40\41\41\10\114\101\112\101\97\116\10\32\32\32\32\102\111\114\32\105\44\118\32\105\110\32\112\97\105\114\115\40\115\111\117\110\100\115\41\32\100\111\10\32\32\32\32\32\32\32\32\118\58\80\108\97\121\40\41\10\32\32\32\32\32\32\32\32\118\46\84\105\109\101\80\111\115\105\116\105\111\110\32\61\32\109\97\116\104\46\114\97\110\100\111\109\40\48\44\118\46\84\105\109\101\76\101\110\103\116\104\32\42\32\49\48\48\48\41\47\49\48\48\48\10\32\32\32\32\32\32\32\32\116\97\115\107\46\119\97\105\116\40\41\10\32\32\32\32\101\110\100\10\117\110\116\105\108\32\109\97\116\104\46\102\108\111\111\114\40\116\105\99\107\40\41\41\32\61\61\32\115\116\97\114\116\32\43\32\100\117\114\97\116\105\111\110\10\99\111\110\58\68\105\115\99\111\110\110\101\99\116\40\41\10\10\102\111\114\32\105\44\118\32\105\110\32\112\97\105\114\115\40\115\111\117\110\100\115\41\32\100\111\10\32\32\32\32\118\58\83\116\111\112\40\41\10\101\110\100\10\101\110\100\41\32\10")()
 end)
 
-Section:NewButton("Natural Disaster Gui 5(New)", "Cool", function()
+Section:NewButton("Natural Disaster Gui 5 (Old)", "Cool", function()
 loadstring(game:HttpGet("https://gist.githubusercontent.com/TurkOyuncu99/7c75386107937fa006304efd24543ad4/raw/8d759dfcd95d39949c692735cfdf62baec0bf835/cafwetweg", true))()
 end)
 
@@ -16244,8 +16246,17 @@ end)
 
 
 local Section = Tab:NewSection("Prison Life")
+Section:NewButton("Prison Life 1 (New)", "?", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/Wa3uidQr"))()
+end)
+Section:NewButton("Prison Life 2 (New)", "?", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/H17S32/Tiger_Admin/main/Script'))()
+end)
+Section:NewButton("Prison Life 3 (New)", "?", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/mHfK0Xk4", true))()
+end)
 
-Section:NewButton("Prison Life GUI 1", "New TeddHub", function()
+Section:NewButton("Prison Life GUI 1 (Old)", "New TeddHub", function()
 setclipboard("https://discord.gg/pTSg34Jz3n")
 print("copied the discord")
 if game.PlaceId == 155615604 then
@@ -16398,23 +16409,23 @@ end
 end)
 
 
-Section:NewButton("PrisonLife Admin 1",  "Gives you septex admin", function()
+Section:NewButton("PrisonLife Admin 1 (Old)",  "Gives you septex admin", function()
    loadstring(game:HttpGet(('https://raw.githubusercontent.com/XTheMasterX/Scripts/Main/PrisonLife'),true))()
 end)
 
-Section:NewButton("PrisonLife gui 2",  "Gives you Op stuff lol", function()
+Section:NewButton("PrisonLife gui 2 (Old)",  "Gives you Op stuff lol", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/wMagw9Cn", true))()
 end)
 
-Section:NewButton("PrisonLife Admin 2", "New and op", function()
+Section:NewButton("PrisonLife Admin 2 (Old)", "New and op", function()
 loadstring(game:HttpGet('https://pastebinp.com/raw/dt7JbaH5'))()
 end)
 
-Section:NewButton("PrisonLife gui 3", "Gui lol", function()
+Section:NewButton("PrisonLife gui 3 (Old)", "Gui lol", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/dJ6tcE7h", true))()
 end)
 
-Section:NewButton("PrisonLife Gui 4(New)", "Cool", function()
+Section:NewButton("PrisonLife Gui 4 (Old)", "Cool", function()
 local library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wall%20v3')))()
 
 local w = library:CreateWindow("New Combat#1") -- Creates the window
@@ -17182,7 +17193,7 @@ end)
 
 
 
-Section:NewButton("One Hit Gun(New)", "Awesome", function()
+Section:NewButton("One Hit Gun (Old)", "Awesome", function()
 local player = game:GetService("Players").LocalPlayer
 local gun = player.Backpack:FindFirstChild("AK-47")
 local sM = require(gun:FindFirstChild("GunStates"))
@@ -17240,18 +17251,122 @@ game.StarterGui:SetCore("SendNotification", {
 
 end)
 
-Section:NewButton("PrisonLife Gui 5(New)", "oh ok", function()
+Section:NewButton("PrisonLife Gui 5 (Old)", "oh ok", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Denverrz/scripts/master/PRISONWARE_v1.3.txt"))();
 end)
 
 
 local Section = Tab:NewSection ("Infectious Smile")
+Section:NewButton("Infectious Smile 1 (New)", "Smile Bitch", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Nicuse/RobloxScripts/main/InfectiousSmile.lua", true))()
+end)
+Section:NewButton("Infectious Smile 2 (New)", "Smile Bitch", function()
+local a=game:GetService'Players'local b=game:GetService'RunService'local c=game:
+GetService'Workspace'local d=game:GetService'CoreGui'local e=
+[[https://raw.githubusercontent.com/wally-rblx/LinoriaLib/main/]]local f=
+loadstring(game:HttpGet(e..'Library.lua'))()local g=loadstring(game:HttpGet(e..
+'addons/SaveManager.lua'))()local h=loadstring(game:HttpGet(e..
+'addons/ThemeManager.lua'))()local i=a.LocalPlayer local j=i.PlayerScripts.
+PlayerModule.CameraModule.MouseLockController.BoundKeys local k=c.Map.Infectors
+local l=c.Map.HumanBase.Vendor.BatCollection.HitBox local m=c.Map.HumanBase.
+Vendor.BottleCollection.HitBox local n=syn and syn.protect_gui or function(n)end
+local o={}local p={}local q=function(q)return q.Team and q.Team.Name=='Smiling'
+end local r=function(r)if r and r:IsA'Model'then local s=r:
+FindFirstChildWhichIsA'Humanoid'if s and s.Health>0 then local t=r.PrimaryPart
+or r:FindFirstChild'HumanoidRootPart'if t then return true end end end return
+false end local s=function(s)local t=Instance.new'Highlight't.FillColor=s.
+TeamColor.Color t.DepthMode=Enum.HighlightDepthMode.AlwaysOnTop t.RobloxLocked=
+true n(t)o[s]=t t.Parent=d local u=function()t.FillColor=s.TeamColor.Color end
+local v=function(v)t.Adornee=v end s:GetPropertyChangedSignal'TeamColor':
+Connect(u)s.CharacterAdded:Connect(v)local w=s.Character if w then v(w)end end
+local t=function(t)local u=o[t]if u then u:Destroy()o[t]=nil end end do f:
+SetWatermark'Linoria Community (OminousVibes)'f:Notify'Loading UI...'local u=f:
+CreateWindow'Infectious Smile'do local v=u:AddTab'Legit'do local w=v:
+AddLeftTabbox'Modifiers'local x=w:AddTab'Humans'x:AddToggle('HumanReach',{Text=
+'Reach',Default=false})x:AddSlider('HumanRange',{Text='Reach Radius',Min=1,Max=
+25,Default=5,Rounding=0,Suffix=' studs'})x:AddButton('Obtain Bat',function()
+local y=i.Character.HumanoidRootPart local z=y.CFrame y.CFrame=l.CFrame
+firetouchinterest(y,l,1)firetouchinterest(y,l,0)local A=false local B=os.clock()
+local C=i.Backpack.ChildAdded:Connect(function()A=true end)repeat task.wait()
+until A or os.clock()-B>1 C:Disconnect()y.CFrame=z y.AssemblyLinearVelocity=
+Vector3.new()end)x:AddButton('Obtain Bottle',function()local y=i.Character.
+HumanoidRootPart local z=y.CFrame y.CFrame=m.CFrame firetouchinterest(y,m,1)
+firetouchinterest(y,m,0)local A=false local B=os.clock()local C=i.Backpack.
+ChildAdded:Connect(function()A=true end)repeat task.wait()until A or os.clock()-
+B>1 C:Disconnect()y.CFrame=z y.AssemblyLinearVelocity=Vector3.new()end)x:
+AddToggle('AntiInfect',{Text='Anti Infect-Brick',Default=false})local y=w:AddTab
+'Infected'y:AddToggle('InfectedReach',{Text='Reach',Default=false})y:AddSlider(
+'InfectedRange',{Text='Reach Radius',Min=1,Max=25,Default=5,Rounding=0,Suffix=
+' studs'})end do local w=v:AddRightGroupbox'Others'w:AddToggle('SpeedHack',{Text
+='Speed Hack',Default=false}):AddKeyPicker('SpeedHack',{Text='Speed',Default=
+'LeftShift',Mode='Hold'})w:AddSlider('Speed',{Text='Speed',Min=1,Max=10,Default=
+2,Rounding=1,Suffix=''})w:AddToggle('LockBind',{Text='Bind Shift-Lock',Default=
+false}):AddKeyPicker('LockBind',{Text='Key',Default='LeftControl',NoUI=true})end
+do local w=v:AddLeftGroupbox'Auto Farm'w:AddToggle('AutoFarm',{Text='Enabled',
+Default=false})end end do local v=u:AddTab'Visuals'do local w=v:AddLeftTabbox
+'Visuals'local x=w:AddTab'Player'x:AddToggle('PlayerChams',{Text='ESP',Default=
+true})end do local w=v:AddRightGroupbox'World Render'w:AddLabel
+'Work in progress'end end do local v=u:AddTab'Settings'h:SetLibrary(f)g:
+SetLibrary(f)h:SetFolder'OminousVibes'g:SetFolder'OminousVibes/infectious-smile'
+g:IgnoreThemeSettings()g:SetIgnoreIndexes{'MenuKeybind'}g:BuildConfigSection(v)h
+:ApplyToTab(v)local w=v:AddLeftGroupbox'Menu'w:AddButton('Unload',function()f:
+Unload()end)w:AddLabel'Menu bind':AddKeyPicker('MenuKeybind',{Default='End',NoUI
+=true,Text='Menu keybind'})w:AddToggle('Keybinds',{Text='Show Keybinds Menu',
+Default=true}):OnChanged(function()f.KeybindFrame.Visible=Toggles.Keybinds.Value
+end)w:AddToggle('Watermark',{Text='Show Watermark',Default=true}):OnChanged(
+function()f:SetWatermarkVisibility(Toggles.Watermark.Value)end)end Toggles.
+AntiInfect:OnChanged(function()if Toggles.AntiInfect.Value then print(k.Parent)
+for v,w in ipairs(k:GetDescendants())do if w:IsA'TouchTransmitter'then local x=w
+.Parent local y=Instance.new'Part'y.Transparency=1 y.Anchored=true y.CanCollide=
+true y.CFrame=x.CFrame y.Size=x.Size+Vector3.new(2.5,2.5,2.5)n(y)y.Parent=x
+table.insert(p,y)end end else for v,w in ipairs(p)do w:Destroy()end p={}end end)
+Toggles.AutoFarm:OnChanged(function()if not Toggles.AutoFarm.Value then return
+end local v={}while Toggles.AutoFarm.Value do local w=i.Character if r(w)then
+local x=w.HumanoidRootPart if q(i)and w.Torso:FindFirstChild'Part'then local y
+for z,A in ipairs(a:GetPlayers())do if not q(A)and not table.find(v,A)then if r(
+A.Character)then y=A break end end end if y then local B=y.Character local C=
+getsenv(w.Infected.Infect).bind local D=debug.getproto(C,1,true)[1]if D then
+repeat task.spawn(D,{UserInputState=Enum.UserInputState.Begin,UserInputType=Enum
+.UserInputType.MouseButton1})firetouchinterest(w.Torso,B.HumanoidRootPart,1)
+firetouchinterest(w.Torso,B.HumanoidRootPart,0)x.CFrame=CFrame.new(B.
+HumanoidRootPart.Position-Vector3.new(0,20,0),B.HumanoidRootPart.Position)x.
+AssemblyLinearVelocity=Vector3.new()if not r(w)or not r(B)then break end b.
+Stepped:Wait()until q(y)or x:FindFirstChild'CaptureAlignPosition'or not Toggles.
+AutoFarm.Value repeat x.CFrame=CFrame.new(-41,2,59)x.AssemblyLinearVelocity=
+Vector3.new()if not r(w)or not r(B)then break end b.RenderStepped:Wait()until q(
+y)or not x:FindFirstChild'CaptureAlignPosition'or not Toggles.AutoFarm.Value
+table.insert(v,y)end end else local y=k:FindFirstChildWhichIsA(
+'TouchTransmitter',true).Parent firetouchinterest(x,y,1)firetouchinterest(x,y,0)
+end x.CFrame=CFrame.new(-41,2,59)x.AssemblyLinearVelocity=Vector3.new()local y=w
+.Humanoid:FindFirstAncestorWhichIsA'Animator'if y then for z,A in ipairs(y:
+GetPlayingAnimationTracks())do A:Stop()end end for z,A in ipairs(w:
+GetDescendants())do if A:IsA'BasePart'then A.CanCollide=false end end end b.
+RenderStepped:Wait()end i.Character:BreakJoints()end)f:Notify'UI Loaded'end a.
+PlayerAdded:Connect(s)a.PlayerRemoving:Connect(t)b.RenderStepped:Connect(
+function(u)for v,w in pairs(o)do w.Enabled=Toggles.PlayerChams.Value end if
+Toggles.LockBind.Value then j.Value=Options.LockBind.Value or'LeftControl'else j
+.Value='LeftShift, RightShift'end local x=i.Character if r(x)then if Toggles.
+SpeedHack.Value then local y=Options.SpeedHack:GetState()if y then x.Humanoid.
+WalkSpeed=16+Options.Speed.Value else x.Humanoid.WalkSpeed=16 end end if q(i)
+then if Toggles.InfectedReach.Value then local y=x.Torso for z,A in ipairs(a:
+GetPlayers())do if not q(A)then local B=A.Character if r(B)then local C=B.
+HumanoidRootPart if C then local D=(C.Position-x.HumanoidRootPart.Position).
+Magnitude if D<=Options.InfectedRange.Value then firetouchinterest(C,y,1)
+firetouchinterest(C,y,0)end end end end end end else if Toggles.HumanReach.Value
+then local y=x:FindFirstChildWhichIsA'Tool'if y then local z=y:
+FindFirstChildWhichIsA('TouchTransmitter',true)if z then local A=z.Parent for B,
+C in ipairs(a:GetPlayers())do if q(C)then local D=C.Character if r(D)then local
+E=D.HumanoidRootPart local F=(E.Position-A.Position).Magnitude if F<=Options.
+HumanRange.Value then firetouchinterest(E,A,1)firetouchinterest(E,A,0)end end
+end end end end end end end end)for u,v in ipairs(a:GetPlayers())do if v~=i then
+s(v)end end return f:Notify'[Infectious Smile] Loaded!'
+end)
 
-Section:NewButton("Infectious Smile 1", "Smile Bitch", function()
+Section:NewButton("Infectious Smile 1 (Old)", "Smile Bitch", function()
    loadstring(game:HttpGet("https://pastebin.com/raw/WG1BMS72",true))()
 end)
 
-Section:NewButton("Infectious Smile 2", "Smile Bitch", function()
+Section:NewButton("Infectious Smile 2 (Old)", "Smile Bitch", function()
 -- Gui to Lua
 -- Version: 3.2
 
@@ -17457,12 +17572,31 @@ end)
 
 
 local Section = Tab:NewSection("Kicking Simulator")
+Section:NewButton("AutoFarm (New)", "?", function()
+local args = {
+[1] = "MissionGet",
+[2] = "MISSION_001"
+}
 
-Section:NewButton("Kicking Simulator 1", "Kick the Ball", function()
+game:GetService("ReplicatedStorage").Remotes.MissionRF:InvokeServer(unpack(args))
+local args = {
+[1] = "MissionReceiveAward",
+[2] = "MISSION_001",
+[3] = Vector3.new(67.61710357666016, -1.3638267517089844, -182.75799560546875)
+}
+
+game:GetService("ReplicatedStorage").Remotes.MissionRF:InvokeServer(unpack(args))
+end)
+
+Section:NewButton("Quest complete (New)", "?", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Cospog/pufferfish/main/goalKick.lua"))()
+end)
+
+Section:NewButton("Kicking Simulator 1 (Old)", "Kick the Ball", function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/insanedude59/Scripts/main/GoalKickSimulator"))()
 end)
 
-Section:NewButton("Kicking Simulator 2 Gui(New)", "kicking balls lol", function()
+Section:NewButton("Kicking Simulator 2 Gui (Old)", "kicking balls lol", function()
 loadstring(game:HttpGet"https://thedragonslayer2.github.io")()
 end)
 
@@ -17470,7 +17604,7 @@ end)
 
 local Section = Tab:NewSection("Bot Clash")
 
-Section:NewButton("Bot Clash 1", "Robot Crashing Each other", function()
+Section:NewButton("Bot Clash 1 (Old)", "Robot Crashing Each other", function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/Krackenz/RobloxScripts/main/Protected%20(6).lua",true))()
 end)
 
@@ -17479,52 +17613,93 @@ end)
 
 
 local Section = Tab:NewSection("Military Tycoon")
+Section:NewButton("Military Tycoon 1 (New)", "?", function()
+loadstring(game:HttpGet"https://pastebinp.com/raw/eccv9pgu")()
+end)
 
-Section:NewButton("Military Tycoon 1", "BANG BANG", function()
+Section:NewButton("Military Tycoon (Old)", "BANG BANG", function()
    loadstring(game:HttpGet"https://thedragonslayer2.github.io")()
 end)
 
 
 
 local Section = Tab:NewSection("Sonic Speed Simulator")
+Section:NewButton("Sonic Speed Simulator 1 (New)", "?", function()
+_G.RedGUI = true
+_G.Theme = "Dark" -- Must disable or remove _G.RedGUI to use 
+-- Themes: Light, Dark, Mocha, Aqua and Jester
 
-Section:NewButton("Sonic Speed Simulator 1", "Gotta Go Fast", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/SamsungSuperstarGalaxy.lua"))()
+end)
+Section:NewButton("Sonic Speed Simulator 2 (New)", "?", function()
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/tKNgdSR1"))()
+end)
+Section:NewButton("Sonic Speed Simulator 3 (New)", "?", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Babyhamsta/RBLX_Scripts/main/Sonic%20Speed%20Simulator/main.lua", true))()
+end)
+
+Section:NewButton("Sonic Speed Simulator 1 (Old)", "Gotta Go Fast", function()
    loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-SkaysGG-2095"))()
 end)
 
-Section:NewButton("Sonic Speed Simulator 2", "Go gotta fast bitch", function()
+Section:NewButton("Sonic Speed Simulator 2 (Old)", "Go gotta fast bitch", function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/Luciquad/credit/main/sonicspeedsimulator.lua"))()
 end)
 
-Section:NewButton("AutoFarm(New)", "wow", function()
+Section:NewButton("AutoFarm (Old)", "wow", function()
 getgenv().Time_Between_Each_ServerHop = 5 -- This is Seconds
 loadstring(game:HttpGet"https://gitlab.com/L1ZOT/test-project/-/raw/main/Sonic-Speed-Simulator-AutoEXC")()
 end)
 
 
-local Section = Tab:NewSection("Rebirth Champion X")
 
-Section:NewButton("Rebirth Champion X 1", "Idk this game", function()
+
+local Section = Tab:NewSection("Rebirth Champion X")
+Section:NewButton("Rebirth Champion X 1 (New)", "?", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ZaRdoOx/Platinium/main/Loader"))()
+end)
+Section:NewButton("Rebirth Champion X 2 (New)", "?", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AliCode14/scripts/main/ScriptHub.lua"))()
+end)
+Section:NewButton("Rebirth Champion X 3 (New)", "?", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Kyleeeeeeeeeeeeee/scripts/main/loadstring'))()
+end)
+Section:NewButton("Rebirth Champion X 4 (New)", "?", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/DanielDuesenDieb/voidhub/main/loader.lua'))()
+end)
+Section:NewButton("Rebirth Champion X 5 (New)", "?", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraIsMe2/ToraIsMe2/main/0rebirth3", true))()
+end)
+
+Section:NewButton("Rebirth Champion X 1 (Old)", "Idk this game", function()
    loadstring(game:HttpGet('https://raw.githubusercontent.com/SunkenMuch/Soggyware/main/Main',true))()
 end)
 
-Section:NewButton("Rebirth Champion X 2(New)", "idk", function()
+Section:NewButton("Rebirth Champion X 2 (Old)", "idk", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/SunkenMuch/Soggyware/main/rebirthchampx',true))()
 end)
 
-Section:NewButton("Rebirth Champion X 3(New)", "Op", function()
+Section:NewButton("Rebirth Champion X 3 (Old)", "Op", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/KrystekYTpv/Scripts/main/RebirthChampionsX.lua", true))()
 end)
 
-Section:NewButton("Rebirth Champion X 4(New)", "op lol", function()
+Section:NewButton("Rebirth Champion X 4 (Old)", "op lol", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Relyz1337/SCRIPTS/main/Rebirth%20Champions%20X',true))()
 end)
 
 
 
 local Section = Tab:NewSection("Prop Hunt")
-
-Section:NewButton("Prop Hunt 1", "idk this game too", function()
+Section:NewButton("Prop Hunt 1 (New)", "?", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+end)
+Section:NewButton("Prop Hunt AutoWin 2 (New)", "?", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/joeengo/Future/main/loadstring.lua', true))()
+end)
+Section:NewButton("Prop Hunt 3 (New)", "?", function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/bostonstrong567/RobloxPublicScripts/main/PropHunt.lua')))()
+end)
+Section:NewButton("Prop Hunt 1 (Old)", "idk this game too", function()
    loadstring(game:HttpGet(('https://pastebin.com/raw/tzTXmYf2'),true))()
 end)
 
@@ -17532,16 +17707,78 @@ end)
 
 
 local Section = Tab:NewSection("KAT")
+Section:NewButton("Kat Gui 1 (New)", "?", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/JNHHGaming/Kat12/main/Kat"))()
+end)
+Section:NewButton("Kat Gui 2 (New)", "?", function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+end)
+Section:NewButton("Kat Gui 3","?",function()
+if game.PlaceId == 621129760 then
+loadstring(game:HttpGet("https://pastebin.com/raw/78kG7trR", true))()
+ 
+-- Gui to Lua
+-- Version: 3.2
+ 
+-- Instances:
+ 
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local TextButton = Instance.new("TextButton")
+ 
+--Properties:
+ 
+ScreenGui.Parent = game.CoreGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+ 
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BackgroundTransparency = 0.300
+Frame.BorderColor3 = Color3.fromRGB(255, 0, 0)
+Frame.BorderSizePixel = 5
+Frame.Position = UDim2.new(0, 0, 0.5, -62)
+Frame.Size = UDim2.new(0, 702, 0, 124)
+Frame.Active = true
+ 
+ 
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 3.000
+TextLabel.Size = UDim2.new(0, 702, 0, 124)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "This GUI is not the best with Every exploit. It's mainly for paid exploits, such as Script ware and Synapse, If you dont have a paid exploit, then I Suggest You Use Krnl Or Fluxus, Press L To Toggle The UI. I recommend having at least laser when using silent aim with a knife, incase you dont have try out spam knife!"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+ 
+TextButton.Parent = Frame
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.BackgroundTransparency = 3.000
+TextButton.Position = UDim2.new(0.928774953, 0, 0.669354856, 0)
+TextButton.Size = UDim2.new(0, 42, 0, 41)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "Close"
+TextButton.TextColor3 = Color3.fromRGB(255, 0, 0)
+TextButton.TextScaled = true
+TextButton.TextSize = 50.000
+TextButton.TextWrapped = true
+TextButton.MouseButton1Down:connect(function()
+	Frame.Visible = false
+end)
+end
+end)
 
-Section:NewButton("Kat Gui 1(New)", "Awesome", function()
+Section:NewButton("Kat Gui 1 (Old)", "Awesome", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/KAT", true))()
 end)
 
-Section:NewButton("Kat Gui 2(New)", "Cool", function()
+Section:NewButton("Kat Gui 2 (Old)", "Cool", function()
 loadstring(game:HttpGet('https://pastebin.com/raw/TDBuxW7W'))()
 end)
 
-Section:NewButton("KAT Kill ALL", "Well That is cheating", function()
+Section:NewButton("KAT Kill ALL (Old)", "Well That is cheating", function()
 loadstring("\108\111\99\97\108\32\76\80\32\61\32\103\97\109\101\58\71\101\116\83\101\114\118\105\99\101\40\34\80\108\97\121\101\114\115\34\41\46\76\111\99\97\108\80\108\97\121\101\114\10\119\104\105\108\101\32\119\97\105\116\40\48\46\49\41\32\100\111\10\102\111\114\32\105\44\118\32\105\110\32\112\97\105\114\115\40\103\97\109\101\58\71\101\116\83\101\114\118\105\99\101\40\34\80\108\97\121\101\114\115\34\41\58\71\101\116\80\108\97\121\101\114\115\40\41\41\32\100\111\10\105\102\32\118\32\97\110\100\32\118\46\67\104\97\114\97\99\116\101\114\32\97\110\100\32\118\32\126\61\32\76\80\32\97\110\100\32\118\46\67\104\97\114\97\99\116\101\114\58\70\105\110\100\70\105\114\115\116\67\104\105\108\100\40\34\72\101\97\100\34\41\32\116\104\101\110\10\108\111\99\97\108\32\104\114\112\32\61\32\118\46\67\104\97\114\97\99\116\101\114\58\70\105\110\100\70\105\114\115\116\67\104\105\108\100\40\34\72\101\97\100\34\41\32\10\104\114\112\58\66\114\101\97\107\74\111\105\110\116\115\40\41\10\104\114\112\46\84\114\97\110\115\112\97\114\101\110\99\121\32\61\32\48\10\104\114\112\46\66\114\105\99\107\67\111\108\111\114\32\61\32\118\46\84\101\97\109\67\111\108\111\114\10\104\114\112\46\65\110\99\104\111\114\101\100\32\61\32\116\114\117\101\10\104\114\112\46\67\97\110\67\111\108\108\105\100\101\32\61\32\102\97\108\115\101\10\112\99\97\108\108\40\102\117\110\99\116\105\111\110\40\41\10\104\114\112\46\67\70\114\97\109\101\32\61\32\76\80\46\67\104\97\114\97\99\116\101\114\46\72\117\109\97\110\111\105\100\82\111\111\116\80\97\114\116\46\67\70\114\97\109\101\32\42\32\67\70\114\97\109\101\46\110\101\119\40\49\44\48\44\45\51\46\53\41\10\101\110\100\41\10\101\110\100\10\101\110\100\10\101\110\100\10")()
 end)
 
@@ -17594,7 +17831,7 @@ setreadonly(GameMetaTable, true)
 end)
 
 
-Section:NewButton("KAT OP", "Has speed,kill all,and more", function()
+Section:NewButton("KAT OP (Old)", "Has speed,kill all,and more", function()
    game.StarterGui:SetCore("SendNotification", {
     Title = "Enjoy";
     Text = "Made by JN HH Gaming"; -- what the text says (ofc)
@@ -17802,6 +18039,12 @@ end)
 
 
 local Section = Tab:NewSection("Build a Boat")
+Section:NewButton("Build a Boat 1 (New)", "?", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/max2007killer/auto-build-not-limit/main/autobuild.txt"))()
+end)
+Section:NewButton("Build a Boat 2 (New)", "?", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/XRoLLu/UWU/main/BUILD%20A%20BOAT%20FOR%20TREASURE.lua'))()
+end)
 
 Section:NewButton("Build a Boat 1 (Old)", "havent played", function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/ThunderZ-HUB/HUB/main/Script"))()
@@ -17835,7 +18078,18 @@ end)
 
 
 local Section = Tab:NewSection("Goal Simulator")
-
+Section:NewButton("Goal Simulator 1 (New)", "?", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RiseValco/keybypasses/main/extremehub/bypass.lua"))()
+end)
+Section:NewButton("Goal Simulator 2 (New)", "?", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/SunkenMuch/Soggyware/main/Main',true))()
+end)
+Section:NewButton("Goal Simulator 3 (New)", "?", function()
+loadstring(game:HttpGet"https://thedragonslayer2.github.io")()
+end)
+Section:NewButton("Goal Simulator 4 (New)", "?", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Cospog/pufferfish/main/goalKick.lua"))()
+end)
 Section:NewButton("Goal Simulator 1 (Old)", "Play soccer", function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/insanedude59/Scripts/main/GoalKickSimulator"))()
 end)
@@ -17844,6 +18098,13 @@ end)
  
 
 local Section = Tab:NewSection("Anime Dimensions")
+Section:NewButton("Anime Dimensions 1 (New)", "?", function()
+loadstring(game:HttpGet"https://raw.githubusercontent.com/lifaiossama/errors/main/Intruders.html")()
+end)
+
+Section:NewButton("Anime Dimensions 2 (New)", "?", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/destylol/masterhubv311/itachi/Main.lua"))()
+end)
 
 Section:NewButton("Anime Dimensions 1 (Old)", "Different anime lol", function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/TheWitch-BirdHub/BirdHubv0.1/main/load"))()
@@ -19327,10 +19588,10 @@ end)
 
 
 local Section = Tab:NewSection("Zombie Attack")
-Section:NewButton("Zombie Attack Gui [Key: N1LmKwD7jpbxadf](New)","?",function()
+Section:NewButton("Zombie Attack Gui 1(New)","[Key: N1LmKwD7jpbxadf]",function()
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/zeuise0002/SSSWWW222/main/README.md'),true))()
 end)
-Section:NewButton("Zombie Attack Gui 2 (New(","?",function()
+Section:NewButton("Zombie Attack Gui 2 (New)","?",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/YellowGreg/Zombie-Attack-Gui/main/Zombie%20Attack%20V1.lua"))()
 end)
 Section:NewButton("Zombie Attack Gui 3 (New)","?",function()
