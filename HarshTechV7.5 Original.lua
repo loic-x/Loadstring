@@ -9667,15 +9667,123 @@ Section:NewButton("Game: "..game.PlaceId.." | "..GameName, "?", function()
     print("hi")
  end)
 
-local Section = Tab:NewSection("Flee The Facility")
+local Section = Tab:NewSection("Combat Warriors")
+Section:NewButton("Combat Warrior Gui 1 (New)", "?", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SpiritXmas/Project-Hook/main/required.lua"))()
+end)
+Section:NewButton("Combat Warrior Gui 2 (New)", "?", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CheeseOnGithub/cheese-hook/main/main%20hydra%20ui.lua",true))()
+end)
+Section:NewButton("Combat Warrior Gui 3 (New)", "?", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SussyImposterRed/Scripts/main/NOVA_HUB_SOURCE"))()
+end)
+Section:NewButton("Combat Warrior Gui 4 (New)", "?", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/IsaaaKK/cwhb/main/cw.txt"))()
+end)
+Section:NewButton("Combat Warrior Gui 5 (New)", "?", function()
+loadstring(game:HttpGet("https://www.itots.tk/zaphub/combat-warriors.lua", true))()
+end)
 
-Section:NewButton("FleeTheFacility Gui 1 (Old)", "idk", function()
+local Section = Tab:NewSection("Michael Zombie")
+Section:NewButton("Michael Zombie Gui 1 (New)", "?", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Bebo-Mods/BeboScripts/main/MichaelZombies.lua"))()
+end)
+Section:NewButton("Michael Zombie Gui 2 (New)", "?", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SlamminPig/rblxgames/main/Michael's%20Zombies/MichaelsZombiesGUI"))()
+end)
+ 
+local Section = Tab:NewSection("Bee Swarm Simulator")
+Section:NewButton("BSS Gui 1 (New)", "?", function()
+-- https://discord.gg/bss
+loadstring(game:HttpGet("https://www.macrov2-script.xyz/macrov2.lua"))()
+end)
+Section:NewButton("BSS Gui 2 (New)", "?", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Boxking776/kocmoc/main/kocmoc-remastered.lua"))()
+end)
+Section:NewButton("BSS Gui 3 (New)", "?", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Muhammad6196/Project-WD/main/Main.lua"))()
+end)
+
+
+ 
+local Section = Tab:NewSection("Piggy")
+Section:NewButton("Piggy Gui 1 (New)", "?", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraIsMe2/ToraIsMe2/main/0piggy2", true))()
+end)
+Section:NewButton("Piggy Gui 2 (New)", "?", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/tip52/useless-projects/main/piggy%20rb%20battles%20bit'))()
+end)
+Section:NewButton("Piggy Gui 3 (New)", "?", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/pLNRr7jn'))()
+end)
+Section:NewButton("Piggy Gui 4 (New)", "?", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/tip52/useless-projects/main/piggy%20rb%20battles%20bit'))()
+end)
+Section:NewButton("Piggy Gui 5 (New)", "?", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Piggy/Piggy"))()
+end)
+ 
+local Section = Tab:NewSection("DOORS")
+Section:NewButton("DOORS Gui 1 (New)", "?", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/bxeZwRjU'))()
+end)
+Section:NewButton("DOORS Gui 2 (New)", "?", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/pQ0f9r7D'))()
+end)
+Section:NewButton("DOORS Gui 3 (New)", "?", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/tPEZAAuz'))()
+end)
+Section:NewButton("DOORS Gui 4 (New)", "?", function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/R8QMbhzv')))()
+end)
+
+local Section = Tab:NewSection("Frontline")
+Section:NewButton("Frontline Gui 1 (New)", "?", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SomacYT/better-script-frontline/main/Frontline%20somac%20hub%20v2"))()
+end)
+Section:NewButton("Frontline ESP (New)", "?", function()
+_G.ESP = {
+    Boxes = true,
+    Tracers = true,
+    Rainbow = true,
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/mopsfl/roblox-scripts/main/.frontlines-esp.lua"))()
+end)
+Section:NewButton("Frontline Gui 3 (New)", "?", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Babyhamsta/RBLX_Scripts/main/Frontlines/Modded_Aimhot.lua", true))()
+end)
+
+local Section = Tab:NewSection("Flee The Facility")
+Section:NewButton("FleeTheFacility Gui 1 (New)", "idk", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/OneProtocol/Project/main/Loader", true))()
+end)
+Section:NewButton("FleeTheFacility Gui 2 (New)", "idk", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/khoaScript/scripts/master/flee-the-facility.lua"))()
+end)
+Section:NewButton("FleeTheFacility Gui 3 (New)", "idk", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/bedra45/Random-games-xd/main/bedraFtfFinalGUI"))()
+end)
+
+Section:NewButton("FleeTheFacility (Old)", "idk", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Drifty96/ftfgui/main/ftfgui", true))()
 end)
 
 
 
 local Section = Tab:NewSection("Legend Of Speed")
+Section:NewButton("LegendOfSpeed Gui 1 (New)", "cool ok", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/jynzl/main/main/Legenos%20of%20speedos'))()
+end)
+Section:NewButton("LegendOfSpeed Gui 2 (New)", "cool ok", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/KrangH/ScriptsHub/main/Legends_Of_Speedv2"))()
+end)
+Section:NewButton("LegendOfSpeed Gui 3 (New)", "cool ok", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/KidScripts/Scripts/main/Silver-Hub-Keyless.lua",true))()
+end)
+Section:NewButton("LegendOfSpeed Gui 4 (New)", "cool ok", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Its-LALOL/LALOL-Hub/main/.lua'))()
+end)
 
 Section:NewButton("LegendOfSpeed Gui 1 (Old)", "cool ok", function()
 loadstring(Game:HttpGet("https://pastebin.com/raw/z3QF6pUX"))()
@@ -9708,6 +9816,15 @@ end)
 
 
 local Section = Tab:NewSection("UnderGround War")
+Section:NewButton("UnderGround Gui 1 (New)", "New ok", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/jynzl/UniqueHub/main/UniqueHubv2Intro', true))()
+end)
+Section:NewButton("UnderGround Gui 2 (New)", "New ok", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/jj123llol/multi-hub/main/Multi",true))()
+end)
+Section:NewButton("UnderGround Gui 3 (New)", "New ok", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/iuqYjEAX"))()
+end)
 
 Section:NewButton("UnderGround Gui 1 (Old)", "idk im bored", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/The%20UnderGround%20War%203'))()
@@ -9716,7 +9833,6 @@ end)
 
 
 local Section = Tab:NewSection("Castle War")
-
 Section:NewButton("Castle War Gui 1 (Old)", "New ok", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/Castle%20Wars'))()
 end)
@@ -9724,6 +9840,15 @@ end)
 
 
 local Section = Tab:NewSection("Chaos")
+Section:NewButton("Chaos Gui 1 (New)", "???", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Idkwhatudoin/TSS/main/TSSChaosScript", true))()
+end)
+Section:NewButton("Chaos Gui 2 (New)", "???", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/aidanlolol/MainScript/main/ChaosScriptVersionTwoPointOne.lua"))()
+end)
+Section:NewButton("Chaos Gui 3 (New)", "???", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/VzPbD7GW"))()
+end)
 
 Section:NewButton("Chaos Gui 1 (Old)", "???", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/1111-ssss/Chaos_Script/main/Chaos_script.txt'))()
@@ -10669,9 +10794,16 @@ end)
 
 
 local Section = Tab:NewSection("Cant say the word")
+Section:NewButton("Dont say the word Gui 1 (New)", "?", function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/W9KKeaMp'),true))()
+end)
+Section:NewButton("Dont say the word Gui 1 (New)", "?", function()
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/KRNL2/CantSayTheWordScript/main/fe")))()
+end)
+
+
 Section:NewButton("Dont say the word Gui 1 (Old)", "ok", function()
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-
 local Window = Library.CreateLib("Cant Say the Word GUI", "Serpent")
 
 local Tab = Window:NewTab("Main")
@@ -10714,15 +10846,22 @@ end)
 
 
 local Section = Tab:NewSection("Nico NextBot")
+Section:NewButton("Nico NextBot Gui 1 (New)", "Cool", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RobloxHackingProject/HPHub/main/HPHub.lua"))()
+end)
+Section:NewButton("Nico NextBot Gui 2 (New)", "Cool", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/dropouut/Shindai/main/wercT.lua"))()
+end)
+Section:NewButton("Nico NextBot Gui 3 (New)", "Cool", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/DFfKb4i9"))()
+end)
 
 Section:NewButton("Nico NextBot Gui 1 (Old)", "Cool", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/CopyReal/NexHub/main/NexHubLoader"))()
 end)
-
 Section:NewButton("Nico NextBot Gui 2 (Old)", "ok lol", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/Games/NicoNextBots", true))()
 end)
-
 Section:NewButton("Nico NextBot Gui 3 (Old)", "idk this game", function()
 local library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wall%20v3')))()
 local w = library:CreateWindow("Nicos sexbots")
@@ -10731,19 +10870,15 @@ local c = w:CreateFolder("Misc")
 b:Button("Monster Esp",function()
    esp()
 end)
-
 b:Button("Safe Zone #1",function()
    teleport1()
 end)
-
 b:Button("Safe Zone #2",function()
    teleport2()
 end)
-
 c:Button("is made by",function()
    print("is made by")
 end)
-
 c:Button("FireIsTheBest",function()
    print("FireIsTheBest - V3rm")
 end)
@@ -10751,10 +10886,7 @@ end)
 c:Button("Discord in devcon",function()
    print("DawgZalensky#7579")
 end)
-
-
 c:DestroyGui()
-
 
 function esp()
   while task.wait(15) do
@@ -10781,7 +10913,6 @@ function esp()
   end
 end
 
-
 function teleport1()
   local daddy = game.Players.LocalPlayer.Character.HumanoidRootPart
   local griddy = CFrame.new(Vector3.new(-70, 35, 362))
@@ -10797,6 +10928,15 @@ end)
 
 
 local Section = Tab:NewSection("Rol Ghoul")
+Section:NewButton("Rol Ghoul Gui 1 (New)", "Ohh", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/2uF3iQAf', true))()
+end)
+Section:NewButton("Rol Ghoul Gui 2 (New)", "Ohh", function()
+loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/z4gs/scripts/master/Ro-Ghoul%20Auto%20Farm.lua"))()
+end)
+Section:NewButton("Rol Ghoul Gui 3 (New)", "Ohh", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/JRL-lav/Scripts/main/Ro-ghoul"))()
+end)
 
 Section:NewButton("Rol Ghoul Gui 1 (Old)", "idk what to say lol", function()
 --For Zen Hub | Ro ghoul V1
@@ -10811,17 +10951,20 @@ end)
 
 
 local Section = Tab:NewSection("Pet Simulator X")
-
-Section:NewButton("PetSimX GUI 1 (Old)", "PetSimX 3", function()
-    loadstring(game:HttpGet"https://rawscripts.net/raw/Project-Meow_421")()
+Section:NewButton("PetSimX GUI 1 (New)", "?", function()
+loadstring(game:HttpGetAsync("https://gitlab.com/Sky2836/test/-/raw/main/Mobile"))()
 end)
-
-Section:NewButton("PetSimX GUI 2 (Old)", "Cheat in pet game lol", function()
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/ThunderZ-HUB/HUB/main/Script"))()
+Section:NewButton("PetSimX GUI 2 (New)", "?", function()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a82cd5447cbbc4c7be0e8db405555787.lua"))()
 end)
-
-Section:NewButton("PetSimx GUI 3 (Old)", "Damn idk", function()
-loadstring(game:HttpGet("https://github.com/HazeNx/shimbo/raw/main/euphoria.lua"))()
+Section:NewButton("PetSimx GUI 3 (New)", "?", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Muhammad6196/Project-WD/main/Mainstring.lua"))()
+end)
+Section:NewButton("PetSimX GUI 4 (New)", "?", function()
+loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/jmesfo0/RobloxScripts/main/psx-jmes.lua"))()
+end)
+Section:NewButton("PetSimX GUI 5 (New)", "?", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/BadScripters/CloudHub/main/hub"))()
 end)
 
 
@@ -10831,35 +10974,30 @@ end)
 local Section = Tab:NewSection("BedWars")
 
 Section:NewButton("BedWar 1 (New)", "Bedwars GUI 1", function()
-    loadstring(game:HttpGet("https://cdn.discordapp.com/attachments/1002510858917773352/1002895558790361158/untitled.txt"))()
-end)
-
-Section:NewButton("BedWars 2 (New)", "Bedwar 3", function()
-    --MoonLight Beta
-loadstring(game:HttpGet(("https://cdn.discordapp.com/attachments/980105264684478464/1002239072217092106/MoonLightBeta.txt"), true))()
-end)
-
-Section:NewButton("BedWars 3 (New)", "Bedwars 3", function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/joeengo/Future/main/loadstring.lua', true))()
-end)
-
-Section:NewButton("Bedwar 4 (New)", "Credit to Owner", function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/NTDCore/NightbedX/main/NightbedScriptLol/mostNightbed.lua", true))()
-end)
-
-Section:NewButton("Bedwar 5 (New)", "Credit to Owner", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
 end)
 
-Section:NewButton("Bedwar 6 (New)", "Credit to Owner", function()
+Section:NewButton("BedWars 2 (New)", "Bedwar 3", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/bojoexploitz/yooo/main/itsobfuscated/InfinityHubTooOP", true))()
+end)
+
+Section:NewButton("BedWars 3 (New)", "Bedwars 3", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/vodxn/sape/main/Initiate.lua"))()
+end)
+
+Section:NewButton("Bedwar 4 (New)", "Credit to Owner", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/joeengo/Future/main/loadstring.lua', true))()
+end)
+
+Section:NewButton("Bedwar 1 (Old)", "Credit to Owner", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/8pmX8/moonlight.cool/main/mlobfuscated.lua'))();
 end)
 
-Section:NewButton("Bedwar 7 (New)", "Credit to Owner", function()
+Section:NewButton("Bedwar 2 (Old)", "Credit to Owner", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JNHHGaming/JN-HH-Gaming-Future-Is-Good/main/Future%20Fixed"))()
 end)
 
-Section:NewButton("Bedwar 8 (New)", "Credit to the owner", function()
+Section:NewButton("Bedwar 3 (Old)", "Credit to the owner", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/bedwars/main/Script", true))()
 end)
 
@@ -10872,6 +11010,9 @@ local Section = Tab:NewSection("BrookHaven")
 Section:NewButton("BrookHaven 1 (New)", "ICEHUB GUI", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))()
 end)
+Section:NewButton("BrookHaven Admin 2 (New)", "ICEHUB GUI", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/IceMael7/IceHubAdmin/main/IceHub'))()
+end)
 
 
 
@@ -10881,16 +11022,31 @@ end)
 
 
 local Section = Tab:NewSection("Murder Mystery 2")
+Section:NewButton("MM2 GUI 1 (New)", "?", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Ethanoj1/EclipseMM2/master/Script", true))()
+end)
+Section:NewButton("MM2 GUI 2 (New)", "?", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/DreadzHub2/DreadzHub-Scripts-FR/main/Loader"))()
+end)
+Section:NewButton("MM2 GUI 3 (New)", "?", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/18Qrh2V7"))();
+end)
+Section:NewButton("MM2 GUI 4 (New)", "?", function()
+loadstring(game:HttpGet(("https://pastebin.com/raw/mT10xnt7"), true))()
+end)
+Section:NewButton("MM2 GUI 5 (New)", "?", function()
+loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Drifter0507/GUIS/main/MURDER%20MYSTERY%202", true))();
+end)
 
-Section:NewButton("MM2 GUI 1 (Old)", "use keyboard for some ", function()
+Section:NewButton("MM2 1 (Old)", "use keyboard for some ", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Drifter0507/scripts/main/mm2", true))()
 end)
 
-Section:NewButton("MM2 GUI 2 (Old)", "use keyboard for some ", function()
+Section:NewButton("MM2 2 (Old)", "use keyboard for some ", function()
    loadstring(game:GetObjects("rbxassetid://4001118261")[1].Source)()
 end)
 
-Section:NewButton("MM2 GUI 3 (Old)", "use keyboard for some ", function()
+Section:NewButton("MM2 3 (Old)", "use keyboard for some ", function()
 local library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wall%20v3')))()
 
 local w = library:CreateWindow("Mm2Hub-Micro") -- Creates the window
@@ -14458,6 +14614,15 @@ end)
 
 
 local Section = Tab:NewSection("Tower Of Hell")
+Section:NewButton("ToH Gui 1 (New)", "ButtonInfo", function()
+loadstring(game:HttpGet("https://gist.githubusercontent.com/BloxiYT/85f97364b6367baac677e109488c9905/raw/c2972a2b892c4193509ddb2fe1ba3061435e1a8a/gistfile1.txt"))()
+end)
+Section:NewButton("ToH Gui 2 (New)", "ButtonInfo", function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/zeuise0002/SSSWWW222/main/README.md'),true))()
+end)
+Section:NewButton("ToH Gui 3 (New)", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/2dgeneralspam1/scripts-and-stuff/master/scripts/garfield%20hub", true))()
+end)
 
 Section:NewButton("ToH Admin (Old)", "Its only admin command", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/TwomadJR/nto/main/admiin"))()
@@ -14482,9 +14647,45 @@ end)
 
 
 local Section = Tab:NewSection("Arsenal")
+Section:NewButton("Arsenal 1 (New)", "Arsenal", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/YellowGreg/UltimateCromaSin-Arsenal-Gui/main/AdvanceTechV3.lua"))()
+end)
+Section:NewButton("Arsenal 2 (New)", "Arsenal", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init", true))()
+end)
+Section:NewButton("Arsenal 3 (New)", "Arsenal", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+end)
+Section:NewButton("Arsenal 4 (New)", "Arsenal", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/plutoguy/Tiger-Hub/main/loader.lua"))();
+end)
+Section:NewButton("Arsenal 5 (New)", "Arsenal", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+end)
+Section:NewButton("Arsenal 6 (New)", "Arsenal", function()
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/Maikderninja/Maikderninja/main/PWNERHUB.lua"), true))()
+end)
+Section:NewButton("Arsenal 7 (New)", "Arsenal", function()
+_G.lockMeth = "Random" -- Change to head if you want your silent aim to ONLY aim at the head.
+_G.silMeth = "FPORWIL" -- Silent Aim Method, You're gonna have to play around with it. The Default one is FindPartOnRayWithIgnoreList but shortened. 
+_G.AntiFly = false -- Change if the game you're playing has an Anti-Fly, set it to false, if it has, set it to true, if it doesnt.
+_G.Keystrokes = true -- If you want sexy keystrokes, turn it on.
+_G.HideOverlay = false -- If you want the StormWare Watermark along with the features you've toggled shown, set it to true, not recommended for closet cheating, obviously.
 
-Section:NewButton("Darkrai X (Old)", "Arsenal", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/arsenal-hub/main/Arsenal%20GamingScripter", true))()
+local g = game:HttpGet("https://raw.githubusercontent.com/Storm99999/whitelistkeys/main/lite/sw.lite.lua")
+loadstring(g:reverse())()
+task.wait(2)
+if _G.HideOverlay == true then
+    game.CoreGui["StormWare LITE"].modules.Visible = false
+end
+-- For some reason Synapse hates My keystrokes, so i have to set this manually. God fucking damn it.
+game.CoreGui["StormWare LITE"].keystrokes.space.Text = "━━━━━"
+end)
+Section:NewButton("Arsenal 8 (New)", "Arsenal", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/F2B-HUB/F2B/main/HUB"))()
+end)
+Section:NewButton("Arsenal 9 (New)", "Arsenal", function()
+loadstring(game:HttpGet("https://gangofgang.gog-best.repl.co/aimhook/hook.lua"))()
 end)
 
 Section:NewButton("Arsenal 1 (Old)", "Arsenal 2", function()
@@ -14509,6 +14710,88 @@ end)
 
 
 local Section = Tab:NewSection("Da Hood")
+Section:NewButton("DaHood GUI 1 (New)", "New GUI", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NighterEpic/Faded/main/YesEpic", true))()
+end)
+Section:NewButton("DaHood GUI 2 (New)", "New GUI", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/rogelioajax/lua/main/MangoHub"))()
+end)
+Section:NewButton("DaHood GUI 3 (New)", "New GUI", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Au-code/Da-Hood-Doctor/main/ActualScript"))()
+end)
+Section:NewButton("DaHood Script 4 (New)", "New GUI", function()
+local rs = game:GetService("RunService")
+local Players = game:GetService("Players")
+if not Players.LocalPlayer then
+  Players:GetPropertyChangedSignal("LocalPlayer"):Wait()
+end
+local lp = Players.LocalPlayer
+local connections = {}
+
+local function getchar()
+  return lp.Character or lp.CharacterAdded:Wait()
+end
+
+local MainEvent = game:GetService('ReplicatedStorage'):WaitForChild("MainEvent")
+
+local state = false
+local function initchar(char)
+  local KO = char:WaitForChild("BodyEffects"):WaitForChild("KO")
+  local Humanoid = char:WaitForChild("Humanoid")
+
+  connections[Humanoid] = Humanoid:GetPropertyChangedSignal("Health"):Connect(function()
+     if KO.Value and Humanoid.Health >= 2 then
+        if state then
+           repeat task.wait() until not state
+           if not KO.Value then return end
+        end
+        state = true
+        local oldpos = getchar():WaitForChild("HumanoidRootPart").CFrame
+        repeat
+           if char then
+              getchar():WaitForChild("HumanoidRootPart").CFrame = CFrame.new(char:WaitForChild("Head").CFrame.Position) * CFrame.new(0,3,0)
+           end
+           rs.Heartbeat:Wait()
+           MainEvent:FireServer('Stomp')
+        until not (Humanoid or Humanoid.Parent or KO.Value) or Humanoid.Health <= 2
+        getchar():WaitForChild("HumanoidRootPart").CFrame = oldpos
+        state = false
+     end
+  end)
+end
+
+local function initplayer(plr)
+  if not connections[plr] then
+     connections[plr] = plr.CharacterAdded:Connect(initchar)
+  end
+  local plrchar = plr.Character
+  if plrchar then
+     initchar(plrchar)
+  end
+end
+
+connections["PlayerAdded"] = Players.PlayerAdded:Connect(initplayer)
+connections["PlayerRemoving"] = Players.PlayerRemoving:Connect(function(plr)
+  if connections[plr] then
+     connections[plr]:Disconnect()
+     connections[plr] = nil
+  end
+end)
+
+for i,v in next, Players:GetPlayers() do
+  if v ~= lp then
+     initplayer(v)
+  end
+end
+
+getgenv().toggle = function()
+  for i,v in next, connections do
+     v:Disconnect()
+     print("Disconnecting",i,v)
+  end
+  getgenv().toggle = nil
+end
+end)
 
 Section:NewButton("Da Hood GUI 1 (Old)", "DA HOOD is kinda good", function()
    loadstring(game:HttpGet('https://pastebin.com/raw/ZCiS8jSd'))()
@@ -14593,12 +14876,21 @@ end)
 
 
 local Section = Tab:NewSection("King Leagcy")
+Section:NewButton("King Legacy Gui 1 (New)", "??", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/StormSKz12/StirkeHub1/main/Gameincluded"))()
+end)
+Section:NewButton("King Legacy Gui 2 (New)", "??", function()
+loadstring(game:HttpGet"https://raw.githubusercontent.com/xDepressionx/Free-Script/main/KingLegacy.lua")()
+end)
+Section:NewButton("King Legacy Gui 3 (New)", "??", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/sannin9000/scripts/main/kinglegacy.lua"))()
+end)
 
 Section:NewButton("King Legacy Gui 1 (Old)", "dont know who made it", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/bearhub1/DolceHub/main/King-Legacy"))()
 end)
 
-Section:NewButton("King Legacy Gui 2 (old)", "??", function()
+Section:NewButton("King Legacy Gui 2 (Old)", "??", function()
 loadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader")()
 end)
 
@@ -14607,6 +14899,15 @@ end)
 
 
 local Section = Tab:NewSection("Anime Fighter")
+Section:NewButton("AnimeFighter GUI 1 (New)", "AnimeFighter 1", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/M4tr1x01/luascripts/main/solohub.lua"))()
+end)
+Section:NewButton("AnimeFighter GUI 2 (New)", "AnimeFighter 2", function()
+loadstring(game.HttpGet(game, "https://raw.githubusercontent.com/KiJinGaming/FreeScript/main/KJHub.lua"))();
+end)
+Section:NewButton("AnimeFighter GUI 3 (New)", "AnimeFighter 3", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Shisobad/new/main/script.lua"))()
+end)
 
 Section:NewButton("AnimeFighter GUI 1 (Old)", "AnimeFighter 1", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/DookDekDEE/AFS/main/script.lua"))()
@@ -14629,7 +14930,14 @@ end)
 
 
 
-local Section = Tab:NewSection("Ragdoll Engine(Deleted)")
+local Section = Tab:NewSection("Ragdoll Engine (Deleted)")
+Section:NewButton("Ragdoll Engine GUI 1 (New)", "?", function()
+loadstring(game:HttpGet("https://gist.githubusercontent.com/H20CalibreYT/731b5052013a54de121debdd5e43fa6d/raw/"))()
+loadstring(game:HttpGet("https://gist.githubusercontent.com/H20CalibreYT/6f72becb21e7092b5eb107c337ee6fc9/raw/"))()
+end)
+Section:NewButton("Ragdoll Engine GUI 2 (New)", "?", function()
+loadstring(game:HttpGet"https://raw.githubusercontent.com/TestingLua/Hubs/main/Ragdoll%20Engine.lua")()
+end)
 
 Section:NewButton("Ragdoll Engine GUI 1 (Old)", "Gives you a OP gui", function()
    loadstring(game:HttpGet('https://raw.githubusercontent.com/martinelcrac/cryptonichub/main/Ragdollengine.lua'))()
@@ -16190,7 +16498,17 @@ Section:NewButton("Ragdoll Gui 4 (Old)", "", function()
 loadstring(game:HttpGet('https://gist.githubusercontent.com/H20CalibreYT/462f6e6236a9371130f113def6549bb1/raw/'))()
 end)
 
+
+
+
 local Section = Tab:NewSection("Survival The Killer")
+Section:NewButton("SurvivalTheKiller GUI 1 (New)", " Killer GUI", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Kiroftt/Survive-The-Killer/main/Simple'))();
+end)
+Section:NewButton("SurvivalTheKiller GUI 2 (New)", " Killer GUI", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FOXTROXHACKS/ElToro/main/Hub.lua"))()
+end)
+
 
 Section:NewButton("SurvivalTheKiller GUI 1 (Old)", " Killer GUI", function()
    local games = { ["SurviveTheKiller"] = 4580204640 } for i,v in pairs(games) do if game.PlaceId == v then print("Supported!"); loadstring(game:HttpGet("https://raw.githubusercontent.com/MiloHaxx/ChairWare/main/Games/" .. i .. ".lua"))() end end loadstring(game:HttpGet("https://raw.githubusercontent.com/MiloHaxx/ChairWare/main/dcJoin.lua"))()
@@ -16200,6 +16518,15 @@ end)
 
 
 local Section = Tab:NewSection("Pop It Trading")
+Section:NewButton("Pop It Trading 1 (New)", "Pop It Kids", function()
+loadstring(game:HttpGet("https://gist.githubusercontent.com/domdaobfuscater/09214a11b8a30bab47ceff281116195f/raw/40356a0ff4542a51283ab5de0a642233a6ceb6f9/gistfile1.txt"))()
+end)
+Section:NewButton("Pop It Trading 2 (New)", "Pop It Kids", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Uhhh1230/Pop-It-Trading/main/E"))()
+end)
+Section:NewButton("Pop It Trading 3 [Key] (New)", "Key: w5dijLknm*j", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LuasCoder/Rayfield/main/NewScript"))()
+end)
 
 Section:NewButton("Pop It Trading 1 (Old)", "Pop It Kids", function()
        loadstring(game:HttpGet(("https://thekillerhood.xyz/cracked/CRACKEDBYKILLERHOOD"),true))()
@@ -16221,6 +16548,15 @@ end)
 
 
 local Section = Tab:NewSection("Natural Disaster")
+Section:NewButton("Natural Disaster 1 (New)", "New GUI OP", function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/RTrade/Voidz/main/Games.lua'),true))()
+end)
+Section:NewButton("Natural Disaster 2 (New)", "New GUI OP", function()
+loadstring(game:HttpGet('https://onemorehub.weinzspace.com/'))()
+end)
+Section:NewButton("Natural Disaster 3 (New)", "New GUI OP", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/03koios/Loader/main/Loader.lua"))()
+end)
 
 Section:NewButton("Natural Disaster 1 (Old)", "New GUI OP", function()
        loadstring(game:HttpGet("https://raw.githubusercontent.com/2dgeneralspam1/scripts-and-stuff/master/scripts/LoadstringUjHI6RQpz2o8", true))()
@@ -17786,7 +18122,7 @@ loadstring("\108\111\99\97\108\32\76\80\32\61\32\103\97\109\101\58\71\101\116\83
 end)
 
 
-Section:NewButton("KAT Silent AIm", "ButtonInfo", function()
+Section:NewButton("KAT Silent Aim (Old)", "ButtonInfo", function()
    local Camera = game:GetService("Workspace").CurrentCamera
 local Players = game:GetService("Players")
 local LocalPlayer = game:GetService("Players").LocalPlayer
@@ -18426,6 +18762,18 @@ end)
 
 
 local Section = Tab:NewSection("Ninja Legend")
+Section:NewButton("Ninja Legend GUI 1 (New)", "?", function()
+loadstring(game:HttpGet("https://www.obscurity.cf/Loader.lua"))()
+end)
+Section:NewButton("Ninja Legend GUI 2 (New)", "?", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TrixAde/Proxima-Hub/main/Main.lua"))()
+end)
+Section:NewButton("Ninja Legend GUI 3 (New)", "?", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/StormSKz12/StirkeHub1/main/Gameincluded"))()
+end)
+Section:NewButton("Ninja Legend GUI 4 (New)", "?", function()
+loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/ahmadsgamer2/Script--Game/main/Script%20Game"))()
+end)
 
 Section:NewButton("Ninja Legend GUI 1 (Old)", "its a month old", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptpastebin/raw/main/1"))()
@@ -25112,6 +25460,9 @@ Section:NewButton("GX Admin", "Kinda Op admin too", function()
 --Credits to the owner of the script! & Showcase by Kylez Blox
 loadstring(game:HttpGet("https://pastebin.com/raw/v6E9BmFK",true))();
 end)
+Section:NewButton("Admin Panel", "Kinda Op admin too", function()
+loadstring(game:HttpGet(('https://pastefy.ga/Oic24KzG/raw'),true))()
+end)
 
 
 
@@ -25197,7 +25548,7 @@ local Section = Tab:NewSection("For Games")
 Section:NewButton("Fly V2", "Makes you Fly", function()
  loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\40\39\104\116\116\112\115\58\47\47\103\105\115\116\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\109\101\111\122\111\110\101\89\84\47\98\102\48\51\55\100\102\102\57\102\48\97\55\48\48\49\55\51\48\52\100\100\100\54\55\102\100\99\100\51\55\48\47\114\97\119\47\101\49\52\101\55\52\102\52\50\53\98\48\54\48\100\102\53\50\51\51\52\51\99\102\51\48\98\55\56\55\48\55\52\101\98\51\99\53\100\50\47\97\114\99\101\117\115\37\50\53\50\48\120\37\50\53\50\48\102\108\121\37\50\53\50\48\50\37\50\53\50\48\111\98\102\108\117\99\97\116\111\114\39\41\44\116\114\117\101\41\41\40\41\10\10")()
 end)
-Section:NewToggle("Fly Script", "?", function(g)
+Section:NewButton("Fly Script", "?", function(g)
 loadstring(game:HttpGet("https://pastebin.com/raw/gaz0U0XX"))();
 end)
 Section:NewButton("Xray(Need Keyboard and press E)", "WallXray lol", function()
@@ -26541,7 +26892,7 @@ local Tab = Window:NewTab("Credits")
 local Section = Tab:NewSection("Made by: AdvanceFalling Team")
 local Section = Tab:NewSection("Team: YellowGreg-WspBoy12-MMSVon-ShadowClark")
 local Section = Tab:NewSection("Credit: To Owner Who made the Script")
-local Section = Tab:NewSection("I do NOT OWN THIS SCRIPT! credits to the orginal")
+local Section = Tab:NewSection("We do NOT OWN THIS SCRIPT! credits to the orginal")
 local Section = Tab:NewSection("Credit: to kavo for the UI")
 local Section = Tab:NewSection("Join Our Discord if you found any bug")
 local Section = Tab:NewSection("Join the discord if you found any script not working")
