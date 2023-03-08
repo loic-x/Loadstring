@@ -56,7 +56,7 @@ Original.TextSize = 40.000
 Original.TextWrapped = true
 Original.MouseButton1Down:Connect(function()
 	Chose:Destroy()
-print("Original Version")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/YellowGreg/Loadstring/main/HarshTechV7.5%20Original.lua"))()
 end)
 
 
@@ -76,7 +76,7 @@ PC.TextSize = 25.000
 PC.TextWrapped = true
 PC.MouseButton1Down:Connect(function()
 	Chose:Destroy()
-print("Pc Version")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/YellowGreg/Loadstring/main/HarshTech7.5-Pc.lua"))()
 end)
 
 UITextSizeConstraint_3.Parent = LowEnd
